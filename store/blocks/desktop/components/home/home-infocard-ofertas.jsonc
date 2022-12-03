@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#home__infocard--card-offers": {
+    "children": [
+      "image#home__infocard--card-one",
+      "image#home__infocard--card-two"
+    ]
+  },
+  "image#home__infocard--card-one": {
+    "props": {
+      "src": "assets/img/infocard-one.webp",
+      "maxHeight": 310,
+      "link": {
+        "attributeNoFollow": false,
+        "newTab": true,
+        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/oferts"
+      }
+    }
+  },
+  "image#home__infocard--card-two": {
+    "props": {
+      "src": "assets/img/infocard-two.webp",
+      "maxHeight": 310,
+      "link": {
+        "attributeNoFollow": false,
+        "newTab": true,
+        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/oferts"
+      }
+    }
+  }
+}

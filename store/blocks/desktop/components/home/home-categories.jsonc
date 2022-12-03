@@ -1,0 +1,175 @@
+{
+  "rich-text#home__categories--title-texto": {
+    "props": {
+      "text": "Explorar categorías populares",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "textColor": "c-on-black"
+    }
+  },
+
+  "flex-layout.row#home__categories--products-list": {
+    "children": [
+      "flex-layout.col#home__categories--products-portatil",
+      "flex-layout.col#home__categories--products-escritorio",
+      "flex-layout.col#home__categories--products-monitor",
+      "flex-layout.col#home__categories--products-proyector",
+      "flex-layout.col#home__categories--products-chromebooks",
+      "flex-layout.col#home__categories--products-accesorios"
+    ]
+  },
+  "flex-layout.col#home__categories--products-portatil": {
+    "children": [
+      "image#home__categories--image-one",
+      "rich-text#home__categories--text-one"
+    ]
+  },
+  "image#home__categories--image-one": {
+    "props": {
+      "src": "assets/img/categories-portatiles.webp",
+      "maxHeight": 240,
+      "link": {
+        "attributeNoFollow": false,
+        "newTab": true,
+        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/laptops"
+      }
+    }
+  },
+  "rich-text#home__categories--text-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Portátiles",
+
+      "font": "t-heading-5"
+    }
+  },
+
+  "flex-layout.col#home__categories--products-escritorio": {
+    "children": [
+      "image#home__categories--image-two",
+      "rich-text#home__categories--text-two"
+    ]
+  },
+  "image#home__categories--image-two": {
+    "props": {
+      "src": "assets/img/categories-escritorios.webp",
+      "maxHeight": 240,
+      "link": {
+        "attributeNoFollow": false,
+        "newTab": true,
+        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/desktops"
+      }
+    }
+  },
+  "rich-text#home__categories--text-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Equipos de escritorio",
+
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.col#home__categories--products-monitor": {
+    "children": [
+      "image#home__categories--image-three",
+      "rich-text#home__categories--text-three"
+    ]
+  },
+  "image#home__categories--image-three": {
+    "props": {
+      "src": "assets/img/categories-monitores.webp",
+      "maxHeight": 240,
+      "link": {
+        "attributeNoFollow": false,
+        "newTab": true,
+        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/monitors"
+      }
+    }
+  },
+  "rich-text#home__categories--text-three": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Monitores",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.col#home__categories--products-proyector": {
+    "children": [
+      "image#home__categories--image-four",
+      "rich-text#home__categories--text-four"
+    ]
+  },
+  "image#home__categories--image-four": {
+    "props": {
+      "src": "assets/img/categories-proyectores.webp",
+      "maxHeight": 240,
+      "link": {
+        "attributeNoFollow": false,
+        "newTab": true,
+        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/projectors"
+      }
+    }
+  },
+  "rich-text#home__categories--text-four": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Proyectores",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.col#home__categories--products-chromebooks": {
+    "children": [
+      "image#home__categories--image-five",
+      "rich-text#home__categories--text-five"
+    ]
+  },
+  "image#home__categories--image-five": {
+    "props": {
+      "src": "assets/img/categories-chromebooks.webp",
+      "maxHeight": 240,
+      "link": {
+        "attributeNoFollow": false,
+        "newTab": true,
+        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/chromebooks"
+      }
+    }
+  },
+  "rich-text#home__categories--text-five": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Chromebooks",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.col#home__categories--products-accesorios": {
+    "children": [
+      "image#home__categories--image-six",
+      "rich-text#home__categories--text-six"
+    ]
+  },
+  "image#home__categories--image-six": {
+    "props": {
+      "src": "assets/img/categories-accesorios.webp",
+      "maxHeight": 240,
+      "link": {
+        "attributeNoFollow": false,
+        "newTab": true,
+        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/accessories"
+      }
+    }
+  },
+  "rich-text#home__categories--text-six": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Accesorios",
+      "font": "t-heading-5"
+    }
+  }
+}
