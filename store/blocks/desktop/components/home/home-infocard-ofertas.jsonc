@@ -8,7 +8,7 @@
   "image#home__infocard--card-one": {
     "props": {
       "src": "assets/img/infocard-one.webp",
-      "maxHeight": 310,
+      "maxHeight": 400,
       "link": {
         "attributeNoFollow": false,
         "newTab": true,
@@ -19,7 +19,7 @@
   "image#home__infocard--card-two": {
     "props": {
       "src": "assets/img/infocard-two.webp",
-      "maxHeight": 310,
+      "maxHeight": 400,
       "link": {
         "attributeNoFollow": false,
         "newTab": true,
