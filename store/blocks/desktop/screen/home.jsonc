@@ -3,7 +3,8 @@
     "blocks": [
       "slider-layout#home__slider--children",
       "rich-text#home__categories--title-texto",
-      "flex-layout.row#home__categories--products-list",
+      // "flex-layout.row#home__categories--products-list",
+      "slider-layout#home__categories--products-list",
       "flex-layout.row#home__infocard--card-offers",
       "flex-layout.row#home__categories--boxs"
     ]
