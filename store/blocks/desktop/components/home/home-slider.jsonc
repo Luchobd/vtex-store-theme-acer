@@ -20,6 +20,11 @@
       "image#home__slider--three"
     ]
   },
+
+  // "stack-layout": {
+  //   "children": [""]
+  // },
+
   "image#home__slider--one": {
     "props": {
       "src": "assets/img/main-slide-1.webp",
