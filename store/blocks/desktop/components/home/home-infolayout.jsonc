@@ -59,7 +59,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Más",
+      "text": "[Más](https://google.com)",
       "font": "t-heading-5"
     }
   },

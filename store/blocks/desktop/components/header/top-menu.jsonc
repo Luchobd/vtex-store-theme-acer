@@ -1,0 +1,138 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#acer",
+      "menu-item#predator",
+      "menu-item#conceptD",
+      "menu-item#planet9",
+      "menu-item#spatialLabs"
+    ]
+  },
+  "menu-item#acer": {
+    "props": {
+      "id": "menu-item-acer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acer",
+        "text": "Acer"
+      }
+    }
+  },
+  "menu-item#predator": {
+    "props": {
+      "id": "menu-item-acer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Predator",
+        "text": "Predator"
+      }
+    }
+  },
+  "menu-item#conceptD": {
+    "props": {
+      "id": "menu-item-acer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ConceptD",
+        "text": "ConceptD"
+      }
+    }
+  },
+  "menu-item#planet9": {
+    "props": {
+      "id": "menu-item-acer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Planet9",
+        "text": "Planet9"
+      }
+    }
+  },
+  "menu-item#spatialLabs": {
+    "props": {
+      "id": "menu-item-acer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SpatialLabs",
+        "text": "SpatialLabs"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-lenguage",
+      "menu-item#vtex-search",
+      "menu-item#vtex-acerid"
+    ]
+  },
+  "menu-item#vtex-acerid": {
+    "props": {
+      "id": "menu-item-vtex-acerid",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "Acer ID",
+        "text": "Acer ID"
+      }
+    }
+  },
+  "menu-item#vtex-search": {
+    "props": {
+      "id": "menu-item-vtex-search",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "Buscar una tienda",
+        "text": "Buscar una tienda"
+      }
+    }
+  },
+  "menu-item#vtex-lenguage": {
+    "props": {
+      "id": "menu-item-vtex-lenguage",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "Idioma",
+        "text": "Idioma"
+      }
+    }
+  }
+}

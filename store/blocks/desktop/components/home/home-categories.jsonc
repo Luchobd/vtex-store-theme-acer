@@ -15,7 +15,7 @@
       "itemsPerPage": {
         "desktop": 6,
         "tablet": 6,
-        "mobile": 1
+        "mobile": 6
       },
       "usePagination": false,
       "navigationStep": 1,
