@@ -20,9 +20,15 @@
       "image#home__slider--three"
     ]
   },
+
+  // "stack-layout": {
+  //   "children": [""]
+  // },
+
   "image#home__slider--one": {
     "props": {
-      "src": "assets/img/main-slide-1.webp"
+      "src": "assets/img/main-slide-1.webp",
+      "text": "hola como estas"
     }
   },
   "image#home__slider--two": {
