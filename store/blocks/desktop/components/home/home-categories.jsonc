@@ -9,189 +9,6 @@
     }
   },
 
-  // "slider-layout#home__categories--products-list": {
-  //   "title": "Slider with tech list",
-  //   "props": {
-  //     "itemsPerPage": {
-  //       "desktop": 6,
-  //       "tablet": 6,
-  //       "mobile": 6
-  //     },
-  //     "usePagination": false,
-  //     "navigationStep": 1,
-  //     "infinite": false,
-  //     "colSizing": "equal"
-  //     // "blockClass": "home__slider",
-  //   },
-  //   "children": ["flex-layout.row#home__categories--products-list"]
-  // },
-  // "flex-layout.row#home__categories--products-list": {
-  //   "children": [
-  //     "flex-layout.col#home__categories--products-portatil",
-  //     "flex-layout.col#home__categories--products-escritorio",
-  //     "flex-layout.col#home__categories--products-monitor",
-  //     "flex-layout.col#home__categories--products-proyector",
-  //     "flex-layout.col#home__categories--products-chromebooks",
-  //     "flex-layout.col#home__categories--products-accesorios"
-  //   ]
-  // },
-
-  // "flex-layout.col#home__categories--products-portatil": {
-  //   "children": [
-  //     "image#home__categories--image-one",
-  //     "rich-text#home__categories--text-one"
-  //   ]
-  // },
-  // "image#home__categories--image-one": {
-  //   "props": {
-  //     "src": "assets/img/categories-portatiles.webp",
-  //     "maxHeight": 500,
-  //     "link": {
-  //       "attributeNoFollow": false,
-  //       "newTab": true,
-  //       "url": "https://luisblanco--itgloberspartnercl.myvtex.com/laptops"
-  //     }
-  //   }
-  // },
-  // "rich-text#home__categories--text-one": {
-  //   "props": {
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "text": "Portátiles",
-
-  //     "font": "t-heading-5"
-  //   }
-  // },
-
-  // "flex-layout.col#home__categories--products-escritorio": {
-  //   "children": [
-  //     "image#home__categories--image-two",
-  //     "rich-text#home__categories--text-two"
-  //   ]
-  // },
-  // "image#home__categories--image-two": {
-  //   "props": {
-  //     "src": "assets/img/categories-escritorios.webp",
-  //     "maxHeight": 240,
-  //     "link": {
-  //       "attributeNoFollow": false,
-  //       "newTab": true,
-  //       "url": "https://luisblanco--itgloberspartnercl.myvtex.com/desktops"
-  //     }
-  //   }
-  // },
-  // "rich-text#home__categories--text-two": {
-  //   "props": {
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "text": "Equipos de escritorio",
-
-  //     "font": "t-heading-5"
-  //   }
-  // },
-  // "flex-layout.col#home__categories--products-monitor": {
-  //   "children": [
-  //     "image#home__categories--image-three",
-  //     "rich-text#home__categories--text-three"
-  //   ]
-  // },
-  // "image#home__categories--image-three": {
-  //   "props": {
-  //     "src": "assets/img/categories-monitores.webp",
-  //     "maxHeight": 240,
-  //     "link": {
-  //       "attributeNoFollow": false,
-  //       "newTab": true,
-  //       "url": "https://luisblanco--itgloberspartnercl.myvtex.com/monitors"
-  //     }
-  //   }
-  // },
-  // "rich-text#home__categories--text-three": {
-  //   "props": {
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "text": "Monitores",
-  //     "font": "t-heading-5"
-  //   }
-  // },
-  // "flex-layout.col#home__categories--products-proyector": {
-  //   "children": [
-  //     "image#home__categories--image-four",
-  //     "rich-text#home__categories--text-four"
-  //   ]
-  // },
-  // "image#home__categories--image-four": {
-  //   "props": {
-  //     "src": "assets/img/categories-proyectores.webp",
-  //     "maxHeight": 240,
-  //     "link": {
-  //       "attributeNoFollow": false,
-  //       "newTab": true,
-  //       "url": "https://luisblanco--itgloberspartnercl.myvtex.com/projectors"
-  //     }
-  //   }
-  // },
-  // "rich-text#home__categories--text-four": {
-  //   "props": {
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "text": "Proyectores",
-  //     "font": "t-heading-5"
-  //   }
-  // },
-  // "flex-layout.col#home__categories--products-chromebooks": {
-  //   "children": [
-  //     "image#home__categories--image-five",
-  //     "rich-text#home__categories--text-five"
-  //   ]
-  // },
-  // "image#home__categories--image-five": {
-  //   "props": {
-  //     "src": "assets/img/categories-chromebooks.webp",
-  //     "maxHeight": 240,
-  //     "link": {
-  //       "attributeNoFollow": false,
-  //       "newTab": true,
-  //       "url": "https://luisblanco--itgloberspartnercl.myvtex.com/chromebooks"
-  //     }
-  //   }
-  // },
-  // "rich-text#home__categories--text-five": {
-  //   "props": {
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "text": "Chromebooks",
-  //     "font": "t-heading-5"
-  //   }
-  // },
-  // "flex-layout.col#home__categories--products-accesorios": {
-  //   "children": [
-  //     "image#home__categories--image-six",
-  //     "rich-text#home__categories--text-six"
-  //   ]
-  // },
-  // "image#home__categories--image-six": {
-  //   "props": {
-  //     "src": "assets/img/categories-accesorios.webp",
-  //     "maxHeight": 240,
-  //     "link": {
-  //       "attributeNoFollow": false,
-  //       "newTab": true,
-  //       "url": "https://luisblanco--itgloberspartnercl.myvtex.com/accessories"
-  //     }
-  //   }
-  // },
-  // "rich-text#home__categories--text-six": {
-  //   "props": {
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "text": "Accesorios",
-  //     "font": "t-heading-5"
-  //   }
-  // },
-
-  // ===============
-
   "slider-layout#home__categories--products-list": {
     "title": "Slider with tech list",
     "props": {
@@ -203,8 +20,8 @@
       "usePagination": false,
       "navigationStep": 1,
       "infinite": false,
-      "colSizing": "equal"
-      // "blockClass": "home__slider",
+      "colSizing": "equal",
+      "blockClass": "slider__category"
     },
     "children": [
       "info-card#home__category--portatil",
@@ -217,6 +34,7 @@
   },
 
   "info-card#home__category--portatil": {
+    "title": "infocard img title",
     "props": {
       "id": "info-card-port",
       "isFullModeStyle": false,
@@ -231,6 +49,7 @@
     }
   },
   "info-card#home__category--escritorio": {
+    "title": "infocard img title",
     "props": {
       "id": "info-card-desk",
       "isFullModeStyle": false,
@@ -245,6 +64,7 @@
     }
   },
   "info-card#home__category--monitor": {
+    "title": "infocard img title",
     "props": {
       "id": "info-card-mon",
       "isFullModeStyle": false,
@@ -259,6 +79,7 @@
     }
   },
   "info-card#home__category--proyector": {
+    "title": "infocard img title",
     "props": {
       "id": "info-card-proj",
       "isFullModeStyle": false,
@@ -273,6 +94,7 @@
     }
   },
   "info-card#home__category--chromebooks": {
+    "title": "infocard img title",
     "props": {
       "id": "info-card-chrom",
       "isFullModeStyle": false,
@@ -287,6 +109,7 @@
     }
   },
   "info-card#home__category--accesorios": {
+    "title": "infocard img title",
     "props": {
       "id": "info-card-acce",
       "isFullModeStyle": false,

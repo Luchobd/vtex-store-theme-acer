@@ -1,30 +1,46 @@
 {
   "flex-layout.row#home__infocard--card-offers": {
+    "title": "infocard container",
     "children": [
-      "image#home__infocard--card-one",
-      "image#home__infocard--card-two"
-    ]
-  },
-  "image#home__infocard--card-one": {
+      "info-card#home__infocard--card-left",
+      "info-card#home__infocard--card-right"
+    ],
     "props": {
-      "src": "assets/img/infocard-one.webp",
-      "maxHeight": 400,
-      "link": {
-        "attributeNoFollow": false,
-        "newTab": true,
-        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/oferts"
-      }
+      "blockClass": "infocard__ofert"
     }
   },
-  "image#home__infocard--card-two": {
+
+  "info-card#home__infocard--card-left": {
+    "title": "infocard left",
     "props": {
-      "src": "assets/img/infocard-two.webp",
-      "maxHeight": 400,
-      "link": {
-        "attributeNoFollow": false,
-        "newTab": true,
-        "url": "https://luisblanco--itgloberspartnercl.myvtex.com/oferts"
-      }
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/img/infocard-one.webp",
+      "imageActionUrl": "/prueba/",
+      "headline": "Ofertas Destacadas",
+      // "subhead": "Descubre las promociones y ofertas disponibles exclusivamente en la Tienda Online oficial de Acer. Ahorra dinero en los mejores productos de tecnología.",
+      // "callToActionText": "Comprar Ahora",
+      // "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__ofert--left",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#home__infocard--card-right": {
+    "title": "infocard right",
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/img/infocard-two.webp",
+      "imageActionUrl": "/prueba/",
+      "headline": "Ofertas Para Empresas",
+      // "subhead": "Explora la gama y las ofertas de Acer para empresas.",
+      // "callToActionText": "Comprar Ahora",
+      // "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__ofert--right",
+      "textPosition": "center",
+      "textAlignment": "center"
     }
   }
 }
