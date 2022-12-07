@@ -10,14 +10,20 @@
   color: #fff;
 }
 
-/* .paginationDotsContainer--home__slider {
-  color: blue;
-  background-color: purple;
-} */
-
 .paginationDot--home__slider {
   margin-bottom: 20px;
   margin-right: 10px;
+  height: 0.325rem !important;
   padding: 0 20px;
   border-radius: 0;
+}
+
+.paginationDot--home__slider--isActive {
+  background-color: #80c343;
+}
+
+@media (max-width: 1023px) {
+  .caretIcon--home__slider {
+    display: none;
+  }
 }
