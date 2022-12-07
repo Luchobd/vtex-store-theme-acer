@@ -75,12 +75,12 @@
 }
 
 .infoCardImageContainer--infocard__category {
-  width: 250px;
+  width: 200px;
 }
 
-.infoCardImage--infocard__category {
-  min-width: 160px;
-}
+/* .infoCardImage--infocard__category {
+   min-width: 160px; 
+} */
 
 .infoCardCallActionContainer--infocard__category :global(.vtex-button) {
   border: none;
@@ -109,4 +109,37 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #80808090;
+}
+
+/* =============== Oferts ========= */
+
+.infoCardContainer--infocard__ofert--left,
+.infoCardContainer--infocard__ofert--right {
+  margin-top: 4rem;
+  width: 100% !important;
+  height: 50vh;
+  opacity: 80%;
+}
+
+.infoCardContainer--infocard__ofert--left {
+  border-right: 5px solid #fff;
+}
+
+.infoCardContainer--infocard__ofert--right {
+  border-left: 5px solid #fff;
+}
+
+.infoCardCallActionContainer--infocard__ofert--left :global(.vtex-button),
+.infoCardCallActionContainer--infocard__ofert--right :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardHeadline--infocard__ofert--left,
+.infoCardHeadline--infocard__ofert--right {
+  color: #000000;
+  font-size: 21px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  /* text-shadow: #fff 1px 0 10px; */
+  letter-spacing: 1px;
 }
