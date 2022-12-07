@@ -2,13 +2,18 @@
   "store.home": {
     "blocks": [
       "slider-layout#home__slider--children",
-      // "rich-text#home__categories--title-texto",
+      "rich-text#home__categories--title-texto",
       // "slider-layout#home__categories--products-list",
-      "info-card#home__category",
-      "list-context.product-list#demo1",
-      "flex-layout.row#home__infocard--card-offers",
-      "flex-layout.row#home__categories--boxs",
-      "flex-layout.row#home__categories--networking"
+      "slider-layout#home__categories--products-list",
+      // "list-context.product-list#demo1",
+      "flex-layout.row#home__infocard--card-offers"
+      // "flex-layout.row#home__categories--boxs",
+      // "flex-layout.row#home__categories--networking"
     ]
   }
 }
+
+// Responsive:
+// Mayor > 1023 -> Desktop
+// 1023 - 678 -> Tablet
+// Menor < 678 -> Mobile

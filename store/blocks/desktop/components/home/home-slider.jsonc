@@ -1,6 +1,6 @@
 {
   "slider-layout#home__slider--children": {
-    "title": "Slider with declaration children",
+    "title": "Slider Home",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -10,30 +10,76 @@
       "infinite": true,
       "blockClass": "home__slider",
       "autoplay": {
-        "timeout": 3000,
+        "timeout": 5000,
         "stopOnHover": false
       }
     },
     "children": [
-      "image#home__slider--one",
-      "image#home__slider--two",
-      "image#home__slider--three"
+      "info-card#home__slider--one",
+      "info-card#home__slider--two",
+      "info-card#home__slider--three"
     ]
   },
-  "image#home__slider--one": {
+
+  "info-card#home__slider--one": {
+    "title": "Slaider Image One",
     "props": {
-      "src": "assets/img/main-slide-1.webp",
-      "text": "hola como estas"
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/main-slide-3.webp",
+      "headline": "OFERTAS DE NAVIDAD",
+      "subhead": "HASTA 30% DE DESCUENTO",
+      "callToActionText": "COMPRA AHORA",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__home--one",
+      "textAlignment": "center"
     }
   },
-  "image#home__slider--two": {
+  "info-card#home__slider--two": {
+    "title": "Slaider Image Two",
     "props": {
-      "src": "assets/img/main-slide-2.webp"
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/main-slide-1.webp",
+      "headline": "IT LIES WITHIN",
+      "callToActionText": "Explorar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__home--two",
+      "textAlignment": "center"
     }
   },
-  "image#home__slider--three": {
+  "info-card#home__slider--three": {
+    "title": "Slaider Image Three",
     "props": {
-      "src": "assets/img/main-slide-3.webp"
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/main-slide-2.webp",
+      "headline": "Make Your Green Mark ",
+      "subhead": "Descubre la gama completa de productos ecológicos Acer Vero",
+      "callToActionText": "Explorar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__home--three",
+      "textAlignment": "center"
     }
   }
+
+  // "image#home__slider--one": {
+  //   "props": {
+  //     "src": "assets/img/main-slide-1.webp",
+  //     "text": "hola como estas"
+  //   }
+  // },
+  // "image#home__slider--two": {
+  //   "props": {
+  //     "src": "assets/img/main-slide-2.webp"
+  //   }
+  // },
+  // "image#home__slider--three": {
+  //   "props": {
+  //     "src": "assets/img/main-slide-3.webp"
+  //   }
+  // }
 }
