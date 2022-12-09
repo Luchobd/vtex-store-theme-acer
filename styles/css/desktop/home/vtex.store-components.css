@@ -143,3 +143,59 @@
   /* text-shadow: #fff 1px 0 10px; */
   letter-spacing: 1px;
 }
+
+/* =============== infolayout ========= */
+
+.infoCardContainer--infocard__infolayout--box {
+  margin-top: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.infoCardTextContainer--infocard__infolayout--box {
+  width: 100%;
+}
+
+/* .infoCardImage--infocard__infolayout--box {
+  width: 350px;
+} */
+
+.infoCardImageContainer--infocard__infolayout--box {
+  width: 310px;
+}
+
+/* .infoCardImageContainer--infocard__infolayout--box:hover {
+  width: 350px;
+} */
+
+.infoCardHeadline--infocard__infolayout--box {
+  font-size: 1.3rem;
+  color: #222;
+  margin: 0;
+}
+
+.infoCardSubhead--infocard__infolayout--box {
+  font-size: 0.96rem;
+  color: #474747;
+}
+
+.infoCardCallActionContainer--infocard__infolayout--box :global(.vtex-button) {
+  background-color: transparent;
+  width: 37px;
+  outline: none;
+  border: transparent;
+  border-radius: 0;
+  border-bottom: 2px solid #80c343;
+  text-transform: capitalize;
+  /* text-decoration: underline; */
+  color: #474747;
+  font-weight: bold;
+}
+
+.infoCardCallActionContainer--infocard__infolayout--box
+  :global(.vtex-button):hover {
+  color: black;
+  border-color: black;
+}

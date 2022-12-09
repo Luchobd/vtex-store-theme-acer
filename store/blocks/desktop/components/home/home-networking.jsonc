@@ -1,331 +1,320 @@
 {
-  "flex-layout.row#home__categories--networking": {
-    "children": [
-      "flex-layout.col#home__networking--products",
-      "flex-layout.col#home__networking--soporte",
-      "flex-layout.col#home__networking--recursos",
-      "flex-layout.col#home__networking--abaout"
-    ]
-  },
-  // one
-  "flex-layout.col#home__networking--products": {
-    "children": [
-      "rich-text#home__networking--title",
-      "rich-text#home__networking--text-one",
-      "rich-text#home__networking--text-two",
-      "rich-text#home__networking--text-three",
-      "rich-text#home__networking--text-four",
-      "rich-text#home__networking--text-five",
-      "rich-text#home__networking--text-six",
-      "rich-text#home__networking--text-seven"
-    ]
-  },
-
-  "rich-text#home__networking--title": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Productos**",
-      "font": "t-heading-4"
-      //   "blockClass": "help-message"
-    }
-  },
-
-  "rich-text#home__networking--text-one": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Portátiles](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-two": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Ordenadores de escritorio y equipos todo en uno](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-three": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Chromebooks](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-four": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Tablets](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-five": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Monitores](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-six": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[proyectores](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-seven": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Accesorios](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-
-  // TWO
-  "flex-layout.col#home__networking--soporte": {
-    "children": [
-      "rich-text#home__networking--title-2",
-      "rich-text#home__networking--text-one-2",
-      "rich-text#home__networking--text-two-2",
-      "rich-text#home__networking--text-three-2",
-      "rich-text#home__networking--text-four-2",
-      "rich-text#home__networking--text-five-2",
-      "rich-text#home__networking--text-six-2"
-    ]
-  },
-
-  "rich-text#home__networking--title-2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Soporte**",
-      "font": "t-heading-4"
-      //   "blockClass": "help-message"
-    }
-  },
-
-  "rich-text#home__networking--text-one-2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Acer ID](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-two-2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Registro de productos](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-three-2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Comunidad Acer](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-four-2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Controladores y Manuales](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-five-2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Respuestas de Acer](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-six-2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Contacte con Acer](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-
-  // THREE
-  "flex-layout.col#home__networking--recursos": {
-    "children": [
-      "rich-text#home__networking--title-3",
-      "rich-text#home__networking--text-one-3",
-      "rich-text#home__networking--text-two-3",
-      "rich-text#home__networking--text-three-3",
-      "rich-text#home__networking--text-four-3",
-      "rich-text#home__networking--text-five-3",
-      "rich-text#home__networking--text-six-3"
-    ]
-  },
-
-  "rich-text#home__networking--title-3": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Recursos**",
-      "font": "t-heading-4"
-      //   "blockClass": "help-message"
-    }
-  },
-
-  "rich-text#home__networking--text-one-3": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Dónde comprar](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-two-3": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Earthion](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-three-3": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Norton](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-four-3": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Cloud Gaming on Chromebook](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-five-3": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Windows Secured-Core PC](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-six-3": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Descuento Estudiante](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-
-  // FOUR
-  "flex-layout.col#home__networking--abaout": {
-    "children": [
-      "rich-text#home__networking--title-4",
-      "rich-text#home__networking--text-one-4",
-      "rich-text#home__networking--text-two-4",
-      "rich-text#home__networking--text-three-4",
-      "rich-text#home__networking--text-four-4",
-      "rich-text#home__networking--text-five-4",
-      "rich-text#home__networking--text-six-4"
-    ]
-  },
-
-  "rich-text#home__networking--title-4": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "**Acerca de Acer**",
-      "font": "t-heading-4"
-      //   "blockClass": "help-message"
-    }
-  },
-
-  "rich-text#home__networking--text-one-4": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Contáctenos](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-two-4": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Inversores](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-three-4": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Noticias](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-four-4": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Responsabilidad social](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-five-4": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Premios](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  },
-  "rich-text#home__networking--text-six-4": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Project Humanity](https://google.com)",
-      "font": "t-heading-5"
-      //   "blockClass": "help-message"
-    }
-  }
+  //   "flex-layout.row#home__categories--networking": {
+  //     "children": [
+  //       "flex-layout.col#home__networking--products",
+  //       "flex-layout.col#home__networking--soporte",
+  //       "flex-layout.col#home__networking--recursos",
+  //       "flex-layout.col#home__networking--abaout"
+  //     ]
+  //   },
+  //   // one
+  //   "flex-layout.col#home__networking--products": {
+  //     "children": [
+  //       "rich-text#home__networking--title",
+  //       "rich-text#home__networking--text-one",
+  //       "rich-text#home__networking--text-two",
+  //       "rich-text#home__networking--text-three",
+  //       "rich-text#home__networking--text-four",
+  //       "rich-text#home__networking--text-five",
+  //       "rich-text#home__networking--text-six",
+  //       "rich-text#home__networking--text-seven"
+  //     ]
+  //   },
+  //   "rich-text#home__networking--title": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "**Productos**",
+  //       "font": "t-heading-4"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-one": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Portátiles](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-two": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Ordenadores de escritorio y equipos todo en uno](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-three": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Chromebooks](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-four": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Tablets](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-five": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Monitores](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-six": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[proyectores](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-seven": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Accesorios](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   // TWO
+  //   "flex-layout.col#home__networking--soporte": {
+  //     "children": [
+  //       "rich-text#home__networking--title-2",
+  //       "rich-text#home__networking--text-one-2",
+  //       "rich-text#home__networking--text-two-2",
+  //       "rich-text#home__networking--text-three-2",
+  //       "rich-text#home__networking--text-four-2",
+  //       "rich-text#home__networking--text-five-2",
+  //       "rich-text#home__networking--text-six-2"
+  //     ]
+  //   },
+  //   "rich-text#home__networking--title-2": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "**Soporte**",
+  //       "font": "t-heading-4"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-one-2": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Acer ID](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-two-2": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Registro de productos](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-three-2": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Comunidad Acer](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-four-2": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Controladores y Manuales](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-five-2": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Respuestas de Acer](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-six-2": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Contacte con Acer](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   // THREE
+  //   "flex-layout.col#home__networking--recursos": {
+  //     "children": [
+  //       "rich-text#home__networking--title-3",
+  //       "rich-text#home__networking--text-one-3",
+  //       "rich-text#home__networking--text-two-3",
+  //       "rich-text#home__networking--text-three-3",
+  //       "rich-text#home__networking--text-four-3",
+  //       "rich-text#home__networking--text-five-3",
+  //       "rich-text#home__networking--text-six-3"
+  //     ]
+  //   },
+  //   "rich-text#home__networking--title-3": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "**Recursos**",
+  //       "font": "t-heading-4"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-one-3": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Dónde comprar](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-two-3": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Earthion](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-three-3": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Norton](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-four-3": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Cloud Gaming on Chromebook](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-five-3": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Windows Secured-Core PC](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-six-3": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Descuento Estudiante](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   // FOUR
+  //   "flex-layout.col#home__networking--abaout": {
+  //     "children": [
+  //       "rich-text#home__networking--title-4",
+  //       "rich-text#home__networking--text-one-4",
+  //       "rich-text#home__networking--text-two-4",
+  //       "rich-text#home__networking--text-three-4",
+  //       "rich-text#home__networking--text-four-4",
+  //       "rich-text#home__networking--text-five-4",
+  //       "rich-text#home__networking--text-six-4"
+  //     ]
+  //   },
+  //   "rich-text#home__networking--title-4": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "**Acerca de Acer**",
+  //       "font": "t-heading-4"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-one-4": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Contáctenos](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-two-4": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Inversores](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-three-4": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Noticias](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-four-4": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Responsabilidad social](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-five-4": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Premios](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   },
+  //   "rich-text#home__networking--text-six-4": {
+  //     "props": {
+  //       "textAlignment": "LEFT",
+  //       "textPosition": "LEFT",
+  //       "text": "[Project Humanity](https://google.com)",
+  //       "font": "t-heading-5"
+  //       //   "blockClass": "help-message"
+  //     }
+  //   }
 }
