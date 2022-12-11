@@ -1,12 +1,16 @@
 {
+  //menuContainerNav--probando__clase
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "blockClass": "probando__clase"
     },
     "children": [
-      "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "menu-item#more2",
+      "menu-item#category-support"
+      // "menu-item#category-apparel"
     ]
   },
   "menu-item#category-apparel": {
@@ -97,8 +101,24 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Tienda Online",
+        "text": "Tienda Online"
+      }
+    }
+  },
+
+  "menu-item#category-support": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Soporte",
+        "text": "Soporte"
       }
     }
   },
@@ -112,8 +132,24 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Productos",
+        "text": "Productos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#more"]
+  },
+  "menu-item#more2": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Soluciones",
+        "text": "Soluciones"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#more"]

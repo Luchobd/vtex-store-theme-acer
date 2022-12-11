@@ -1,0 +1,16 @@
+{
+  //   "store.home": {
+  //     "blocks": [
+  //       //   "slider-layout#home__slider--children",
+  //       //   "rich-text#home__categories--title-texto",
+  //       //   // "slider-layout#home__categories--products-list",
+  //       //   "slider-layout#home__categories--products-list",
+  //       //   // "list-context.product-list#demo1",
+  //       //   "flex-layout.row#home__infocard--card-offers",
+  //       //   // "flex-layout.row#home__infolayout--box"
+  //       //responsive
+  //       "responsive-layout.tablet#home__infolayout--box"
+  //       // "flex-layout.row#home__categories--networking"
+  //     ]
+  //   }
+}

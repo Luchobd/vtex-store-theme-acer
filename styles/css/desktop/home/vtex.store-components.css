@@ -85,7 +85,7 @@
 .infoCardCallActionContainer--infocard__category :global(.vtex-button) {
   border: none;
   background-color: transparent;
-  color: black;
+  color: #000000;
   text-transform: capitalize;
   width: 220px;
   font-size: 18px;
@@ -99,7 +99,7 @@
 ::-webkit-scrollbar {
   height: 0.5rem;
   border-radius: 0.5rem;
-  background-color: gainsboro;
+  background-color: #dcdcdc;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -137,9 +137,70 @@
 .infoCardHeadline--infocard__ofert--left,
 .infoCardHeadline--infocard__ofert--right {
   color: #000000;
-  font-size: 21px;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px black;
+  font-size: 1.8rem;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px #000000;
   /* text-shadow: #fff 1px 0 10px; */
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+}
+
+.infoCardTextContainer--infocard__ofert--left,
+.infoCardTextContainer--infocard__ofert--right {
+  width: 100%;
+}
+
+/* =============== infolayout ========= */
+
+.infoCardContainer--infocard__infolayout--box {
+  margin-top: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.infoCardTextContainer--infocard__infolayout--box {
+  width: 100%;
+}
+
+/* .infoCardImage--infocard__infolayout--box {
+  width: 350px;
+} */
+
+.infoCardImageContainer--infocard__infolayout--box {
+  width: 310px;
+}
+
+/* .infoCardImageContainer--infocard__infolayout--box:hover {
+  width: 350px;
+} */
+
+.infoCardHeadline--infocard__infolayout--box {
+  font-size: 1.3rem;
+  color: #222;
+  margin: 0;
+}
+
+.infoCardSubhead--infocard__infolayout--box {
+  font-size: 0.96rem;
+  color: #474747;
+}
+
+.infoCardCallActionContainer--infocard__infolayout--box :global(.vtex-button) {
+  background-color: transparent;
+  width: 37px;
+  outline: none;
+  border: transparent;
+  border-radius: 0;
+  border-bottom: 2px solid #80c343;
+  text-transform: capitalize;
+  /* text-decoration: underline; */
+  color: #474747;
+  font-weight: bold;
+}
+
+.infoCardCallActionContainer--infocard__infolayout--box
+  :global(.vtex-button):hover {
+  color: #000000;
+  border-color: #000000;
 }
