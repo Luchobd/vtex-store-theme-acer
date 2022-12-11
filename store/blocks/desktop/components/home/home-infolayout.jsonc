@@ -168,4 +168,121 @@
   //     "font": "t-heading-5"
   //   }
   // }
+
+  // Cambios
+
+  "responsive-layout.desktop#home__infolayout--box": {
+    "children": ["flex-layout.row#home__infolayout--desktop"]
+  },
+
+  "flex-layout.row#home__infolayout--desktop": {
+    "title": "infolayout",
+    "children": [
+      "info-card#home__category--one",
+      "info-card#home__category--two",
+      "info-card#home__category--three",
+      "info-card#home__category--four"
+    ],
+    "props": {
+      "blockClass": "infocard__infolayout",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "info-card#home__category--one": {
+    "title": "infolayout one",
+    "props": {
+      "id": "infocard-infolayout-one",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/img/info-one.webp",
+      "headline": "Descubre las Ofertas",
+      "subhead": "Elige el portátil que mejor se adapte a tus necesidades ahora con accesorios gratis",
+      "callToActionText": "Más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__infolayout--box",
+      "textPosition": "left",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#home__category--two": {
+    "title": "infolayout two",
+    "props": {
+      "id": "infocard-infolayout-two",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/img/info-two.webp",
+      "headline": "Colaboración con el equipo Alfa Romeo F1 ORLEN",
+      "subhead": "Descubre nuestra colaboración con el equipo Alfa Romeo F1 ORLEN",
+      "callToActionText": "Más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__infolayout--box",
+      "textPosition": "left",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#home__category--three": {
+    "title": "infolayout three",
+    "props": {
+      "id": "infocard-infolayout-three",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/img/info-three.webp",
+      "headline": "Planta tu árbol ahora. Forma parte de la historia",
+      "subhead": "Comprando un Aspire Vero ayudas no solo al medioambiente, sino también a las personas que viven en él",
+      "callToActionText": "Más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__infolayout--box",
+      "textPosition": "left",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#home__category--four": {
+    "title": "infolayout four",
+    "props": {
+      "id": "infocard-infolayout-four",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/img/info-four.webp",
+      "headline": "Acer Chromebooks",
+      "subhead": "Para trabajar, crear, jugar o cualquier otra actividad, hay un Chromebook Acer adaptado a tus necesidades.",
+      "callToActionText": "Más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infocard__infolayout--box",
+      "textPosition": "left",
+      "textAlignment": "left"
+    }
+  },
+
+  // Vista Tablet
+  "responsive-layout.tablet#home__infolayout--box": {
+    "children": ["flex-layout.row#home__infolayout--tablet"]
+  },
+  "flex-layout.row#home__infolayout--tablet": {
+    "title": "infolayout",
+    "children": [
+      "info-card#home__category--one",
+      "info-card#home__category--two",
+      "info-card#home__category--three",
+      "info-card#home__category--four"
+    ],
+    "props": {
+      "blockClass": "infocard__infolayout",
+      "preserveLayoutOnMobile": false
+    }
+  },
+
+  // Vista Phone
+  "responsive-layout.phone#home__infolayout--box": {
+    "children": ["flex-layout.row#home__infolayout--mobile"]
+  },
+  "flex-layout.row#home__infolayout--mobile": {
+    "title": "infolayout",
+    "children": [
+      "info-card#home__category--one",
+      "info-card#home__category--two",
+      "info-card#home__category--three",
+      "info-card#home__category--four"
+    ],
+    "props": {
+      "blockClass": "infocard__infolayout",
+      "preserveLayoutOnMobile": false
+    }
+  }
 }
