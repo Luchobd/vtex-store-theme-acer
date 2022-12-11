@@ -7,7 +7,12 @@
       "slider-layout#home__categories--products-list",
       // "list-context.product-list#demo1",
       "flex-layout.row#home__infocard--card-offers",
-      "flex-layout.row#home__infolayout--box"
+      // "flex-layout.row#home__infolayout--box"
+
+      //responsive
+      "responsive-layout.desktop#home__infolayout--box",
+      "responsive-layout.tablet#home__infolayout--box",
+      "responsive-layout.phone#home__infolayout--box"
       // "flex-layout.row#home__categories--networking"
     ]
   }

@@ -171,7 +171,11 @@
 
   // Cambios
 
-  "flex-layout.row#home__infolayout--box": {
+  "responsive-layout.desktop#home__infolayout--box": {
+    "children": ["flex-layout.row#home__infolayout--desktop"]
+  },
+
+  "flex-layout.row#home__infolayout--desktop": {
     "title": "infolayout",
     "children": [
       "info-card#home__category--one",
@@ -220,7 +224,7 @@
     "props": {
       "id": "infocard-infolayout-three",
       "isFullModeStyle": false,
-      "imageUrl": "assets/img/info-one.webp",
+      "imageUrl": "assets/img/info-three.webp",
       "headline": "Planta tu árbol ahora. Forma parte de la historia",
       "subhead": "Comprando un Aspire Vero ayudas no solo al medioambiente, sino también a las personas que viven en él",
       "callToActionText": "Más",
@@ -243,6 +247,42 @@
       "blockClass": "infocard__infolayout--box",
       "textPosition": "left",
       "textAlignment": "left"
+    }
+  },
+
+  // Vista Tablet
+  "responsive-layout.tablet#home__infolayout--box": {
+    "children": ["flex-layout.row#home__infolayout--tablet"]
+  },
+  "flex-layout.row#home__infolayout--tablet": {
+    "title": "infolayout",
+    "children": [
+      "info-card#home__category--one",
+      "info-card#home__category--two",
+      "info-card#home__category--three",
+      "info-card#home__category--four"
+    ],
+    "props": {
+      "blockClass": "infocard__infolayout",
+      "preserveLayoutOnMobile": false
+    }
+  },
+
+  // Vista Phone
+  "responsive-layout.phone#home__infolayout--box": {
+    "children": ["flex-layout.row#home__infolayout--mobile"]
+  },
+  "flex-layout.row#home__infolayout--mobile": {
+    "title": "infolayout",
+    "children": [
+      "info-card#home__category--one",
+      "info-card#home__category--two",
+      "info-card#home__category--three",
+      "info-card#home__category--four"
+    ],
+    "props": {
+      "blockClass": "infocard__infolayout",
+      "preserveLayoutOnMobile": false
     }
   }
 }
