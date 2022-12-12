@@ -6,3 +6,7 @@
   /* align-items: center; */
   /* text-align: center; */
 }
+
+.submenuWrapper--isOpen {
+  background-color: transparent;
+}
