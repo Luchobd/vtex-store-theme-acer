@@ -194,7 +194,7 @@
       "imageUrl": "assets/img/producto7.webp",
       // "headline": "Clearance Sale",
       "imageActionUrl": "/sala/",
-      "callToActionText": "Proyectores",
+      "callToActionText": "Accesorios",
       "callToActionUrl": "/sale/d",
       "blockClass": "infocard__header--select",
       "textPosition": "left",

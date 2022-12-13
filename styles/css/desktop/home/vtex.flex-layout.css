@@ -1,11 +1,11 @@
 .flexColChild {
   position: absolute;
+  min-width: 104%;
 }
 
 .flexRowContent--select__header--container {
   position: relative;
-  left: -400px;
-  top: -6px;
+  left: -700px;
+  top: 10px;
   height: 150px;
-  /* margin: auto; */
 }
