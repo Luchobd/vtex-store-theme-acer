@@ -10,7 +10,10 @@
       "menu-item#vtex-lenguage",
       "menu-item#vtex-search",
       "login"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
   },
 
   "menu-item#acer": {

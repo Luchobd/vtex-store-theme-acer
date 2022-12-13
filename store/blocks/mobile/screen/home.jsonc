@@ -1,9 +1,1 @@
-{
-  "header-layout.mobile": {
-    "title": "header__mobile",
-    "children": ["header-row#mobile__header--responsive"],
-    "props": {
-      "blockClass": "home__mobile"
-    }
-  }
-}
+{}

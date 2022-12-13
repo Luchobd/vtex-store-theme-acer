@@ -3,6 +3,7 @@
   padding: 0;
 } */
 
-.headerRowContentContainer {
+.headerRowContentContainer--header__top {
   min-width: 100%;
+  background-color: #f0f0f0;
 }
