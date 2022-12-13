@@ -1,19 +1,19 @@
 {
   // Vista Tablet
-  "responsive-layout.tablet#home__infolayout--box": {
-    "children": ["flex-layout.row#home__infolayout--tablet"]
-  },
-  "flex-layout.row#home__infolayout--tablet": {
-    "title": "infolayout",
-    "children": [
-      "info-card#home__category--one",
-      "info-card#home__category--two",
-      "info-card#home__category--three",
-      "info-card#home__category--four"
-    ],
-    "props": {
-      "blockClass": "infocard__infolayout",
-      "preserveLayoutOnMobile": false
-    }
-  }
+  // "responsive-layout.tablet#home__infolayout--box": {
+  //   "children": ["flex-layout.row#home__infolayout--tablet"]
+  // },
+  // "flex-layout.row#home__infolayout--tablet": {
+  //   "title": "infolayout",
+  //   "children": [
+  //     "info-card#home__category--one",
+  //     "info-card#home__category--two",
+  //     "info-card#home__category--three",
+  //     "info-card#home__category--four"
+  //   ],
+  //   "props": {
+  //     "blockClass": "infocard__infolayout",
+  //     "preserveLayoutOnMobile": false
+  //   }
+  // }
 }

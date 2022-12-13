@@ -1,1 +1,5 @@
-{}
+{
+  "header-row#mobile__header--responsive": {
+    "children": ["drawer", "logo#acer", "header-spacer", "search-bar"]
+  }
+}

@@ -1,8 +1,11 @@
-/* .flexRowContent--infocard__infolayout {
-} */
+.flexColChild {
+  position: absolute;
+}
 
-/* .flexRow--infocard__infolayout {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color: red;
-} */
+.flexRowContent--select__header--container {
+  position: relative;
+  left: -400px;
+  top: -6px;
+  height: 150px;
+  /* margin: auto; */
+}

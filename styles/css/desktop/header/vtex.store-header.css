@@ -1,3 +1,8 @@
-.headerRowBackground--header__top {
-  background-color: red;
+/* .headerRowBackground {
+  margin: 0;
+  padding: 0;
+} */
+
+.headerRowContentContainer {
+  min-width: 100%;
 }

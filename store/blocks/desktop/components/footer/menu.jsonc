@@ -4,10 +4,10 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      // "menu-item#news",
+      // "menu-item#blackfriday",
+      // "menu-item#sale",
+      // "menu-item#personalization"
     ]
   },
   "menu-item#news": {

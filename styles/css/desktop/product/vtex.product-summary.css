@@ -1,0 +1,4 @@
+.buyButtonContainer--home__vitrina--button :global(.vtex-button) {
+  background-color: rgb(128, 195, 67);
+  border-color: rgb(128, 195, 67);
+}
