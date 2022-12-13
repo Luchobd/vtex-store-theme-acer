@@ -1,8 +1,12 @@
 {
-  "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  "header-layout.desktop": {
+    "title": "header__desktop",
+    "children": [
+      "header-row#desktop__header--top",
+      "header-row#desktop__header--first"
+    ],
+    "props": {
+      "blockClass": "header__desktop"
+    }
   }
 }

@@ -12,8 +12,11 @@
       //responsive
       "responsive-layout.desktop#home__infolayout--box",
       "responsive-layout.tablet#home__infolayout--box",
-      "responsive-layout.phone#home__infolayout--box"
+      "responsive-layout.phone#home__infolayout--box",
       // "flex-layout.row#home__categories--networking"
+
+      // Vitrina
+      "list-context.product-list#home__vitrina"
     ]
   }
 }

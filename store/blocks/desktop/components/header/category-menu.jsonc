@@ -1,127 +1,126 @@
 {
-  //menuContainerNav--probando__clase
-  "vtex.menu@2.x:menu#category-menu": {
-    "props": {
-      "experimentalOptimizeRendering": true,
-      "blockClass": "probando__clase"
-    },
-    "children": [
-      "menu-item#category-home",
-      "menu-item#more",
-      "menu-item#more2",
-      "menu-item#category-support"
-      // "menu-item#category-apparel"
-    ]
-  },
-  "menu-item#category-apparel": {
-    "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#category-apparel"]
-  },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": ["vtex.menu@2.x:menu#category-apparel"]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#category-apparel-clothing": {
-    "props": {
-      "id": "menu-item-category-apparel-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-  "menu-item#category-apparel-accessories": {
-    "props": {
-      "id": "menu-item-category-apparel-accessories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/accessories/",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
+  //   //menuContainerNav--probando__clase
+  //   "vtex.menu@2.x:menu#category-menu": {
+  //     "props": {
+  //       "experimentalOptimizeRendering": true,
+  //       "blockClass": "probando__clase"
+  //     },
+  //     "children": [
+  //       "menu-item#category-home",
+  //       "menu-item#more",
+  //       "menu-item#more2",
+  //       "menu-item#category-support"
+  //       // "menu-item#category-apparel"
+  //     ]
+  //   },
+  //   "menu-item#category-apparel": {
+  //     "props": {
+  //       "id": "menu-item-category-apparel",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/apparel---accessories/",
+  //         "noFollow": false,
+  //         "tagTitle": "Apparel & Accessories",
+  //         "text": "Apparel & Accessories"
+  //       }
+  //     },
+  //     "blocks": ["vtex.menu@2.x:submenu#category-apparel"]
+  //   },
+  //   "vtex.menu@2.x:submenu#category-apparel": {
+  //     "props": {
+  //       "width": "auto"
+  //     },
+  //     "children": ["vtex.menu@2.x:menu#category-apparel"]
+  //   },
+  //   "vtex.menu@2.x:menu#category-apparel": {
+  //     "props": {
+  //       "orientation": "vertical"
+  //     },
+  //     "children": [
+  //       "menu-item#category-apparel-clothing",
+  //       "menu-item#category-apparel-accessories",
+  //       "menu-item#category-apparel-eyeglasses"
+  //     ]
+  //   },
+  //   "menu-item#category-apparel-clothing": {
+  //     "props": {
+  //       "id": "menu-item-category-apparel-clothing",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/apparel---accessories/clothing/",
+  //         "noFollow": false,
+  //         "tagTitle": "Clothing",
+  //         "text": "Clothing"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-apparel-accessories": {
+  //     "props": {
+  //       "id": "menu-item-category-apparel-accessories",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/apparel---accessories/accessories/",
+  //         "noFollow": false,
+  //         "tagTitle": "Accessories",
+  //         "text": "Accessories"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-apparel-eyeglasses": {
+  //     "props": {
+  //       "id": "menu-item-category-apparel-eyeglasses",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/apparel---accessories/eyeglasses/",
+  //         "noFollow": false,
+  //         "tagTitle": "Eyeglasses",
+  //         "text": "Eyeglasses"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-home": {
+  //     "props": {
+  //       "id": "menu-item-category-home",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/home---decor/",
+  //         "noFollow": false,
+  //         "tagTitle": "Tienda Online",
+  //         "text": "Tienda Online"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#category-support": {
+  //     "props": {
+  //       "id": "menu-item-category-home",
+  //       "type": "custom",
+  //       "iconId": null,
+  //       "highlight": false,
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/home---decor/",
+  //         "noFollow": false,
+  //         "tagTitle": "Soporte",
+  //         "text": "Soporte"
+  //       }
+  //     }
+  //   },
 
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Tienda Online",
-        "text": "Tienda Online"
-      }
-    }
-  },
-
-  "menu-item#category-support": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Soporte",
-        "text": "Soporte"
-      }
-    }
-  },
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -179,7 +178,6 @@
       // "menu-item#faq"
     ]
   },
-
   "vtex.menu@2.x:submenu#more2": {
     "props": {
       "width": "100%"
@@ -204,52 +202,52 @@
       // "menu-item#faq"
     ]
   },
-  // "menu-item#about-us": {
-  //   "props": {
-  //     "id": "menu-item-about-us",
-  //     "type": "custom",
-  //     "iconId": null,
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/about-us",
-  //       "noFollow": true,
-  //       "tagTitle": "About us",
-  //       "text": "About us"
-  //     }
-  //   }
-  // },
-  // "menu-item#faq": {
-  //   "props": {
-  //     "id": "menu-item-faq",
-  //     "type": "custom",
-  //     "iconId": null,
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/faq",
-  //       "noFollow": true,
-  //       "tagTitle": "FAQ",
-  //       "text": "FAQ"
-  //     }
-  //   }
-  // },
-  // "menu-item#contact-us": {
-  //   "props": {
-  //     "id": "menu-item-contact-us",
-  //     "type": "custom",
-  //     "iconId": null,
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/contact-us",
-  //       "noFollow": true,
-  //       "tagTitle": "Contact Us",
-  //       "text": "Contact Us"
-  //     }
-  //   }
-  // },
 
+  //   // "menu-item#about-us": {
+  //   //   "props": {
+  //   //     "id": "menu-item-about-us",
+  //   //     "type": "custom",
+  //   //     "iconId": null,
+  //   //     "highlight": false,
+  //   //     "itemProps": {
+  //   //       "type": "internal",
+  //   //       "href": "/about-us",
+  //   //       "noFollow": true,
+  //   //       "tagTitle": "About us",
+  //   //       "text": "About us"
+  //   //     }
+  //   //   }
+  //   // },
+  //   // "menu-item#faq": {
+  //   //   "props": {
+  //   //     "id": "menu-item-faq",
+  //   //     "type": "custom",
+  //   //     "iconId": null,
+  //   //     "highlight": false,
+  //   //     "itemProps": {
+  //   //       "type": "internal",
+  //   //       "href": "/faq",
+  //   //       "noFollow": true,
+  //   //       "tagTitle": "FAQ",
+  //   //       "text": "FAQ"
+  //   //     }
+  //   //   }
+  //   // },
+  //   // "menu-item#contact-us": {
+  //   //   "props": {
+  //   //     "id": "menu-item-contact-us",
+  //   //     "type": "custom",
+  //   //     "iconId": null,
+  //   //     "highlight": false,
+  //   //     "itemProps": {
+  //   //       "type": "internal",
+  //   //       "href": "/contact-us",
+  //   //       "noFollow": true,
+  //   //       "tagTitle": "Contact Us",
+  //   //       "text": "Contact Us"
+  //   //     }
+  //   //   }
+  //   // },
   "flex-layout.row#home__categories--productos": {
     "title": "Slider with tech list",
     "props": {
@@ -265,7 +263,6 @@
       "info-card#home__category--producto7"
     ]
   },
-
   "info-card#home__category--producto1": {
     "title": "infocard img title",
     "props": {
@@ -371,7 +368,6 @@
       "textAlignment": "center"
     }
   },
-
   "flex-layout.row#home__categories--soluciones": {
     "title": "Slider with tech list",
     "props": {
@@ -387,7 +383,6 @@
       "info-card#home__category--solucion7"
     ]
   },
-
   "info-card#home__category--solucion1": {
     "title": "infocard img title",
     "props": {
