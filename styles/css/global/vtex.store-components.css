@@ -1,0 +1,22 @@
+/* .backToTopButtonContainer :global(.vtex-button) {
+  background-color: red;
+} */
+
+.backToTopButtonActive :global(.vtex-button) {
+  /* background-color: rgb(219, 242, 219); */
+  background-color: #f1f7e6;
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  color: rgb(128, 195, 67);
+  box-shadow: 0 3px 16px rgb(34 34 34 / 16%);
+  font-weight: bold;
+  font-size: 7rem;
+}
+
+.backToTopButtonActive :global(.vtex-button):hover {
+  background-color: #80c343;
+  color: #fff;
+}
