@@ -65,21 +65,4 @@
       "textAlignment": "center"
     }
   }
-
-  // "image#home__slider--one": {
-  //   "props": {
-  //     "src": "assets/img/main-slide-1.webp",
-  //     "text": "hola como estas"
-  //   }
-  // },
-  // "image#home__slider--two": {
-  //   "props": {
-  //     "src": "assets/img/main-slide-2.webp"
-  //   }
-  // },
-  // "image#home__slider--three": {
-  //   "props": {
-  //     "src": "assets/img/main-slide-3.webp"
-  //   }
-  // }
 }

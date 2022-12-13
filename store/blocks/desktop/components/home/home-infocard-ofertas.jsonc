@@ -18,9 +18,6 @@
       "imageUrl": "assets/img/infocard-one.webp",
       "imageActionUrl": "/prueba/",
       "headline": "Ofertas Destacadas",
-      // "subhead": "Descubre las promociones y ofertas disponibles exclusivamente en la Tienda Online oficial de Acer. Ahorra dinero en los mejores productos de tecnología.",
-      // "callToActionText": "Comprar Ahora",
-      // "callToActionUrl": "/sale/d",
       "blockClass": "infocard__ofert--left",
       "textPosition": "center",
       "textAlignment": "center"
@@ -35,9 +32,6 @@
       "imageUrl": "assets/img/infocard-two.webp",
       "imageActionUrl": "/prueba/",
       "headline": "Ofertas Para Empresas",
-      // "subhead": "Explora la gama y las ofertas de Acer para empresas.",
-      // "callToActionText": "Comprar Ahora",
-      // "callToActionUrl": "/sale/d",
       "blockClass": "infocard__ofert--right",
       "textPosition": "center",
       "textAlignment": "center"
