@@ -6,11 +6,27 @@
       "menu-item#category-home",
       "menu-item#more",
       "menu-item#more2",
+      // "menu#header__menu",
+      // "menu#header__menu2",
       "menu-item#category-support",
       "header-spacer",
       "search-bar"
     ]
   },
+
+  // "menu#header__menu": {
+  //   "children": ["menu-item#more"],
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // },
+
+  // "menu#header__menu2": {
+  //   "children": ["menu-item#more2"],
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // },
 
   "logo#acer": {
     "props": {
@@ -54,6 +70,7 @@
   },
 
   "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
       "maxWidth": 250
