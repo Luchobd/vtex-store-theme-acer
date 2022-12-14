@@ -7,7 +7,9 @@
       "menu-item#planet9",
       "menu-item#spatialLabs",
       "header-spacer",
+      // "icon#header__globe--icon",
       "menu-item#vtex-lenguage",
+
       "menu-item#vtex-search",
       "login"
     ],
@@ -103,6 +105,12 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
+
+  "icon#home__orders--icon": {
+    "props": {
+      "id": "mpa-globe"
+    }
+  },
   "menu-item#vtex-search": {
     "props": {
       "id": "menu-item-vtex-search",
@@ -114,7 +122,7 @@
         "href": "http://vtex.com",
         "noFollow": false,
         "tagTitle": "Buscar una tienda",
-        "text": " Buscar una tienda"
+        "text": "🔎 Buscar una tienda"
       }
     }
   },
