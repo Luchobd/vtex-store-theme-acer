@@ -11,12 +11,12 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      // "product-summary-description",
-      // "product-summary-price",
+      "product-summary-description",
+      "product-summary-price",
       // "product-summary-sku-selector",
-      "product-summary-buy-button"
       // "product-rating-inline",
-      // "product-summary-space",
+      "product-summary-space",
+      "product-summary-buy-button"
       // "add-to-cart-button"
     ],
     "props": {

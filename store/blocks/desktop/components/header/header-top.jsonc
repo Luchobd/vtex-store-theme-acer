@@ -22,7 +22,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -37,7 +36,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -52,7 +50,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -67,7 +64,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -82,7 +78,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -115,7 +110,6 @@
     "props": {
       "id": "menu-item-vtex-search",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "external",
@@ -130,7 +124,6 @@
     "props": {
       "id": "menu-item-vtex-lenguage",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "external",

@@ -3,7 +3,6 @@
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -20,7 +19,6 @@
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "blockClass": "probando__clases",
       "itemProps": {

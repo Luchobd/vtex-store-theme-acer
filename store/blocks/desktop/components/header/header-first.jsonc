@@ -6,27 +6,37 @@
       "menu-item#category-home",
       "menu-item#more",
       "menu-item#more2",
-      // "menu#header__menu",
-      // "menu#header__menu2",
+
       "menu-item#category-support",
+      "menu#header__menu",
       "header-spacer",
-      "search-bar"
+      "overlay-trigger#header__search--click"
     ]
   },
 
-  // "menu#header__menu": {
-  //   "children": ["menu-item#more"],
-  //   "props": {
-  //     "orientation": "vertical"
-  //   }
-  // },
+  "overlay-trigger#header__search--click": {
+    "children": ["icon#icon-search", "overlay-layout"]
+  },
 
-  // "menu#header__menu2": {
-  //   "children": ["menu-item#more2"],
-  //   "props": {
-  //     "orientation": "vertical"
-  //   }
-  // },
+  "icon#icon-search": {
+    "props": {
+      "id": "hpa-search",
+      "blockClass": "icon__search"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "left"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": 250
+    }
+  },
 
   "logo#acer": {
     "props": {
@@ -69,11 +79,83 @@
     }
   },
 
-  "search-bar": {
-    "blocks": ["autocomplete-result-list.v2"],
+  // Menu desplegable
+  "menu#header__menu": {
+    "children": [
+      // "menu-item#department__one"
+      // "menu-item#department__two",
+      // "rich-text#test-app-version"
+    ],
     "props": {
-      "openAutocompleteOnFocus": true,
-      "maxWidth": 250
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#department__one": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://google.com/",
+        "noFollow": true,
+        "tagTitle": "Google Title",
+        "text": "Productos"
+      }
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "submenu.accordion#department__one": {
+    "children": ["menu#department__one"]
+  },
+  "menu#department__one": {
+    "children": ["flex-layout.row#home__categories--productos"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Google Drive",
+        "text": "Product One"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Google Meet",
+        "text": "Product Two"
+      }
+    }
+  },
+  "menu-item#department__two": {
+    "props": {
+      "id": "department-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.bing.com/?setlang=es",
+        "noFollow": true,
+        "tagTitle": "Bing Title",
+        "text": "Bing"
+      }
+    }
+  },
+  "rich-text#test-app-version": {
+    "props": {
+      "text": "Test App Version"
     }
   }
 }
