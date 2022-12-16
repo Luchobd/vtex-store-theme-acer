@@ -9,3 +9,11 @@
   top: 0px;
   height: 150px;
 }
+
+.flexRow--infocard__infolayout {
+  margin-bottom: 80px;
+  /* background-color: red;
+  display: grid;
+  grid-template-columns: repeat(1fr, 2);
+  grid-template-rows: repeat(1fr, 2); */
+}

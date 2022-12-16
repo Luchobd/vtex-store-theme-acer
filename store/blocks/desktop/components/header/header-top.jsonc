@@ -1,5 +1,6 @@
 {
   "header-row#desktop__header--top": {
+    "title": "Container render header top",
     "children": [
       "menu-item#acer",
       "menu-item#predator",
@@ -102,6 +103,7 @@
   },
 
   "icon#home__orders--icon": {
+    "title": "icon map",
     "props": {
       "id": "mpa-globe"
     }

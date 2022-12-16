@@ -180,6 +180,11 @@
 
 /* =============== infolayout ========= */
 
+/* .container--infocard__infolayout {
+  background-color: red;
+  color: blue;
+} */
+
 .infoCardContainer--infocard__infolayout--box {
   margin-top: 90px;
   margin-left: 40px;
