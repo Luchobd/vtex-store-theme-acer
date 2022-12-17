@@ -8,16 +8,13 @@
       "menu-item#more",
       "menu-item#more2",
       "menu-item#category-support",
-
-      // "menu#header__menu",
-
       "header-spacer",
       "overlay-trigger#header__search--click",
-      // "search-bar#header__search",
       "minicart.v2"
     ]
   },
 
+  // Handle search click
   "overlay-trigger#header__search--click": {
     "title": "handle search click",
     "children": ["icon#icon-search", "overlay-layout"]
@@ -41,12 +38,12 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
-      "maxWidth": 350
-
-      // "autocompleteFullWidth": true
+      "maxWidth": 350,
+      "autocompleteFullWidth": true
     }
   },
 
+  // Logo acer
   "logo#acer": {
     "title": "logo acer",
     "props": {
@@ -57,6 +54,7 @@
     }
   },
 
+  // Link Tienda Online
   "menu-item#category-home": {
     "props": {
       "id": "menu-item-category-home",
@@ -73,6 +71,7 @@
     }
   },
 
+  // Link Soporte
   "menu-item#category-support": {
     "props": {
       "id": "menu-item-category-home",
@@ -86,88 +85,6 @@
         "tagTitle": "Soporte",
         "text": "Soporte"
       }
-    }
-  },
-
-  // Menu desplegable
-  "menu#header__menu": {
-    "children": [
-      "menu-item#department__one",
-      "menu-item#department__two",
-      "rich-text#test-app-version"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-
-  "menu-item#department__one": {
-    "props": {
-      "id": "department-one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "https://google.com/",
-        "noFollow": true,
-        "tagTitle": "Google Title",
-        "text": "Productos"
-      }
-    },
-    "blocks": ["submenu.accordion#department__one"]
-  },
-  "submenu.accordion#department__one": {
-    "title": "submenu accordion",
-    "children": ["menu#department__one"]
-  },
-  "menu#department__one": {
-    "title": "submenu accordion department",
-    "children": ["flex-layout.row#home__categories--productos"],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#category__one": {
-    "props": {
-      "id": "category-one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Google Drive",
-        "text": "Product One"
-      }
-    }
-  },
-  "menu-item#category__two": {
-    "props": {
-      "id": "category-two",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Google Meet",
-        "text": "Product Two"
-      }
-    }
-  },
-  "menu-item#department__two": {
-    "props": {
-      "id": "department-two",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.bing.com/?setlang=es",
-        "noFollow": true,
-        "tagTitle": "Bing Title",
-        "text": "Bing"
-      }
-    }
-  },
-  "rich-text#test-app-version": {
-    "props": {
-      "text": "Test App Version"
     }
   }
 }

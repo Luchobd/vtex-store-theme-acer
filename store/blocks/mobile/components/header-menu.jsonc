@@ -1,5 +1,6 @@
 {
   "header-row#mobile__header--responsive": {
+    "title": "Mega menu mobile",
     "children": [
       "flex-layout.row#1-mobile",
       "logo#acer",
@@ -9,28 +10,30 @@
     ]
   },
 
-  "sticky-layout#4-desktop": {
-    "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
-  },
-  "flex-layout.row#4-desktop": {
-    "children": ["flex-layout.col#trigger-mega-menu"]
-  },
+  // "sticky-layout#4-desktop": {
+  //   "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
+  // },
+  // "flex-layout.row#4-desktop": {
+  //   "children": ["flex-layout.col#trigger-mega-menu"]
+  // },
 
-  "flex-layout.row#mega-menu": {
-    "children": ["mega-menu#desktop"]
-  },
-  "mega-menu#desktop": {
-    "props": {
-      "openOnly": "horizontal"
-    }
-  },
+  // "flex-layout.row#mega-menu": {
+  //   "children": ["mega-menu#desktop"]
+  // },
+  // "mega-menu#desktop": {
+  //   "props": {
+  //     "openOnly": "horizontal"
+  //   }
+  // },
   "flex-layout.col#trigger-mega-menu": {
+    "title": "Mega menu vertical drawer",
     "props": {
       "verticalAlign": "middle"
     },
     "children": ["mega-menu-trigger-btn"]
   },
   "mega-menu-trigger-btn": {
+    "title": "Mega menu drawer",
     "props": {
       "Drawer": "drawer"
     }
@@ -38,15 +41,17 @@
 
   // Mobile
   "flex-layout.row#1-mobile": {
-    "children": ["flex-layout.col#trigger-mega-menu"],
-    "props": {}
+    "title": "Mega menu mobile render drawer",
+    "children": ["flex-layout.col#trigger-mega-menu"]
   },
 
   "drawer": {
+    "title": "Mega menu mobile drawer",
     "children": ["mega-menu#mobile"],
     "blocks": ["drawer-header#my-drawer"]
   },
   "mega-menu#mobile": {
+    "title": "Mega menu mobile vertical",
     "props": {
       "defaultDepartmentActive": "...",
       "orientation": "vertical",
@@ -55,9 +60,11 @@
     }
   },
   "drawer-header#my-drawer": {
+    "title": "Mega menu header drawer mobile",
     "children": ["flex-layout.row#drawer-header"]
   },
   "flex-layout.row#drawer-header": {
+    "title": "Mega menu mobile drawer header",
     "children": [
       "flex-layout.col#mega-menu-go-back-btn",
       // "flex-layout.col#spacer",
@@ -72,6 +79,7 @@
     }
   },
   "flex-layout.col#drawer-close-button": {
+    "title": "Mega menu mobile drawer close button",
     "children": ["drawer-close-button"],
     "props": {
       "verticalAlign": "middle",
@@ -79,6 +87,7 @@
     }
   },
   "flex-layout.col#mega-menu-go-back-btn": {
+    "title": "Mega menu mobile go back button",
     "children": ["mega-menu-go-back-btn"],
     "props": {
       "verticalAlign": "middle",
@@ -91,106 +100,3 @@
   //     "children": ["drawer-close-button"]
   //   }
 }
-
-// {
-//   "header-row#mobile__header--responsive": {
-//     "children": [
-//       "flex-layout.row#1-mobile",
-//       "logo#acer",
-//       "header-spacer",
-//       // "overlay-trigger#header__search--click",
-//       "minicart.v2"
-//     ]
-//   },
-
-//   "logo#acer": {
-//     "title": "logo acer",
-//     "props": {
-//       "title": "Logo",
-//       "href": "/",
-//       "url": "assets/img/acer-logo.png",
-//       "width": "80"
-//     }
-//   },
-
-//   "flex-layout.row#1-mobile": {
-//     "children": ["flex-layout.col#trigger-mega-menu"],
-//     "props": {}
-//   },
-//   "flex-layout.col#trigger-mega-menu": {
-//     "props": {
-//       "verticalAlign": "middle"
-//     },
-//     "children": ["mega-menu-trigger-btn"]
-//   },
-//   "mega-menu-trigger-btn": {
-//     "props": {
-//       "Drawer": "drawer"
-//     }
-//   },
-//   "drawer": {
-//     "children": ["mega-menu#mobile"],
-//     "blocks": ["drawer-header#my-drawer"]
-//   },
-//   "mega-menu#mobile": {
-//     "props": {
-//       "defaultDepartmentActive": "esto pa que...",
-//       "orientation": "vertical",
-//       "openOnly": "vertical"
-//     }
-//   },
-//   "drawer-header#my-drawer": {
-//     "children": ["flex-layout.row#drawer-header"]
-//   },
-//   "flex-layout.row#drawer-header": {
-//     "children": [
-//       "flex-layout.col#mega-menu-go-back-btn",
-//       // "logo#desktop__header--logo",
-//       // "flex-layout.col#spacer",
-//       "flex-layout.col#drawer-close-button"
-//     ],
-//     "props": {
-//       "blockClass": "drawer-header",
-//       "preventHorizontalStretch": true,
-//       "preventVerticalStretch": true,
-//       "preserveLayoutOnMobile": true,
-//       "fullWidth": true
-//     }
-//   },
-//   "flex-layout.col#drawer-close-button": {
-//     "children": ["drawer-close-button"],
-//     "props": {
-//       "verticalAlign": "middle",
-//       "horizontalAlign": "right"
-//     }
-//   },
-//   "flex-layout.col#mega-menu-go-back-btn": {
-//     "children": ["mega-menu-go-back-btn"],
-//     "props": {
-//       "verticalAlign": "middle",
-//       "horizontalAlign": "left",
-//       "paddingLeft": 4
-//     }
-//   },
-
-//   // "sticky-layout#4-desktop": {
-//   //       "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
-//   //     },
-//   //     "flex-layout.row#4-desktop": {
-//   //       "children": ["flex-layout.col#trigger-mega-menu"]
-//   //     },
-//   //     "flex-layout.row#mega-menu": {
-//   //       "children": ["mega-menu#desktop"]
-//   //     },
-//   //     "mega-menu#desktop": {
-//   //       "props": {
-//   //         "openOnly": "horizontal"
-//   //       }
-//   //     }
-//   // Mobile
-//   "rich-text#ensayo": {
-//     "props": {
-//       "text": "ensayo"
-//     }
-//   }
-// }

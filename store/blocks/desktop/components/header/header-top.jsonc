@@ -1,4 +1,5 @@
 {
+  // Header TOP
   "header-row#desktop__header--top": {
     "title": "Container render header top",
     "children": [
@@ -8,7 +9,7 @@
       "menu-item#planet9",
       "menu-item#spatialLabs",
       "header-spacer",
-      // "icon#header__globe--icon",
+      // "icon#home__orders--icon",
       "menu-item#vtex-lenguage",
 
       "menu-item#vtex-search",
@@ -102,12 +103,13 @@
     }
   },
 
-  "icon#home__orders--icon": {
-    "title": "icon map",
-    "props": {
-      "id": "mpa-globe"
-    }
-  },
+  // "icon#home__orders--icon": {
+  //   "title": "icon map",
+  //   "props": {
+  //     "id": "mpa-globe"
+  //   }
+  // },
+
   "menu-item#vtex-search": {
     "props": {
       "id": "menu-item-vtex-search",

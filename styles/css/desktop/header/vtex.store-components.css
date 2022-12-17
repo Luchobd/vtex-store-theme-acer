@@ -1,0 +1,25 @@
+.infoCardContainer--infocard__header--select {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  background-color: transparent;
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.infoCardCallActionContainer--infocard__header--select :global(.vtex-button) {
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  color: #000000;
+  text-transform: capitalize;
+  /* width: 220px; */
+  font-size: 18px;
+  text-align: center;
+}
+
+.infoCardCallActionContainer--infocard__header--select
+  :global(.vtex-button):hover {
+  font-weight: bold;
+}

@@ -1,18 +1,20 @@
 .menuContainerNav--probando__clase {
-  /* width: 60vw; */
-  /* background-color: blue; */
   display: flex;
   justify-content: flex-end;
-  /* align-items: center; */
-  /* text-align: center; */
 }
 
-.submenuWrapper--isOpen {
-  background-color: transparent;
+.submenuWrapper {
+  position: absolute;
+  min-width: 100%;
+  background-color: #e0e0e0;
 }
+
+/* .submenuWrapper--isOpen {
+ 
+} */
 
 /* .styledLinkContent {
-  padding-bottom: 5px;
+
 } */
 
 .styledLinkContent--header__category--select-hover:hover {

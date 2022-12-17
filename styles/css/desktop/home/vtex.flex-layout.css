@@ -1,19 +1,7 @@
-.flexColChild {
-  position: absolute;
-  min-width: 104%;
-}
-
-.flexRowContent--select__header--container {
-  position: relative;
-  left: -700px;
-  top: 0px;
-  height: 150px;
-}
-
 .flexRow--infocard__infolayout {
   margin-bottom: 80px;
-  /* background-color: red;
-  display: grid;
-  grid-template-columns: repeat(1fr, 2);
-  grid-template-rows: repeat(1fr, 2); */
 }
+
+/* .flexColChild {
+
+} */

@@ -1,4 +1,5 @@
 {
+  // Productos select
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -14,9 +15,9 @@
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#more"]
-    // "blocks": ["submenu.accordion#department__one"]
   },
 
+  // Soluciones select
   "menu-item#more2": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -46,7 +47,10 @@
   },
   "flex-layout.col#menu-more-1": {
     "title": "container product",
-    "children": ["vtex.menu@2.x:menu#more"]
+    "children": ["vtex.menu@2.x:menu#more"],
+    "props": {
+      "blockClass": "select__header--container"
+    }
   },
   "flex-layout.col#menu-more-2": {
     "title": "container products",
@@ -57,10 +61,7 @@
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      // "menu-item#about-us",
-      // "menu-item#faq"
-    ]
+    "children": []
   },
   "vtex.menu@2.x:submenu#more2": {
     "title": "width box container two",
@@ -86,10 +87,7 @@
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      // "menu-item#about-us",
-      // "menu-item#faq"
-    ]
+    "children": []
   },
 
   "flex-layout.row#home__categories--productos": {
@@ -113,7 +111,6 @@
       "id": "info-card-port",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/producto1.webp",
-      // "headline": "Portátiles",
       "imageActionUrl": "/sala/",
       "callToActionText": "Portátiles",
       "callToActionUrl": "/sale/d",
@@ -128,7 +125,6 @@
       "id": "info-card-desk",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/producto2.webp",
-      // "headline": "Equipos de escritorio",
       "imageActionUrl": "/sala/",
       "callToActionText": "Equipos Escritorio",
       "callToActionUrl": "/sale/d",
@@ -143,7 +139,6 @@
       "id": "info-card-mon",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/producto3.webp",
-      // "headline": "Monitores",
       "imageActionUrl": "/sala/",
       "callToActionText": "Chromebooks",
       "callToActionUrl": "/sale/d",
@@ -158,7 +153,6 @@
       "id": "info-card-proj",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/producto4.webp",
-      // "headline": "Proyectores",
       "imageActionUrl": "/sala/",
       "callToActionText": "Tablets",
       "callToActionUrl": "/sale/d",
@@ -173,7 +167,6 @@
       "id": "info-card-chrom",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/producto5.webp",
-      // "headline": "Chromebooks",
       "imageActionUrl": "/sala/",
       "callToActionText": "Monitores",
       "callToActionUrl": "/sale/d",
@@ -188,7 +181,6 @@
       "id": "info-card-acce",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/producto6.webp",
-      // "headline": "Clearance Sale",
       "imageActionUrl": "/sala/",
       "callToActionText": "Proyectores",
       "callToActionUrl": "/sale/d",
@@ -203,7 +195,6 @@
       "id": "info-card-acce",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/producto7.webp",
-      // "headline": "Clearance Sale",
       "imageActionUrl": "/sala/",
       "callToActionText": "Accesorios",
       "callToActionUrl": "/sale/d",
@@ -233,7 +224,6 @@
       "id": "info-card-port",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/solucion1.webp",
-      // "headline": "Portátiles",
       "imageActionUrl": "/sala/",
       "callToActionText": "Acer for Education",
       "callToActionUrl": "/sale/d",
@@ -248,7 +238,6 @@
       "id": "info-card-desk",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/solucion2.webp",
-      // "headline": "Equipos de escritorio",
       "imageActionUrl": "/sala/",
       "callToActionText": "Acer for Busioness",
       "callToActionUrl": "/sale/d",
@@ -263,7 +252,6 @@
       "id": "info-card-mon",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/solucion3.webp",
-      // "headline": "Monitores",
       "imageActionUrl": "/sala/",
       "callToActionText": "Device Service",
       "callToActionUrl": "/sale/d",
@@ -278,7 +266,6 @@
       "id": "info-card-proj",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/solucion4.webp",
-      // "headline": "Proyectores",
       "imageActionUrl": "/sala/",
       "callToActionText": "TravelMate",
       "callToActionUrl": "/sale/d",
@@ -293,7 +280,6 @@
       "id": "info-card-chrom",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/solucion5.webp",
-      // "headline": "Chromebooks",
       "imageActionUrl": "/sala/",
       "callToActionText": "Soluciones antimicrobianas",
       "callToActionUrl": "/sale/d",
@@ -308,7 +294,6 @@
       "id": "info-card-acce",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/solucion6.webp",
-      // "headline": "Clearance Sale",
       "imageActionUrl": "/sala/",
       "callToActionText": "Estándares militares",
       "callToActionUrl": "/sale/d",
@@ -323,7 +308,6 @@
       "id": "info-card-acce",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/solucion7.webp",
-      // "headline": "Clearance Sale",
       "imageActionUrl": "/sala/",
       "callToActionText": "Windows 11",
       "callToActionUrl": "/sale/d",
