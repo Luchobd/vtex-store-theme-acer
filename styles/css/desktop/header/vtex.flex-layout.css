@@ -1,0 +1,10 @@
+/* .flexColChild {
+} */
+
+.flexRowContent--select__header--container {
+  position: relative;
+  right: 500px;
+  top: -11px;
+  height: 155px;
+  width: 70vw;
+}

@@ -1,32 +1,4 @@
-/* Header */
-.infoCardContainer--infocard__header--select {
-  width: 100vw;
-  display: flex;
-  flex-direction: column-reverse;
-  text-align: center;
-  background-color: #e0e0e0;
-  padding: 0;
-  padding-top: 10px;
-  margin: 0;
-}
-
-.infoCardCallActionContainer--infocard__header--select :global(.vtex-button) {
-  margin: 0;
-  border: none;
-  background-color: transparent;
-  color: #000000;
-  text-transform: capitalize;
-  /* width: 220px; */
-  font-size: 18px;
-  text-align: center;
-}
-
-.infoCardCallActionContainer--infocard__header--select
-  :global(.vtex-button):hover {
-  font-weight: bold;
-}
-
-/* Slaider */
+/* ============= Slaider ============= */
 .infoCardContainer--infocard__home--one,
 .infoCardContainer--infocard__home--two,
 .infoCardContainer--infocard__home--three {
@@ -95,8 +67,7 @@
   border: 2px solid rgb(128, 195, 67);
 }
 
-/* ====  Category ======= */
-
+/* ==========  Category ========== */
 .infoCardContainer--infocard__category {
   display: flex;
   flex-direction: column-reverse;
@@ -140,8 +111,7 @@
   background-color: #80808090;
 }
 
-/* =============== Oferts ========= */
-
+/* ============ Oferts ============ */
 .infoCardContainer--infocard__ofert--left,
 .infoCardContainer--infocard__ofert--right {
   margin-top: 4rem;
@@ -178,7 +148,11 @@
   width: 100%;
 }
 
-/* =============== infolayout ========= */
+/* ============ infolayout ============ */
+/* .container--infocard__infolayout {
+  background-color: red;
+  color: blue;
+} */
 
 .infoCardContainer--infocard__infolayout--box {
   margin-top: 90px;

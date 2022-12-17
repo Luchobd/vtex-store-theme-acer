@@ -29,9 +29,3 @@
 .sliderTrack--slider__category {
   text-align: center;
 }
-
-@media (max-width: 1023px) {
-  .caretIcon--home__slider {
-    display: none;
-  }
-}

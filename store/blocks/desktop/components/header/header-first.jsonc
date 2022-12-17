@@ -1,34 +1,51 @@
 {
   "header-row#desktop__header--first": {
+    "title": "Container render header first",
     "children": [
       "logo#acer",
       "header-spacer",
       "menu-item#category-home",
       "menu-item#more",
       "menu-item#more2",
-      // "menu#header__menu",
-      // "menu#header__menu2",
       "menu-item#category-support",
       "header-spacer",
-      "search-bar"
+      "overlay-trigger#header__search--click",
+      "minicart.v2"
     ]
   },
 
-  // "menu#header__menu": {
-  //   "children": ["menu-item#more"],
-  //   "props": {
-  //     "orientation": "vertical"
-  //   }
-  // },
+  // Handle search click
+  "overlay-trigger#header__search--click": {
+    "title": "handle search click",
+    "children": ["icon#icon-search", "overlay-layout"]
+  },
 
-  // "menu#header__menu2": {
-  //   "children": ["menu-item#more2"],
-  //   "props": {
-  //     "orientation": "vertical"
-  //   }
-  // },
+  "icon#icon-search": {
+    "title": "icon search",
+    "props": {
+      "id": "hpa-search",
+      "blockClass": "icon__search--right"
+    }
+  },
+  "overlay-layout": {
+    "title": "placement search bar",
+    "props": {
+      "placement": "left"
+    },
+    "children": ["search-bar#header__search"]
+  },
+  "search-bar#header__search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": 350,
+      "autocompleteFullWidth": true
+    }
+  },
 
+  // Logo acer
   "logo#acer": {
+    "title": "logo acer",
     "props": {
       "title": "Logo",
       "href": "/",
@@ -37,12 +54,13 @@
     }
   },
 
+  // Link Tienda Online
   "menu-item#category-home": {
     "props": {
       "id": "menu-item-category-home",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
+      "blockClass": "header__category--select-hover",
       "itemProps": {
         "type": "internal",
         "href": "/home---decor/",
@@ -53,12 +71,13 @@
     }
   },
 
+  // Link Soporte
   "menu-item#category-support": {
     "props": {
       "id": "menu-item-category-home",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
+      "blockClass": "header__category--select-hover",
       "itemProps": {
         "type": "internal",
         "href": "/home---decor/",
@@ -66,14 +85,6 @@
         "tagTitle": "Soporte",
         "text": "Soporte"
       }
-    }
-  },
-
-  "search-bar": {
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": true,
-      "maxWidth": 250
     }
   }
 }

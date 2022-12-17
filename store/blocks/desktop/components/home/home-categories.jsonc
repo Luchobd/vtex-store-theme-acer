@@ -1,4 +1,5 @@
 {
+  // Title Categories
   "rich-text#home__categories--title-texto": {
     "props": {
       "text": "Explorar categorías populares",
@@ -9,6 +10,7 @@
     }
   },
 
+  // Slider Categories
   "slider-layout#home__categories--products-list": {
     "title": "Slider with tech list",
     "props": {
@@ -33,13 +35,13 @@
     ]
   },
 
+  // Image of each category
   "info-card#home__category--portatil": {
     "title": "infocard img title",
     "props": {
       "id": "info-card-port",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/categories-portatiles.webp",
-      // "headline": "Portátiles",
       "imageActionUrl": "/sala/",
       "callToActionText": "Portátiles",
       "callToActionUrl": "/sale/d",
@@ -54,7 +56,6 @@
       "id": "info-card-desk",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/categories-escritorios.webp",
-      // "headline": "Equipos de escritorio",
       "imageActionUrl": "/sala/",
       "callToActionText": "Equipos escritorio",
       "callToActionUrl": "/sale/d",
@@ -69,7 +70,6 @@
       "id": "info-card-mon",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/categories-monitores.webp",
-      // "headline": "Monitores",
       "imageActionUrl": "/sala/",
       "callToActionText": "Monitores",
       "callToActionUrl": "/sale/d",
@@ -84,7 +84,6 @@
       "id": "info-card-proj",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/categories-proyectores.webp",
-      // "headline": "Proyectores",
       "imageActionUrl": "/sala/",
       "callToActionText": "Proyectores",
       "callToActionUrl": "/sale/d",
@@ -99,7 +98,6 @@
       "id": "info-card-chrom",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/categories-chromebooks.webp",
-      // "headline": "Chromebooks",
       "imageActionUrl": "/sala/",
       "callToActionText": "Chromebooks",
       "callToActionUrl": "/sale/d",
@@ -114,7 +112,6 @@
       "id": "info-card-acce",
       "isFullModeStyle": false,
       "imageUrl": "assets/img/categories-accesorios.webp",
-      // "headline": "Clearance Sale",
       "imageActionUrl": "/sala/",
       "callToActionText": "Clearance Sale",
       "callToActionUrl": "/sale/d",
