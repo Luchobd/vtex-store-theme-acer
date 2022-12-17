@@ -1,11 +1,9 @@
 {
   "header-layout.desktop": {
-    "title": "header__desktop",
+    "title": "header desktop",
     "children": [
       "header-row#desktop__header--top",
       "header-row#desktop__header--first"
-
-      // "flex-layout.row#1-mobile"
     ],
     "props": {
       "blockClass": "header__desktop"

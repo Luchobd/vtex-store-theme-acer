@@ -1,5 +1,7 @@
 {
+  // Header TOP
   "header-row#desktop__header--top": {
+    "title": "Container render header top",
     "children": [
       "menu-item#acer",
       "menu-item#predator",
@@ -7,7 +9,7 @@
       "menu-item#planet9",
       "menu-item#spatialLabs",
       "header-spacer",
-      // "icon#header__globe--icon",
+      // "icon#home__orders--icon",
       "menu-item#vtex-lenguage",
 
       "menu-item#vtex-search",
@@ -22,7 +24,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -37,7 +38,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -52,7 +52,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -67,7 +66,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -82,7 +80,6 @@
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -106,16 +103,17 @@
     }
   },
 
-  "icon#home__orders--icon": {
-    "props": {
-      "id": "mpa-globe"
-    }
-  },
+  // "icon#home__orders--icon": {
+  //   "title": "icon map",
+  //   "props": {
+  //     "id": "mpa-globe"
+  //   }
+  // },
+
   "menu-item#vtex-search": {
     "props": {
       "id": "menu-item-vtex-search",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "external",
@@ -130,7 +128,6 @@
     "props": {
       "id": "menu-item-vtex-lenguage",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "external",

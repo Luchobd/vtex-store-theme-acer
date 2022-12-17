@@ -1,5 +1,7 @@
 {
+  // Vitrina  Render
   "list-context.product-list#home__vitrina": {
+    "title": "Vitrina de venta",
     "blocks": ["product-summary.shelf#home__vitrina"],
     "children": ["slider-layout#demo-products"],
     "props": {
@@ -7,16 +9,18 @@
     }
   },
 
+  // Options for vitrina
   "product-summary.shelf#home__vitrina": {
+    "title": "Options vitrina",
     "children": [
       "product-summary-image",
       "product-summary-name",
-      // "product-summary-description",
-      // "product-summary-price",
+      "product-summary-description",
+      "product-summary-price",
       // "product-summary-sku-selector",
-      "product-summary-buy-button"
       // "product-rating-inline",
-      // "product-summary-space",
+      "product-summary-space",
+      "product-summary-buy-button"
       // "add-to-cart-button"
     ],
     "props": {
@@ -25,6 +29,7 @@
   },
 
   "product-summary-image": {
+    "title": "Images edit vitrina",
     "props": {
       "width": 150,
       "height": 200,
@@ -33,12 +38,14 @@
   },
 
   "product-summary-buy-button": {
+    "title": "Button buy vitrina",
     "props": {
       "blockClass": "home__vitrina--button"
     }
   },
 
   "slider-layout#demo-products": {
+    "title": "Slider responsive vitrina",
     "props": {
       "itemsPerPage": {
         "desktop": 4,

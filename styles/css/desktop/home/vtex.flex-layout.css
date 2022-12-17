@@ -1,11 +1,7 @@
-.flexColChild {
-  position: absolute;
-  min-width: 104%;
+.flexRow--infocard__infolayout {
+  margin-bottom: 80px;
 }
 
-.flexRowContent--select__header--container {
-  position: relative;
-  left: -700px;
-  top: 10px;
-  height: 150px;
-}
+/* .flexColChild {
+
+} */
