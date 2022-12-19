@@ -11,7 +11,15 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "Productos",
-        "text": "Productos"
+        "text": "Productos",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#more"]
@@ -29,7 +37,15 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "Soluciones",
-        "text": "Soluciones"
+        "text": "Soluciones",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#more2"]

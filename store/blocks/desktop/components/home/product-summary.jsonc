@@ -20,8 +20,8 @@
       // "product-summary-sku-selector",
       // "product-rating-inline",
       "product-summary-space",
-      "product-summary-buy-button"
-      // "add-to-cart-button"
+      // "product-summary-buy-button"
+      "add-to-cart-button"
     ],
     "props": {
       "blockClass": "home__vitrina--container"
@@ -37,10 +37,11 @@
     }
   },
 
-  "product-summary-buy-button": {
+  "add-to-cart-button": {
     "title": "Button buy vitrina",
     "props": {
-      "blockClass": "home__vitrina--button"
+      "blockClass": "home__vitrina--button",
+      "text": "Añadir al Carrito"
     }
   },
 
