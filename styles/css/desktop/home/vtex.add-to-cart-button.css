@@ -1,0 +1,9 @@
+.buttonText--home__vitrina--button {
+  color: #0a0a0a;
+  font-weight: 500;
+}
+
+.buttonText--home__vitrina--button:hover {
+  color: #fafafa;
+  font-weight: bold;
+}

@@ -9,9 +9,7 @@
       "menu-item#planet9",
       "menu-item#spatialLabs",
       "header-spacer",
-      // "icon#home__orders--icon",
       "menu-item#vtex-lenguage",
-
       "menu-item#vtex-search",
       "login"
     ],
@@ -120,7 +118,14 @@
         "href": "http://vtex.com",
         "noFollow": false,
         "tagTitle": "Buscar una tienda",
-        "text": "🔎 Buscar una tienda"
+        "text": "Buscar una tienda"
+      },
+      "iconProps": {
+        "id": "address-map",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
       }
     }
   },
@@ -134,7 +139,14 @@
         "href": "http://vtex.com",
         "noFollow": false,
         "tagTitle": "Idioma",
-        "text": "🌐 Idioma"
+        "text": "Idioma"
+      },
+      "iconProps": {
+        "id": "mpa-globe",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
       }
     }
   }
