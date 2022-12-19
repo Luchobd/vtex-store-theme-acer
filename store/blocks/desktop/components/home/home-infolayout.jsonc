@@ -1,8 +1,4 @@
 {
-  // "responsive-layout.desktop#home__infolayout--box": {
-  //   "children": ["flex-layout.row#home__infolayout--desktop"]
-  // },
-
   // Call a flex layout info layout
   "flex-layout.row#home__infolayout--desktop": {
     "title": "infolayout",

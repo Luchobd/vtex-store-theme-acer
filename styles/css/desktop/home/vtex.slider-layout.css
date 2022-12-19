@@ -29,3 +29,14 @@
 .sliderTrack--slider__category {
   text-align: center;
 }
+
+/* Product Summary */
+.sliderLayoutContainer--home__vitrina--slider :global(.vtex-button) {
+  background-color: rgb(128, 195, 67);
+  border-color: rgb(128, 195, 67);
+}
+
+.sliderLayoutContainer--home__vitrina--slider :global(.vtex-button):hover {
+  background-color: rgb(0, 128, 0);
+  border-color: rgb(0, 128, 0);
+}
