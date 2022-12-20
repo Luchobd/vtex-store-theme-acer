@@ -1,0 +1,446 @@
+{
+  "disclosure-layout-group#footer__menu--group": {
+    "title": "Disclosure Container",
+    "children": [
+      "disclosure-layout#products",
+      "disclosure-layout#support",
+      "disclosure-layout#resources",
+      "disclosure-layout#about"
+    ],
+    "props": {
+      "blockClass": "footer__disclosure--container"
+    }
+  },
+  // Disclosure Products
+  "disclosure-layout#products": {
+    "children": ["disclosure-trigger#products", "disclosure-content#products"]
+  },
+  "disclosure-trigger#products": {
+    "children": ["rich-text#products"]
+  },
+  "rich-text#products": {
+    "props": {
+      "text": "Productos"
+    }
+  },
+  "disclosure-content#products": {
+    "children": ["menu#produtcs"]
+  },
+  "menu#produtcs": {
+    "children": [
+      "menu-item#portable",
+      "menu-item#computers",
+      "menu-item#chromebooks",
+      "menu-item#tablets",
+      "menu-item#monitors",
+      "menu-item#projectors",
+      "menu-item#accessories"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#portable": {
+    "props": {
+      "id": "footer-portable",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Portátiles",
+        "text": "Portátiles"
+      }
+    }
+  },
+  "menu-item#computers": {
+    "props": {
+      "id": "footer-computers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Ordenadores de escritorio y equipos todo en uno",
+        "text": "Ordenadores de escritorio y equipos todo en uno"
+      }
+    }
+  },
+
+  "menu-item#chromebooks": {
+    "props": {
+      "id": "footer-chromebooks",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Chromebooks",
+        "text": "Chromebooks"
+      }
+    }
+  },
+  "menu-item#tablets": {
+    "props": {
+      "id": "footer-tablets",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Tablets",
+        "text": "Tablets"
+      }
+    }
+  },
+  "menu-item#monitors": {
+    "props": {
+      "id": "footer-monitors",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Monitores",
+        "text": "Monitores"
+      }
+    }
+  },
+
+  "menu-item#projectors": {
+    "props": {
+      "id": "footer-projectors",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Proyectores",
+        "text": "Proyectores"
+      }
+    }
+  },
+  "menu-item#accessories": {
+    "props": {
+      "id": "footer-accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+
+  // Disclosure Support
+  "disclosure-layout#support": {
+    "children": ["disclosure-trigger#support", "disclosure-content#support"]
+  },
+  "disclosure-trigger#support": {
+    "children": ["rich-text#support"]
+  },
+  "rich-text#support": {
+    "props": {
+      "text": "Soporte"
+    }
+  },
+  "disclosure-content#support": {
+    "children": ["menu#support"]
+  },
+  "menu#support": {
+    "children": [
+      "menu-item#acerID",
+      "menu-item#registration",
+      "menu-item#community",
+      "menu-item#controller",
+      "menu-item#response",
+      "menu-item#contact"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#acerID": {
+    "props": {
+      "id": "footer-acerID",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Acer ID",
+        "text": "Acer ID"
+      }
+    }
+  },
+  "menu-item#registration": {
+    "props": {
+      "id": "footer-registration",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Registro de productos",
+        "text": "Registro de productos"
+      }
+    }
+  },
+  "menu-item#community": {
+    "props": {
+      "id": "footer-community",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Comunidad Acer",
+        "text": "Comunidad Acer"
+      }
+    }
+  },
+  "menu-item#controller": {
+    "props": {
+      "id": "footer-controller",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Controladores y Manuales",
+        "text": "Controladores y Manuales"
+      }
+    }
+  },
+  "menu-item#response": {
+    "props": {
+      "id": "footer-response",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Respuestas de Acer",
+        "text": "Respuestas de Acer"
+      }
+    }
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "footer-contact",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Contacte con Acer",
+        "text": "Contacte con Acer"
+      }
+    }
+  },
+
+  // Disclosure Resources
+  "disclosure-layout#resources": {
+    "children": ["disclosure-trigger#resources", "disclosure-content#resources"]
+  },
+  "disclosure-trigger#resources": {
+    "children": ["rich-text#resources"]
+  },
+  "rich-text#resources": {
+    "props": {
+      "text": "Recursos"
+    }
+  },
+  "disclosure-content#resources": {
+    "children": ["menu#resources"]
+  },
+  "menu#resources": {
+    "children": [
+      "menu-item#buy",
+      "menu-item#earthion",
+      "menu-item#norton",
+      "menu-item#chromeos",
+      "menu-item#cloud",
+      "menu-item#windows",
+      "menu-item#discount"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#buy": {
+    "props": {
+      "id": "footer-buy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Dónde comprar",
+        "text": "Dónde comprar"
+      }
+    }
+  },
+  "menu-item#earthion": {
+    "props": {
+      "id": "footer-earthion",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Earthion",
+        "text": "Earthion"
+      }
+    }
+  },
+  "menu-item#norton": {
+    "props": {
+      "id": "footer-norton",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Norton",
+        "text": "Norton"
+      }
+    }
+  },
+  "menu-item#chromeos": {
+    "props": {
+      "id": "footer-chromeos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "ChromeOS Enterprise Solutions",
+        "text": "ChromeOS Enterprise Solutions"
+      }
+    }
+  },
+  "menu-item#cloud": {
+    "props": {
+      "id": "footer-cloud",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Cloud Gaming on Chromebook",
+        "text": "Cloud Gaming on Chromebook"
+      }
+    }
+  },
+  "menu-item#windows": {
+    "props": {
+      "id": "footer-windows",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Windows Secured-Core PC",
+        "text": "Windows Secured-Core PC"
+      }
+    }
+  },
+  "menu-item#discount": {
+    "props": {
+      "id": "footer-discount",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Descuento Estudiante",
+        "text": "Descuento Estudiante"
+      }
+    }
+  },
+  "disclosure-layout#about": {
+    "children": ["disclosure-trigger#about", "disclosure-content#about"]
+  },
+  "disclosure-trigger#about": {
+    "children": ["rich-text#about"]
+  },
+  "rich-text#about": {
+    "props": {
+      "text": "Acerca de Acer"
+    }
+  },
+  "disclosure-content#about": {
+    "children": ["menu#about"]
+  },
+  "menu#about": {
+    "children": [
+      "menu-item#contact ",
+      "menu-item#investors",
+      "menu-item#information",
+      "menu-item#responsability",
+      "menu-item#prize",
+      "menu-item#project"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#contact ": {
+    "props": {
+      "id": "footer-contact",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Contáctenos",
+        "text": "Contáctenos"
+      }
+    }
+  },
+  "menu-item#investors": {
+    "props": {
+      "id": "footer-investors",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Inversores",
+        "text": "Inversores"
+      }
+    }
+  },
+  "menu-item#information": {
+    "props": {
+      "id": "footer-information",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Noticias",
+        "text": "Noticias"
+      }
+    }
+  },
+  "menu-item#responsability": {
+    "props": {
+      "id": "footer-responsability",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Responsabilidad social",
+        "text": "Responsabilidad social"
+      }
+    }
+  },
+  "menu-item#prize": {
+    "props": {
+      "id": "footer-prize",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Premios",
+        "text": "Premios"
+      }
+    }
+  },
+  "menu-item#project": {
+    "props": {
+      "id": "footer-project",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Project Humanity",
+        "text": "Project Humanity"
+      }
+    }
+  }
+}
+
+// 1:43:30
