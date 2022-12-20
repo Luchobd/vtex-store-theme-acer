@@ -11,22 +11,50 @@
       "blockClass": "footer__disclosure--container"
     }
   },
+
   // Disclosure Products
   "disclosure-layout#products": {
+    "title": "Disclosure layout products",
     "children": ["disclosure-trigger#products", "disclosure-content#products"]
   },
+
   "disclosure-trigger#products": {
-    "children": ["rich-text#products"]
+    "title": "Disclosure trigger products",
+    "children": ["flex-layout.row#footer__disclosure--products"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+
+  "flex-layout.row#footer__disclosure--products": {
+    "title": "Disclosure disclosure products",
+    "children": ["header-row#footer__products--title"]
+  },
+  "header-row#footer__products--title": {
+    "children": ["rich-text#products", "header-spacer", "icon#products"],
+    "props": {
+      "blockClass": "footer__disclosure--products"
+    }
   },
   "rich-text#products": {
     "props": {
       "text": "Productos"
     }
   },
+
+  "icon#products": {
+    "title": "icon caret down",
+    "props": {
+      "id": "nav-caret--down"
+    }
+  },
+
   "disclosure-content#products": {
+    "title": "Disclosure content products",
     "children": ["menu#produtcs"]
   },
   "menu#produtcs": {
+    "title": "Disclosure menu products",
     "children": [
       "menu-item#portable",
       "menu-item#computers",
@@ -45,6 +73,7 @@
     "props": {
       "id": "footer-portable",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -57,11 +86,12 @@
     "props": {
       "id": "footer-computers",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
-        "tagTitle": "Ordenadores de escritorio y equipos todo en uno",
-        "text": "Ordenadores de escritorio y equipos todo en uno"
+        "tagTitle": "Ordenadores escritorio y equipos todo en uno",
+        "text": "Ordenadores escritorio y equipos todo en uno"
       }
     }
   },
@@ -70,6 +100,7 @@
     "props": {
       "id": "footer-chromebooks",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -82,6 +113,7 @@
     "props": {
       "id": "footer-tablets",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -94,6 +126,7 @@
     "props": {
       "id": "footer-monitors",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -107,6 +140,7 @@
     "props": {
       "id": "footer-projectors",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -119,6 +153,7 @@
     "props": {
       "id": "footer-accessories",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -130,20 +165,58 @@
 
   // Disclosure Support
   "disclosure-layout#support": {
+    "title": "Disclosure layout support",
     "children": ["disclosure-trigger#support", "disclosure-content#support"]
   },
+
   "disclosure-trigger#support": {
-    "children": ["rich-text#support"]
+    "title": "Disclosure trigger support",
+    "children": [
+      "flex-layout.row#footer__disclosure--support",
+      "disclosure-state-indicator"
+    ]
+  },
+
+  "flex-layout.row#footer__disclosure--support": {
+    "title": "Disclosure disclosure support",
+    "children": ["header-row#footer__support--title"]
+  },
+  "header-row#footer__support--title": {
+    "children": ["rich-text#support"],
+    "props": {
+      "blockClass": "footer__disclosure--products"
+    }
   },
   "rich-text#support": {
     "props": {
       "text": "Soporte"
     }
   },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+
   "disclosure-content#support": {
+    "title": "Disclosure content support",
     "children": ["menu#support"]
   },
   "menu#support": {
+    "title": "Disclosure menu support",
     "children": [
       "menu-item#acerID",
       "menu-item#registration",
@@ -160,6 +233,7 @@
     "props": {
       "id": "footer-acerID",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -172,6 +246,7 @@
     "props": {
       "id": "footer-registration",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -184,6 +259,7 @@
     "props": {
       "id": "footer-community",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -196,6 +272,7 @@
     "props": {
       "id": "footer-controller",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -208,6 +285,7 @@
     "props": {
       "id": "footer-response",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -220,6 +298,7 @@
     "props": {
       "id": "footer-contact",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -231,20 +310,43 @@
 
   // Disclosure Resources
   "disclosure-layout#resources": {
+    "title": "Disclosure layout resources",
     "children": ["disclosure-trigger#resources", "disclosure-content#resources"]
   },
   "disclosure-trigger#resources": {
-    "children": ["rich-text#resources"]
+    "title": "Disclosure trigger resources",
+    "children": ["rich-text#resources", "disclosure-state-indicator"]
   },
   "rich-text#resources": {
     "props": {
       "text": "Recursos"
     }
   },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+
   "disclosure-content#resources": {
+    "title": "Disclosure content resources",
     "children": ["menu#resources"]
   },
   "menu#resources": {
+    "title": "Disclosure menu resources",
     "children": [
       "menu-item#buy",
       "menu-item#earthion",
@@ -262,6 +364,7 @@
     "props": {
       "id": "footer-buy",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -274,6 +377,7 @@
     "props": {
       "id": "footer-earthion",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -286,6 +390,7 @@
     "props": {
       "id": "footer-norton",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -298,6 +403,7 @@
     "props": {
       "id": "footer-chromeos",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -310,6 +416,7 @@
     "props": {
       "id": "footer-cloud",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -322,6 +429,7 @@
     "props": {
       "id": "footer-windows",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -334,6 +442,7 @@
     "props": {
       "id": "footer-discount",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -342,10 +451,13 @@
       }
     }
   },
+  // Disclosure About
   "disclosure-layout#about": {
+    "title": "Disclosure layout about",
     "children": ["disclosure-trigger#about", "disclosure-content#about"]
   },
   "disclosure-trigger#about": {
+    "title": "Disclosure trigger about",
     "children": ["rich-text#about"]
   },
   "rich-text#about": {
@@ -354,9 +466,11 @@
     }
   },
   "disclosure-content#about": {
+    "title": "Disclosure content about",
     "children": ["menu#about"]
   },
   "menu#about": {
+    "title": "Disclosure menu about",
     "children": [
       "menu-item#contact ",
       "menu-item#investors",
@@ -373,6 +487,7 @@
     "props": {
       "id": "footer-contact",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -385,6 +500,7 @@
     "props": {
       "id": "footer-investors",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -397,6 +513,7 @@
     "props": {
       "id": "footer-information",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -409,6 +526,7 @@
     "props": {
       "id": "footer-responsability",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -421,6 +539,7 @@
     "props": {
       "id": "footer-prize",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -433,6 +552,7 @@
     "props": {
       "id": "footer-project",
       "type": "custom",
+      "blockClass": "footer__paragraph--networking",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -442,5 +562,3 @@
     }
   }
 }
-
-// 1:43:30

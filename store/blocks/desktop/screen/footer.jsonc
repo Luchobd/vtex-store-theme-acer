@@ -1,5 +1,5 @@
 {
   "footer-layout.desktop": {
-    "children": ["rich-text#footer__desktop"]
+    "children": ["flex-layout.row#footer__container"]
   }
 }

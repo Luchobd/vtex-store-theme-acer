@@ -1,6 +1,9 @@
 {
   "footer-layout.mobile": {
     "title": "Footer mobile",
-    "children": ["disclosure-layout-group#footer__menu--group"]
+    "children": [
+      "disclosure-layout-group#footer__menu--group",
+      "disclosure-state-indicator"
+    ]
   }
 }
