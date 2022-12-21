@@ -1,0 +1,9 @@
+.paragraph--footer__title--products,
+.paragraph--footer__title--support,
+.paragraph--footer__title--resources,
+.paragraph--footer__title--about {
+  color: #222;
+  font-weight: 600;
+  font-size: 1rem;
+  /* font-family: Noto Sans, sans-serif; */
+}

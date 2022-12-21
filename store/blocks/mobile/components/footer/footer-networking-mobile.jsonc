@@ -15,43 +15,55 @@
   // Disclosure Products
   "disclosure-layout#products": {
     "title": "Disclosure layout products",
-    "children": ["disclosure-trigger#products", "disclosure-content#products"]
+    "children": ["disclosure-trigger#products", "disclosure-content#products"],
+    "props": {
+      "blickClass": "footer__disclosure--products"
+    }
   },
 
   "disclosure-trigger#products": {
     "title": "Disclosure trigger products",
-    "children": ["flex-layout.row#footer__disclosure--products"],
+    "children": ["rich-text#products", "disclosure-state-indicator"],
     "props": {
-      "blockClass": ""
+      "blockClass": "footer__trigger--products"
     }
   },
 
-  "flex-layout.row#footer__disclosure--products": {
-    "title": "Disclosure disclosure products",
-    "children": ["header-row#footer__products--title"]
-  },
-  "header-row#footer__products--title": {
-    "children": ["rich-text#products", "header-spacer", "icon#products"],
-    "props": {
-      "blockClass": "footer__disclosure--products"
-    }
-  },
   "rich-text#products": {
     "props": {
-      "text": "Productos"
+      "text": "Productos",
+      "blockClass": "footer__title--products"
     }
   },
 
-  "icon#products": {
-    "title": "icon caret down",
+  "disclosure-state-indicator": {
+    "title": "disclosure__icon--down-up",
     "props": {
-      "id": "nav-caret--down"
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up",
+      "blockClass": "footer__disclosure--indicator"
+    }
+  },
+
+  "icon-caret#down": {
+    "title": "disclosure__icon--down",
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "title": "disclosure__icon--up",
+    "props": {
+      "orientation": "up"
     }
   },
 
   "disclosure-content#products": {
     "title": "Disclosure content products",
-    "children": ["menu#produtcs"]
+    "children": ["menu#produtcs"],
+    "props": {
+      "blockClass": "footer__content--products"
+    }
   },
   "menu#produtcs": {
     "title": "Disclosure menu products",
@@ -65,7 +77,8 @@
       "menu-item#accessories"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "footer__menu--products"
     }
   },
 
@@ -166,48 +179,24 @@
   // Disclosure Support
   "disclosure-layout#support": {
     "title": "Disclosure layout support",
-    "children": ["disclosure-trigger#support", "disclosure-content#support"]
+    "children": ["disclosure-trigger#support", "disclosure-content#support"],
+    "props": {
+      "blickClass": "footer__disclosure--support"
+    }
   },
 
   "disclosure-trigger#support": {
     "title": "Disclosure trigger support",
-    "children": [
-      "flex-layout.row#footer__disclosure--support",
-      "disclosure-state-indicator"
-    ]
-  },
-
-  "flex-layout.row#footer__disclosure--support": {
-    "title": "Disclosure disclosure support",
-    "children": ["header-row#footer__support--title"]
-  },
-  "header-row#footer__support--title": {
-    "children": ["rich-text#support"],
+    "children": ["rich-text#support", "disclosure-state-indicator"],
     "props": {
-      "blockClass": "footer__disclosure--products"
+      "blockClass": "footer__trigger--support"
     }
   },
+
   "rich-text#support": {
     "props": {
-      "text": "Soporte"
-    }
-  },
-
-  "disclosure-state-indicator": {
-    "props": {
-      "Show": "icon-caret#down",
-      "Hide": "icon-caret#up"
-    }
-  },
-
-  "icon-caret#down": {
-    "props": {
-      "orientation": "down"
-    }
-  },
-  "icon-caret#up": {
-    "props": {
-      "orientation": "up"
+      "text": "Soporte",
+      "blockClass": "footer__title--support"
     }
   },
 
@@ -226,7 +215,8 @@
       "menu-item#contact"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "footer__menu--support"
     }
   },
   "menu-item#acerID": {
@@ -311,33 +301,25 @@
   // Disclosure Resources
   "disclosure-layout#resources": {
     "title": "Disclosure layout resources",
-    "children": ["disclosure-trigger#resources", "disclosure-content#resources"]
+    "children": [
+      "disclosure-trigger#resources",
+      "disclosure-content#resources"
+    ],
+    "props": {
+      "blickClass": "footer__disclosure--resources"
+    }
   },
   "disclosure-trigger#resources": {
     "title": "Disclosure trigger resources",
-    "children": ["rich-text#resources", "disclosure-state-indicator"]
+    "children": ["rich-text#resources", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "footer__trigger--resources"
+    }
   },
   "rich-text#resources": {
     "props": {
-      "text": "Recursos"
-    }
-  },
-
-  "disclosure-state-indicator": {
-    "props": {
-      "Show": "icon-caret#down",
-      "Hide": "icon-caret#up"
-    }
-  },
-
-  "icon-caret#down": {
-    "props": {
-      "orientation": "down"
-    }
-  },
-  "icon-caret#up": {
-    "props": {
-      "orientation": "up"
+      "text": "Recursos",
+      "blockClass": "footer__title--resources"
     }
   },
 
@@ -357,7 +339,8 @@
       "menu-item#discount"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "footer__menu--resources"
     }
   },
   "menu-item#buy": {
@@ -454,15 +437,22 @@
   // Disclosure About
   "disclosure-layout#about": {
     "title": "Disclosure layout about",
-    "children": ["disclosure-trigger#about", "disclosure-content#about"]
+    "children": ["disclosure-trigger#about", "disclosure-content#about"],
+    "props": {
+      "blickClass": "footer__disclosure--about"
+    }
   },
   "disclosure-trigger#about": {
     "title": "Disclosure trigger about",
-    "children": ["rich-text#about"]
+    "children": ["rich-text#about", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "footer__trigger--about"
+    }
   },
   "rich-text#about": {
     "props": {
-      "text": "Acerca de Acer"
+      "text": "Acerca de Acer",
+      "blockClass": "footer__title--about"
     }
   },
   "disclosure-content#about": {
@@ -480,7 +470,8 @@
       "menu-item#project"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "footer__menu--about"
     }
   },
   "menu-item#contact ": {
