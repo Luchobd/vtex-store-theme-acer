@@ -10,12 +10,6 @@
       "list-context.product-list#home__vitrina",
       "back-to-top-button"
     ]
-  },
-  "back-to-top-button": {
-    "props": {
-      "displayThreshold": 800,
-      "display": "caret-icon"
-    }
   }
 }
 

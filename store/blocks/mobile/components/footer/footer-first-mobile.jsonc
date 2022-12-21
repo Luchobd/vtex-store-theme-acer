@@ -1,1 +1,89 @@
-{}
+{
+  "flex-layout.row#footer__container--policies-mobile": {
+    "children": [
+      "header-row#footer__policies--one",
+      "header-row#footer__policies--two",
+      "social-networks#footer__socialnetwork"
+    ],
+    "props": {
+      "blockClass": "footer__container--policies-mobile"
+    }
+  },
+  "header-row#footer__policies--one": {
+    "children": [
+      "link.product#privacidad",
+      "link.product#politica",
+      "link.product#aviso"
+    ],
+    "props": {
+      "fullWidth": "false",
+      "blockClass": "footer__policies"
+    }
+  },
+
+  "link.product#privacidad": {
+    "props": {
+      "href": "/",
+      "label": "Privacidad",
+      "blockClass": "footer__text--privacidad"
+    }
+  },
+  "link.product#politica": {
+    "props": {
+      "href": "/",
+      "label": "Política sobre cookies",
+      "blockClass": "footer__text--politica"
+    }
+  },
+  "link.product#aviso": {
+    "props": {
+      "href": "/",
+      "label": "Aviso legal",
+      "blockClass": "footer__text--aviso"
+    }
+  },
+
+  "header-row#footer__policies--two": {
+    "children": ["header-spacer", "link.product#informacion", "header-spacer"],
+    "props": {
+      "fullWidth": "false",
+      "blockClass": "footer__policies"
+    }
+  },
+
+  "link.product#informacion": {
+    "props": {
+      "href": "/",
+      "label": "Información legal adicional",
+      "blockClass": "footer__text--informacion"
+    }
+  },
+
+  "flex-layout.col#footer__incos--first-mobile": {
+    "children": ["social-networks"]
+  },
+
+  "social-networks#footer__socialnetwork": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https//facebook.com/exito",
+          "name": "facebook"
+        },
+        {
+          "url": "https//instagram.com/exito",
+          "name": "Instagram"
+        },
+        {
+          "url": "https//twitter.com/exito",
+          "name": "twitter"
+        },
+        {
+          "url": "https//youtube.com/exito",
+          "name": "youtube"
+        }
+      ],
+      "blockclass": "footer__socialnetwork"
+    }
+  }
+}

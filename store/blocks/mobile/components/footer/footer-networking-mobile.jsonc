@@ -1,5 +1,5 @@
 {
-  "disclosure-layout-group#footer__menu--group": {
+  "disclosure-layout-group#footer__group--mobile": {
     "title": "Disclosure Container",
     "children": [
       "disclosure-layout#products",

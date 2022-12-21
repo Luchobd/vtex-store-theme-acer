@@ -7,3 +7,13 @@
   font-size: 1rem;
   /* font-family: Noto Sans, sans-serif; */
 }
+
+.paragraph--footer__text--bottom-text {
+  width: 20.625rem;
+  font-size: 0.625rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: center;
+}

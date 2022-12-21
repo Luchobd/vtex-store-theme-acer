@@ -1,11 +1,10 @@
 {
-  "flex-layout.row#footer__container": {
+  "flex-layout.row#footer__container--desktop": {
     "children": [
       "flex-layout.col#footer__container--col-one",
       "flex-layout.col#footer__container--col-two",
       "flex-layout.col#footer__container--col-three",
       "flex-layout.col#footer__container--col-four"
-      // "flex-layout.col#footer__container--col-five"
     ],
     "props": {
       "blockClass": "footer__container--networking"
@@ -92,32 +91,4 @@
       "blockClass": "footer__paragraph--networking"
     }
   }
-  // "flex-layout.col#footer__container--col-five": {
-  //   "children": ["social-networks", "accepted-payment-methods"]
-  // },
-
-  // "accepted-payment-methods": {
-  //   "props": {
-  //     "paymentMethods": ["mastercard", "visa", "diners club"]
-  //   }
-  // },
-
-  // "social-networks": {
-  //   "props": {
-  //     "socialNetworks": [
-  //       {
-  //         "url": "https//facebook.com/exito",
-  //         "name": "facebook"
-  //       },
-  //       {
-  //         "url": "https//twitter.com/exito",
-  //         "name": "twitter"
-  //       },
-  //       {
-  //         "url": "https//youtube.com/exito",
-  //         "name": "youtube"
-  //       }
-  //     ]
-  //   }
-  // }
 }
