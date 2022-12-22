@@ -13,6 +13,18 @@
   border-bottom: 2px solid #80c343;
 }
 
+.styledLinkContent--header__top--acer,
+.styledLinkContent--header__top--predator,
+.styledLinkContent--header__top--conceptD,
+.styledLinkContent--header__top--planet9,
+.styledLinkContent--header__top--spatialLabs,
+.styledLinkContent--header__top--search,
+.styledLinkContent--header__top--lenguage {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
 .styledLinkContent--header__top--acer:hover,
 .styledLinkContent--header__top--predator:hover,
 .styledLinkContent--header__top--conceptD:hover,
@@ -21,7 +33,11 @@
 .styledLinkContent--header__top--search:hover,
 .styledLinkContent--header__top--lenguage:hover {
   border-bottom: 2px solid #80c343;
-  font-size: 0.875rem;
+}
+
+.styledLinkContent--header__category--select-hover {
+  color: #474747;
   font-weight: 400;
   line-height: 1.5;
+  font-size: 16px;
 }
