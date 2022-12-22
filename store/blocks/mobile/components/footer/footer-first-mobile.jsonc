@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__container--policies-mobile": {
+    "title": "footer container policies mobile",
     "children": [
       "header-row#footer__policies--one",
       "header-row#footer__policies--two",
@@ -10,6 +11,7 @@
     }
   },
   "header-row#footer__policies--one": {
+    "title": "footer policies mobile",
     "children": [
       "link.product#privacidad",
       "link.product#politica",
@@ -22,6 +24,7 @@
   },
 
   "link.product#privacidad": {
+    "title": "footer link privacidad mobile",
     "props": {
       "href": "/",
       "label": "Privacidad",
@@ -29,6 +32,7 @@
     }
   },
   "link.product#politica": {
+    "title": "footer link politica mobile",
     "props": {
       "href": "/",
       "label": "Política sobre cookies",
@@ -36,6 +40,7 @@
     }
   },
   "link.product#aviso": {
+    "title": "footer link aviso mobile",
     "props": {
       "href": "/",
       "label": "Aviso legal",
@@ -44,6 +49,7 @@
   },
 
   "header-row#footer__policies--two": {
+    "title": "footer policies mobile",
     "children": ["header-spacer", "link.product#informacion", "header-spacer"],
     "props": {
       "fullWidth": "false",
@@ -52,6 +58,7 @@
   },
 
   "link.product#informacion": {
+    "title": "footer link informacion mobile",
     "props": {
       "href": "/",
       "label": "Información legal adicional",
@@ -60,10 +67,12 @@
   },
 
   "flex-layout.col#footer__incos--first-mobile": {
+    "title": "footer icos container mobile",
     "children": ["social-networks"]
   },
 
   "social-networks#footer__socialnetwork": {
+    "title": "footer icos networking content mobile",
     "props": {
       "socialNetworks": [
         {

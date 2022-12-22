@@ -1,5 +1,6 @@
 {
   "header-row#footer__bottom--desktop": {
+    "title": "footer buttom container desktop",
     "children": [
       "rich-text#footer__texto--bottom-text",
       "header-spacer",

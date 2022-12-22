@@ -1,20 +1,21 @@
 .flexCol {
-  background-color: #fafafa;
+  background-color: #e0e0e0;
   border-color: none;
   outline: none;
 }
 
 .flexColChild {
   line-height: 2;
-  background-color: #fafafa;
+  background-color: #e0e0e0;
   border: none;
   outline: none;
 }
 
 .flexRowContent--footer__container--networking {
-  background-color: #fafafa;
+  background-color: #e0e0e0;
 }
 
 .flexRow--footer__container--networking {
-  background-color: #fafafa;
+  background-color: #e0e0e0;
+  padding-bottom: 50px;
 }

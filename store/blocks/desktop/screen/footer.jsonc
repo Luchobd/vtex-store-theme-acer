@@ -1,5 +1,6 @@
 {
   "footer-layout.desktop": {
+    "title": "footer layout container desktop",
     "children": [
       "responsive-layout.desktop",
       "responsive-layout.tablet",
@@ -7,7 +8,7 @@
     ]
   },
   "responsive-layout.desktop": {
-    "title": "",
+    "title": "footer responsive container desktop",
     "children": [
       "flex-layout.row#footer__container--desktop",
       "header-row#footer__first--desktop",

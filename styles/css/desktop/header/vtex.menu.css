@@ -12,3 +12,16 @@
 .styledLinkContent--header__category--select-hover:hover {
   border-bottom: 2px solid #80c343;
 }
+
+.styledLinkContent--header__top--acer:hover,
+.styledLinkContent--header__top--predator:hover,
+.styledLinkContent--header__top--conceptD:hover,
+.styledLinkContent--header__top--planet9:hover,
+.styledLinkContent--header__top--spatialLabs:hover,
+.styledLinkContent--header__top--search:hover,
+.styledLinkContent--header__top--lenguage:hover {
+  border-bottom: 2px solid #80c343;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}

@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__container--bottom-mobile": {
+    "title": "footer continaer bottom mobile",
     "children": [
       "rich-text#footer__text--bottom-text",
       "menu-item#footer__text--bottom-spanish"

@@ -1,5 +1,6 @@
 {
   "header-row#footer__first--desktop": {
+    "title": "footer first container desktop",
     "children": [
       "header-row#footer__policies--title",
       "header-spacer",
@@ -11,6 +12,7 @@
   },
 
   "header-row#footer__policies--title": {
+    "title": "footer policies desktop title",
     "children": [
       "link.product#privacidad--desktop",
       "link.product#politica--desktop",
@@ -24,6 +26,7 @@
   },
 
   "link.product#privacidad--desktop": {
+    "title": "footer link privacy desktop",
     "props": {
       "href": "/",
       "label": "Privacidad",
@@ -31,6 +34,7 @@
     }
   },
   "link.product#politica--desktop": {
+    "title": "footer link politics desktop",
     "props": {
       "href": "/",
       "label": "Política sobre cookies",
@@ -38,6 +42,7 @@
     }
   },
   "link.product#aviso--desktop": {
+    "title": "footer link warning desktop",
     "props": {
       "href": "/",
       "label": "Aviso legal",
@@ -45,6 +50,7 @@
     }
   },
   "link.product#informacion--desktop": {
+    "title": "footer link information desktop",
     "props": {
       "href": "/",
       "label": "Información legal adicional",

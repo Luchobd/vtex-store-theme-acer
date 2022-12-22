@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__container--desktop": {
+    "title": "footer container networking desktop",
     "children": [
       "flex-layout.col#footer__container--col-one",
       "flex-layout.col#footer__container--col-two",
@@ -68,24 +69,28 @@
   },
 
   "flex-layout.col#footer__container--col-one": {
+    "title": "footer container column",
     "children": ["menu-item#productTitle", "menu#produtcs"],
     "props": {
       "blockClass": "footer__paragraph--networking"
     }
   },
   "flex-layout.col#footer__container--col-two": {
+    "title": "footer container column",
     "children": ["menu-item#supportTitle", "menu#support"],
     "props": {
       "blockClass": "footer__paragraph--networking"
     }
   },
   "flex-layout.col#footer__container--col-three": {
+    "title": "footer container column",
     "children": ["menu-item#resourcesTitle", "menu#resources"],
     "props": {
       "blockClass": "footer__paragraph--networking"
     }
   },
   "flex-layout.col#footer__container--col-four": {
+    "title": "footer container column",
     "children": ["menu-item#aboutTitle", "menu#about"],
     "props": {
       "blockClass": "footer__paragraph--networking"
