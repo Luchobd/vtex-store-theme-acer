@@ -1,0 +1,12 @@
+.trigger--footer__trigger--products,
+.trigger--footer__trigger--support,
+.trigger--footer__trigger--resources,
+.trigger--footer__trigger--about {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+}

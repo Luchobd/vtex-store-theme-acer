@@ -30,7 +30,8 @@
   "overlay-layout": {
     "title": "placement search bar",
     "props": {
-      "placement": "left"
+      "placement": "left",
+      "blockClass": "header__overlay--searchbar"
     },
     "children": ["search-bar#header__search"]
   },
@@ -38,8 +39,7 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
-      "maxWidth": 350,
-      "autocompleteFullWidth": true
+      "maxWidth": 350
     }
   },
 

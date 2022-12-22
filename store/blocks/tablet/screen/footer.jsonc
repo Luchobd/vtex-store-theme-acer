@@ -1,0 +1,10 @@
+{
+  "responsive-layout.tablet": {
+    "title": "responsive layout tablet",
+    "children": [
+      "disclosure-layout-group#footer__group--mobile",
+      "header-row#footer__first--desktop",
+      "header-row#footer__bottom--desktop"
+    ]
+  }
+}

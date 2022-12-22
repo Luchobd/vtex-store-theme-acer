@@ -1,0 +1,26 @@
+.styledLinkContent--footer__text--bottom-spanish {
+  text-align: center;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.styledLinkContent--footer__text--bottom-spanish:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1023px) {
+  .menuItem--footer__paragraph--networking {
+    border-bottom: 1px solid #c9c9c9;
+    padding: 1.5rem 1rem;
+    color: #222;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}

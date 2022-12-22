@@ -1,10 +1,24 @@
-/* .flexColChild {
-} */
-
 .flexRowContent--select__header--container {
   position: relative;
   right: 500px;
   top: -11px;
   height: 155px;
   width: 70vw;
+  background-color: #e0e0e0;
+}
+
+.flexColChild--select__header--container {
+  background-color: #e0e0e0;
+}
+
+.flexRow--select__header--container {
+  background-color: #e0e0e0;
+}
+
+.flexCol--select__header--container {
+  background-color: #e0e0e0;
+}
+
+.flexCol--select__header--container2 {
+  background-color: #e0e0e0;
 }

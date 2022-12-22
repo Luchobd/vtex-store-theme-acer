@@ -1,0 +1,19 @@
+.link--footer__text--privacidad-desktop,
+.link--footer__text--politica-desktop,
+.link--footer__text--aviso-desktop,
+.link--footer__text--informacion-desktop {
+  padding: 0 10px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-right: 1px solid #fafafa;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.link--footer__text--privacidad-desktop:hover,
+.link--footer__text--politica-desktop:hover,
+.link--footer__text--aviso-desktop:hover,
+.link--footer__text--informacion-desktop:hover {
+  text-decoration: underline;
+}

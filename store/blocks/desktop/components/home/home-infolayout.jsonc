@@ -10,7 +10,7 @@
     ],
     "props": {
       "blockClass": "infocard__infolayout",
-      "preserveLayoutOnMobile": false
+      "preserveLayoutOnMobile": true
     }
   },
 

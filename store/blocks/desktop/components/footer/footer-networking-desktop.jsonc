@@ -1,0 +1,99 @@
+{
+  "flex-layout.row#footer__container--desktop": {
+    "title": "footer container networking desktop",
+    "children": [
+      "flex-layout.col#footer__container--col-one",
+      "flex-layout.col#footer__container--col-two",
+      "flex-layout.col#footer__container--col-three",
+      "flex-layout.col#footer__container--col-four"
+    ],
+    "props": {
+      "blockClass": "footer__container--networking"
+    }
+  },
+
+  "menu-item#productTitle": {
+    "props": {
+      "id": "footer-producttitle",
+      "type": "custom",
+      "blockClass": "footer__title--networking",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Productos",
+        "text": "Productos"
+      }
+    }
+  },
+
+  "menu-item#supportTitle": {
+    "props": {
+      "id": "footer-supporttitle",
+      "type": "custom",
+      "blockClass": "footer__title--networking",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Soporte",
+        "text": "Soporte"
+      }
+    }
+  },
+
+  "menu-item#resourcesTitle": {
+    "props": {
+      "id": "footer-resourcestitle",
+      "type": "custom",
+      "blockClass": "footer__title--networking",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Recursos",
+        "text": "Recursos"
+      }
+    }
+  },
+
+  "menu-item#aboutTitle": {
+    "props": {
+      "id": "footer-abouttitle",
+      "type": "custom",
+      "blockClass": "footer__title--networking",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Acerca de Acer",
+        "text": "Acerca de Acer"
+      }
+    }
+  },
+
+  "flex-layout.col#footer__container--col-one": {
+    "title": "footer container column",
+    "children": ["menu-item#productTitle", "menu#produtcs"],
+    "props": {
+      "blockClass": "footer__paragraph--networking"
+    }
+  },
+  "flex-layout.col#footer__container--col-two": {
+    "title": "footer container column",
+    "children": ["menu-item#supportTitle", "menu#support"],
+    "props": {
+      "blockClass": "footer__paragraph--networking"
+    }
+  },
+  "flex-layout.col#footer__container--col-three": {
+    "title": "footer container column",
+    "children": ["menu-item#resourcesTitle", "menu#resources"],
+    "props": {
+      "blockClass": "footer__paragraph--networking"
+    }
+  },
+  "flex-layout.col#footer__container--col-four": {
+    "title": "footer container column",
+    "children": ["menu-item#aboutTitle", "menu#about"],
+    "props": {
+      "blockClass": "footer__paragraph--networking"
+    }
+  }
+}
