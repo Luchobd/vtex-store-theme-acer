@@ -1,0 +1,15 @@
+{
+  "responsive-layout.tablet#home__infolayout": {
+    "title": "home responsive container tablet",
+    "children": [
+      "slider-layout#home__slider--children",
+      "rich-text#home__categories--title-texto",
+      "slider-layout#home__categories--products-list",
+      "info-card#home__infocard--card-left",
+      "info-card#home__infocard--card-right",
+      "flex-layout.row#home__infolayout--desktop",
+      "list-context.product-list#home__vitrina",
+      "back-to-top-button"
+    ]
+  }
+}

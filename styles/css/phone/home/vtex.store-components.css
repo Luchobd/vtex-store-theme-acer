@@ -1,0 +1,9 @@
+@media (max-width: 678px) {
+  .infoCardImageContainer--infocard__infolayout--box {
+    max-width: 160px;
+  }
+
+  .infoCardHeadline--infocard__infolayout--box {
+    font-size: 1rem;
+  }
+}
