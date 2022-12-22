@@ -1,5 +1,17 @@
 {
   "footer-layout.desktop": {
-    "children": ["flex-layout.row#footer__container--desktop"]
+    "children": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "title": "",
+    "children": [
+      "flex-layout.row#footer__container--desktop",
+      "header-row#footer__first--desktop",
+      "header-row#footer__bottom--desktop"
+    ]
   }
 }

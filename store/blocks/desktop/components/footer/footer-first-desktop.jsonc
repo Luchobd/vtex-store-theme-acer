@@ -1,0 +1,54 @@
+{
+  "header-row#footer__first--desktop": {
+    "children": [
+      "header-row#footer__policies--title",
+      "header-spacer",
+      "social-networks#footer__socialnetwork"
+    ],
+    "props": {
+      "blockClass": "footer__first--desktop"
+    }
+  },
+
+  "header-row#footer__policies--title": {
+    "children": [
+      "link.product#privacidad--desktop",
+      "link.product#politica--desktop",
+      "link.product#aviso--desktop",
+      "link.product#informacion--desktop"
+    ],
+    "props": {
+      "fullWidth": "false",
+      "blockClass": "footer__policies--title"
+    }
+  },
+
+  "link.product#privacidad--desktop": {
+    "props": {
+      "href": "/",
+      "label": "Privacidad",
+      "blockClass": "footer__text--privacidad-desktop"
+    }
+  },
+  "link.product#politica--desktop": {
+    "props": {
+      "href": "/",
+      "label": "Política sobre cookies",
+      "blockClass": "footer__text--politica-desktop"
+    }
+  },
+  "link.product#aviso--desktop": {
+    "props": {
+      "href": "/",
+      "label": "Aviso legal",
+      "blockClass": "footer__text--aviso-desktop"
+    }
+  },
+  "link.product#informacion--desktop": {
+    "props": {
+      "href": "/",
+      "label": "Información legal adicional",
+      "blockClass": "footer__text--informacion-desktop"
+    }
+  }
+}
