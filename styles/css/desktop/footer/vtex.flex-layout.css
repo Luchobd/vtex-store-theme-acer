@@ -1,0 +1,20 @@
+.flexCol {
+  background-color: #fafafa;
+  border-color: none;
+  outline: none;
+}
+
+.flexColChild {
+  line-height: 2;
+  background-color: #fafafa;
+  border: none;
+  outline: none;
+}
+
+.flexRowContent--footer__container--networking {
+  background-color: #fafafa;
+}
+
+.flexRow--footer__container--networking {
+  background-color: #fafafa;
+}

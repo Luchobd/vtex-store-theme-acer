@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#footer__container--bottom-mobile": {
+    "children": [
+      "rich-text#footer__text--bottom-text",
+      "menu-item#footer__text--bottom-spanish"
+    ],
+    "props": {
+      "blockClass": "footer__container--bottom-mobile"
+    }
+  },
+
+  "rich-text#footer__text--bottom-text": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© 2022 Acer Inc. Intel, el logotipo de Intel, Intel Inside, Intel Core y Core Inside son marcas registradas de Intel Corporation o sus filiales en EE. UU. y otros países.",
+      "blockClass": "footer__text--bottom-text"
+    }
+  },
+  "menu-item#footer__text--bottom-spanish": {
+    "props": {
+      "id": "footer-text-bottom-spanish",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "footer__text--bottom-spanish",
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "España",
+        "text": "España"
+      },
+      "iconProps": {
+        "id": "mpa-globewhite",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  }
+}

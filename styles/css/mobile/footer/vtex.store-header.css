@@ -1,0 +1,5 @@
+.headerRowContainer--footer__policies {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-evenly;
+}

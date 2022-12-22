@@ -9,27 +9,6 @@
   background-color: #e0e0e0;
 }
 
-/* .submenuWrapper--isOpen {
- 
-} */
-
-/* .styledLinkContent {
- 
-} */
-
-.styledLinkIcon {
-}
-
-/* .profileIcon {
-  width: 1.4rem;
-  height: 1.4rem;
-} */
-
 .styledLinkContent--header__category--select-hover:hover {
   border-bottom: 2px solid #80c343;
 }
-
-/* .menuItem--isOpen:hover {
-  border-bottom: 2px solid red;
-  height: 200px;
-} */

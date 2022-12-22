@@ -1,0 +1,30 @@
+.styledLinkContent--footer__title--networking {
+  margin-top: 50px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.styledLinkContent--footer__title--networking:hover {
+  text-decoration: underline;
+}
+
+.styledLinkContent--footer__paragraph--networking {
+  color: #222;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.styledLinkContent--footer__text--bottom-spanish--desktop {
+  color: #fafafa;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+@media (min-width: 1023px) {
+  .styledLinkContent--footer__paragraph--networking:hover {
+    text-decoration: underline;
+  }
+}
