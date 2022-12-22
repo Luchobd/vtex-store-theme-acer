@@ -1,7 +1,3 @@
-/* .backToTopButtonContainer :global(.vtex-button) {
-  background-color: red;
-} */
-
 .backToTopButtonActive :global(.vtex-button) {
   /* background-color: rgb(219, 242, 219); */
   background-color: #f1f7e6;

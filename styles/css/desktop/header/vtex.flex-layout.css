@@ -4,4 +4,21 @@
   top: -11px;
   height: 155px;
   width: 70vw;
+  background-color: #e0e0e0;
+}
+
+.flexColChild--select__header--container {
+  background-color: #e0e0e0;
+}
+
+.flexRow--select__header--container {
+  background-color: #e0e0e0;
+}
+
+.flexCol--select__header--container {
+  background-color: #e0e0e0;
+}
+
+.flexCol--select__header--container2 {
+  background-color: #e0e0e0;
 }

@@ -23,6 +23,7 @@
       "id": "menu-item-acer",
       "type": "custom",
       "highlight": false,
+      "blockClass": "header__top--acer",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -34,9 +35,10 @@
   },
   "menu-item#predator": {
     "props": {
-      "id": "menu-item-acer",
+      "id": "menu-item-predator",
       "type": "custom",
       "highlight": false,
+      "blockClass": "header__top--predator",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -48,9 +50,10 @@
   },
   "menu-item#conceptD": {
     "props": {
-      "id": "menu-item-acer",
+      "id": "menu-item-conceptD",
       "type": "custom",
       "highlight": false,
+      "blockClass": "header__top--conceptD",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -62,9 +65,10 @@
   },
   "menu-item#planet9": {
     "props": {
-      "id": "menu-item-acer",
+      "id": "menu-item-planet9",
       "type": "custom",
       "highlight": false,
+      "blockClass": "header__top--planet9",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -76,9 +80,10 @@
   },
   "menu-item#spatialLabs": {
     "props": {
-      "id": "menu-item-acer",
+      "id": "menu-item-spatialLabs",
       "type": "custom",
       "highlight": false,
+      "blockClass": "header__top--spatialLabs",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -113,6 +118,7 @@
       "id": "menu-item-vtex-search",
       "type": "custom",
       "highlight": false,
+      "blockClass": "header__top--search",
       "itemProps": {
         "type": "external",
         "href": "http://vtex.com",
@@ -134,6 +140,7 @@
       "id": "menu-item-vtex-lenguage",
       "type": "custom",
       "highlight": false,
+      "blockClass": "header__top--lenguage",
       "itemProps": {
         "type": "external",
         "href": "http://vtex.com",

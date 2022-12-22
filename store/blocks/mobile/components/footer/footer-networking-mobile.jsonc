@@ -1,6 +1,6 @@
 {
   "disclosure-layout-group#footer__group--mobile": {
-    "title": "Disclosure Container",
+    "title": "Disclosure Container mobile",
     "children": [
       "disclosure-layout#products",
       "disclosure-layout#support",
@@ -14,7 +14,7 @@
 
   // Disclosure Products
   "disclosure-layout#products": {
-    "title": "Disclosure layout products",
+    "title": "Disclosure layout products mobile",
     "children": ["disclosure-trigger#products", "disclosure-content#products"],
     "props": {
       "blickClass": "footer__disclosure--products"
@@ -22,7 +22,7 @@
   },
 
   "disclosure-trigger#products": {
-    "title": "Disclosure trigger products",
+    "title": "Disclosure trigger products mobile",
     "children": ["rich-text#products", "disclosure-state-indicator"],
     "props": {
       "blockClass": "footer__trigger--products"

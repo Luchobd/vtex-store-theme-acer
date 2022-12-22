@@ -53,13 +53,17 @@
   "vtex.menu@2.x:submenu#more": {
     "title": "width box container one",
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "header__container--submenu"
     },
     "children": ["flex-layout.row#menu-more"]
   },
   "flex-layout.row#menu-more": {
     "title": "container product and products",
-    "children": ["flex-layout.col#menu-more-1", "flex-layout.col#menu-more-2"]
+    "children": ["flex-layout.col#menu-more-1", "flex-layout.col#menu-more-2"],
+    "props": {
+      "blockClass": "header__container--menumore"
+    }
   },
   "flex-layout.col#menu-more-1": {
     "title": "container product",
@@ -70,7 +74,10 @@
   },
   "flex-layout.col#menu-more-2": {
     "title": "container products",
-    "children": ["flex-layout.row#home__categories--productos"]
+    "children": ["flex-layout.row#home__categories--productos"],
+    "props": {
+      "blockClass": "select__header--container2"
+    }
   },
   "vtex.menu@2.x:menu#more": {
     "title": "position box products",
