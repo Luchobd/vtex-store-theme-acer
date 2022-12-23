@@ -108,13 +108,30 @@
 }
 
 /* ============ Oferts ============ */
+.infoCardImageLinkWrapper--infocard__ofert--left,
+.infoCardImageLinkWrapper--infocard__ofert--right {
+  margin-top: 4rem;
+}
+
+.infoCardImageLinkWrapper--infocard__ofert--left:hover,
+.infoCardImageLinkWrapper--infocard__ofert--right:hover {
+  margin-top: 4rem;
+  background-color: #80c343;
+  border-top: 5px solid #80c343;
+}
+
 .infoCardContainer--infocard__ofert--left,
 .infoCardContainer--infocard__ofert--right {
-  margin-top: 4rem;
   width: 100% !important;
   height: 50vh;
   opacity: 80%;
 }
+
+/* .infoCardContainer--infocard__ofert--left:hover,
+.infoCardContainer--infocard__ofert--right:hover {
+  background-color: red;
+  border: 5px solid red;
+} */
 
 .infoCardContainer--infocard__ofert--left {
   border-right: 5px solid #fff;
@@ -122,11 +139,6 @@
 
 .infoCardContainer--infocard__ofert--right {
   border-left: 5px solid #fff;
-}
-
-.infoCardCallActionContainer--infocard__ofert--left :global(.vtex-button),
-.infoCardCallActionContainer--infocard__ofert--right :global(.vtex-button) {
-  display: none;
 }
 
 .infoCardHeadline--infocard__ofert--left,
@@ -142,6 +154,39 @@
 .infoCardTextContainer--infocard__ofert--left,
 .infoCardTextContainer--infocard__ofert--right {
   width: 100%;
+}
+
+.infoCardSubhead--infocard__ofert--left,
+.infoCardSubhead--infocard__ofert--right {
+  /* display: none; */
+  color: transparent;
+  font-weight: 400;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.infoCardSubhead--infocard__ofert--left:hover,
+.infoCardSubhead--infocard__ofert--right:hover {
+  /* display: block; */
+  color: #000000;
+}
+
+.infoCardCallActionContainer--infocard__ofert--left :global(.vtex-button),
+.infoCardCallActionContainer--infocard__ofert--right :global(.vtex-button) {
+  /* display: none; */
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: transparent;
+}
+
+.infoCardCallActionContainer--infocard__ofert--left :global(.vtex-button):hover,
+.infoCardCallActionContainer--infocard__ofert--right
+  :global(.vtex-button):hover {
+  /* display: block; */
+  color: #000;
+  border-bottom: 2px solid #80c343;
 }
 
 /* ============ infolayout ============ */
