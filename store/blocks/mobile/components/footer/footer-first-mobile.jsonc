@@ -4,7 +4,7 @@
     "children": [
       "header-row#footer__policies--one",
       "header-row#footer__policies--two",
-      "social-networks#footer__socialnetwork"
+      "flex-layout.col#footer__incos--first-mobile"
     ],
     "props": {
       "blockClass": "footer__container--policies-mobile"
@@ -68,7 +68,7 @@
 
   "flex-layout.col#footer__incos--first-mobile": {
     "title": "footer icos container mobile",
-    "children": ["social-networks"]
+    "children": ["social-networks#footer__socialnetwork"]
   },
 
   "social-networks#footer__socialnetwork": {
