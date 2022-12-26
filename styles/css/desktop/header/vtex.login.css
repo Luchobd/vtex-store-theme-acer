@@ -22,3 +22,24 @@
   border-radius: 50%;
   color: white;
 }
+
+.contentContainer {
+  max-width: 300px;
+}
+
+.formTitle {
+  width: 290px;
+  border-bottom: 1px solid #474747;
+  border-radius: 0;
+  color: #474747;
+}
+
+.button :global(.vtex-button) {
+  width: 290px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #474747;
+  border-radius: 0;
+  text-transform: capitalize;
+  color: #474747;
+}
