@@ -64,5 +64,13 @@
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
+  },
+  "flex-layout.row#searchbread": {
+    "title": "search__bread--pdp",
+    "children": ["breadcrumb.search"],
+    "props": {
+      "preserveLayoutOnMobile": false,
+      "fullWidth": true
+    }
   }
 }
