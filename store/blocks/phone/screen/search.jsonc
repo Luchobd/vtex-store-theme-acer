@@ -2,12 +2,11 @@
   "responsive-layout.phone#phone__search--responsive": {
     "title": "responsive layout phone",
     "children": [
-      "flex-layout.row#searchbread",
-      "order-by.v2",
+      "header-row#global__search--header",
       "flex-layout.row#global__search--container"
     ],
     "props": {
-      "blockClass": "global__search--responsive"
+      "blockClass": "phone__search--responsive"
     }
   }
 }
