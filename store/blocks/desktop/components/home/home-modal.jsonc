@@ -8,7 +8,7 @@
       "product-summary-price",
       // "product-summary-sku-selector",
       // "product-rating-inline",
-      "product-summary-space",
+      // "product-summary-space",
       // "product-summary-buy-button"
       "add-to-cart-button",
       "modal-layout#home__modal--cart"
