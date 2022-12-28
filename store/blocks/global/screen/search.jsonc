@@ -69,8 +69,17 @@
     "title": "search__bread--pdp",
     "children": ["breadcrumb.search"],
     "props": {
-      "preserveLayoutOnMobile": false,
+      "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 18
+    }
+  },
+  "header-row#global__search--header": {
+    "children": ["flex-layout.row#searchbread", "header-spacer", "order-by.v2"]
   }
 }

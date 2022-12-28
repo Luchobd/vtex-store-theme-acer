@@ -1,5 +1,4 @@
 .backToTopButtonActive :global(.vtex-button) {
-  /* background-color: rgb(219, 242, 219); */
   background-color: #f1f7e6;
   height: 60px;
   width: 60px;

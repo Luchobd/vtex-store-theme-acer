@@ -12,6 +12,13 @@
     }
   },
 
+  "flex-layout.col#footer__container--col-one": {
+    "title": "footer container column",
+    "children": ["menu-item#productTitle", "menu#produtcs"],
+    "props": {
+      "blockClass": "footer__paragraph--networking"
+    }
+  },
   "menu-item#productTitle": {
     "props": {
       "id": "footer-producttitle",
@@ -25,7 +32,13 @@
       }
     }
   },
-
+  "flex-layout.col#footer__container--col-two": {
+    "title": "footer container column",
+    "children": ["menu-item#supportTitle", "menu#support"],
+    "props": {
+      "blockClass": "footer__paragraph--networking"
+    }
+  },
   "menu-item#supportTitle": {
     "props": {
       "id": "footer-supporttitle",
@@ -39,7 +52,13 @@
       }
     }
   },
-
+  "flex-layout.col#footer__container--col-three": {
+    "title": "footer container column",
+    "children": ["menu-item#resourcesTitle", "menu#resources"],
+    "props": {
+      "blockClass": "footer__paragraph--networking"
+    }
+  },
   "menu-item#resourcesTitle": {
     "props": {
       "id": "footer-resourcestitle",
@@ -53,7 +72,13 @@
       }
     }
   },
-
+  "flex-layout.col#footer__container--col-four": {
+    "title": "footer container column",
+    "children": ["menu-item#aboutTitle", "menu#about"],
+    "props": {
+      "blockClass": "footer__paragraph--networking"
+    }
+  },
   "menu-item#aboutTitle": {
     "props": {
       "id": "footer-abouttitle",
@@ -65,35 +90,6 @@
         "tagTitle": "Acerca de Acer",
         "text": "Acerca de Acer"
       }
-    }
-  },
-
-  "flex-layout.col#footer__container--col-one": {
-    "title": "footer container column",
-    "children": ["menu-item#productTitle", "menu#produtcs"],
-    "props": {
-      "blockClass": "footer__paragraph--networking"
-    }
-  },
-  "flex-layout.col#footer__container--col-two": {
-    "title": "footer container column",
-    "children": ["menu-item#supportTitle", "menu#support"],
-    "props": {
-      "blockClass": "footer__paragraph--networking"
-    }
-  },
-  "flex-layout.col#footer__container--col-three": {
-    "title": "footer container column",
-    "children": ["menu-item#resourcesTitle", "menu#resources"],
-    "props": {
-      "blockClass": "footer__paragraph--networking"
-    }
-  },
-  "flex-layout.col#footer__container--col-four": {
-    "title": "footer container column",
-    "children": ["menu-item#aboutTitle", "menu#about"],
-    "props": {
-      "blockClass": "footer__paragraph--networking"
     }
   }
 }

@@ -1,0 +1,18 @@
+.element--home__vitrina--container {
+  margin-bottom: 5rem;
+}
+
+.price_sellingPriceLabel,
+.price_listPriceContainer,
+.price_installmentContainer {
+  display: none;
+}
+
+.nameContainer {
+  height: 4rem;
+}
+
+.description {
+  display: block;
+  height: 4rem;
+}
