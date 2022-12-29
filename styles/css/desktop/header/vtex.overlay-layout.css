@@ -2,3 +2,7 @@
   background-color: transparent;
   border: none;
 }
+
+.popper--header__overlay--searchbar {
+  position: relative;
+}

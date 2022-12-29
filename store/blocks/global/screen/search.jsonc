@@ -64,22 +64,5 @@
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
-  },
-  "flex-layout.row#searchbread": {
-    "title": "search__bread--pdp",
-    "children": ["breadcrumb.search"],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "breadcrumb.search": {
-    "props": {
-      "showOnMobile": true,
-      "homeIconSize": 18
-    }
-  },
-  "header-row#global__search--header": {
-    "children": ["flex-layout.row#searchbread", "header-spacer", "order-by.v2"]
   }
 }

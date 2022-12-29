@@ -52,7 +52,7 @@
         }
       ],
       // Global components
-      "GeneralGrid": "product-summary.shelf#home__vitrina"
+      "GeneralGrid": "product-summary.shelf#pdp__shelf"
     }
   }
 }
