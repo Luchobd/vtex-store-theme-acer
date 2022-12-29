@@ -9,6 +9,7 @@
       "menu-item#more2",
       "menu-item#category-support",
       "header-spacer",
+      // "search-bar",
       "overlay-trigger#header__search--click",
       "minicart.v2"
     ]
@@ -38,7 +39,7 @@
   "search-bar#header__search": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true,
+      // "openAutocompleteOnFocus": true,
       "maxWidth": 350
     }
   },

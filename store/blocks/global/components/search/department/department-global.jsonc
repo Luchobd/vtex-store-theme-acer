@@ -20,14 +20,7 @@
   "filter-navigator.v3": {
     "blocks": ["sidebar-close-button"],
     "props": {
-      "truncateFilters": true,
-      "showClearByFilter": true,
-      "fullWidthOnMobile": true,
-      "navigationTypeOnMobile": "collapsible", // modo de vista de los select del filter
-      "appliedFiltersOverview": "show",
-      "totalProductsOnMobile": "show",
-      "updateOnFilterSelectionOnMobile": true,
-      "priceRangeLayout": "inputAndSlider"
+      "navigationTypeOnMobile": "collapsible" // modo de vista de los select del filter
     }
   },
   "flex-layout.col#search__results--content": {
@@ -59,7 +52,7 @@
         }
       ],
       // Global components
-      "GeneralGrid": "product-summary.shelf#home__vitrina"
+      "GeneralGrid": "product-summary.shelf#pdp__shelf"
     }
   }
 }
