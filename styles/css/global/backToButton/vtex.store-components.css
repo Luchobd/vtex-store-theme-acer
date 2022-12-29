@@ -12,6 +12,12 @@
 }
 
 .backToTopButtonActive :global(.vtex-button):hover {
-  background-color: #80c343;
-  color: #fff;
+  background-color: rgb(128, 195, 65);
+  color: #ffffff;
+  z-index: 100;
+}
+
+.backToTopButtonActive :global(.vtex-button__label):hover {
+  color: #ffffff;
+  z-index: 1000;
 }
