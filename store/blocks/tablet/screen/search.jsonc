@@ -1,10 +1,7 @@
 {
   "responsive-layout.tablet#tablet__search--responsive": {
-    "title": "responsive layout tablet",
-    "children": [
-      "header-row#global__search--header",
-      "flex-layout.row#global__search--container"
-    ],
+    "title": "tablet search responsive",
+    "children": ["flex-layout.row#desktop__search--content"],
     "props": {
       "blockClass": "tablet__search--responsive"
     }

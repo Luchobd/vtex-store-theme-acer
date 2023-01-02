@@ -1,0 +1,26 @@
+/* .containerNormal--search__gallery--list {
+  max-width: 100% !important;
+} */
+
+/* GRID */
+.clearLink--search__gallery--grid {
+  border-radius: 0;
+}
+
+.containerNormal--search__gallery--grid {
+  border: 1px solid #f9f9f9;
+  border-radius: 0;
+  box-shadow: 0 0 0.2rem rgb(0 0 0 / 30%);
+}
+
+.containerNormal--search__gallery--grid:hover {
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 60%);
+}
+
+/* List */
+.clearLink--search__gallery--list {
+  padding-left: 1px;
+  border: 3px solid #f9f9f9;
+  border-radius: 0;
+  box-shadow: 0 0 0.2rem rgb(0 0 0 / 30%);
+}

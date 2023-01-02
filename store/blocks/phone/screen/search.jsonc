@@ -1,9 +1,10 @@
 {
   "responsive-layout.phone#phone__search--responsive": {
-    "title": "responsive layout phone",
+    "title": "phone search responsive",
     "children": [
-      "header-row#global__search--header",
-      "flex-layout.row#global__search--container"
+      "flex-layout.row#mobile__breadcrumb--content",
+      "flex-layout.row#mobile__filters--content",
+      "search-content#global__search--results"
     ],
     "props": {
       "blockClass": "phone__search--responsive"

@@ -1,0 +1,16 @@
+{
+  "search-not-found-layout": {
+    "title": "search not found layout",
+    "children": ["rich-text#not-found"],
+    "props": {
+      "blockClass": "search__notfound--layout"
+    }
+  },
+  "rich-text#not-found": {
+    "title": "not-found",
+    "props": {
+      "text": "Página no encontrada",
+      "blockClass": "not-found"
+    }
+  }
+}
