@@ -1,0 +1,29 @@
+.link--button__pdp--explorar {
+  height: 4rem;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link--button__pdp--explorar:hover {
+  background-color: transparent;
+  border: none;
+}
+
+.label--button__pdp--explorar {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #80c343;
+  font-weight: bold;
+  color: #000;
+}
+
+.label--button__pdp--explorar:hover {
+  border: 2px solid #80c343;
+  background-color: transparent;
+}

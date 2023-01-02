@@ -1,0 +1,85 @@
+{
+  "search-content#global__search--results": {
+    "title": "global search results",
+    "blocks": ["gallery#global__search--gallery", "not-found"],
+    "props": {
+      "blockClass": "global__search--results"
+    }
+  },
+  "gallery#global__search--gallery": {
+    "title": "global search gallery",
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#search__gallery--list",
+      "GridSummary": "product-summary.shelf#search__gallery--grid"
+    }
+  },
+  "gallery-layout-switcher": {
+    "title": "gallery layout switcher",
+    "children": ["gallery-layout-option#grid", "gallery-layout-option#list"],
+    "props": {
+      "blockClass": "gallery__layout--switcher"
+    }
+  },
+  "gallery-layout-option#grid": {
+    "title": "gallery layout option grid",
+    "props": {
+      "name": "grid",
+      "blockClass": "gallery__layout--option-grid"
+    },
+    "children": ["icon-grid", "responsive-layout.desktop#textOptionGrid"]
+  },
+  "gallery-layout-option#list": {
+    "title": "gallery layout option list",
+    "props": {
+      "name": "list",
+      "blockClass": "gallery__layout--option-list"
+    },
+    "children": ["icon-inline-grid", "responsive-layout.desktop#textOptionList"]
+  },
+  "responsive-layout.desktop#textOptionGrid": {
+    "title": "text option grid",
+    "children": ["rich-text#option-grid"],
+    "props": {
+      "blockClass": "textOptionGrid"
+    }
+  },
+  "responsive-layout.desktop#textOptionList": {
+    "title": "text option list",
+    "children": ["rich-text#option-list"],
+    "props": {
+      "blockClass": "textOptionList"
+    }
+  },
+  "rich-text#option-grid": {
+    "title": "option grid",
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "option__grid"
+    }
+  },
+  "rich-text#option-list": {
+    "title": "option list",
+    "props": {
+      "text": "List",
+      "textColor": "c-auto",
+      "blockClass": "option__list"
+    }
+  }
+}

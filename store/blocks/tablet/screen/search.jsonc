@@ -1,9 +1,10 @@
 {
   "responsive-layout.tablet#tablet__search--responsive": {
-    "title": "responsive layout tablet",
+    "title": "tablet search responsive",
     "children": [
-      "header-row#global__search--header",
-      "flex-layout.row#global__search--container"
+      "header-row#mobile__breadcrumb--content",
+      "flex-layout.row#mobile__filters--content",
+      "search-content#global__search--results"
     ],
     "props": {
       "blockClass": "tablet__search--responsive"
