@@ -4,7 +4,7 @@
     "title": "search gallery grid",
     "children": [
       "product-summary-image",
-      "product-summary-name",
+      "product-summary-name#search__productsummary--name-grid",
       "product-summary-description",
       "product-summary-price",
       "link.product#button-pdp"
@@ -12,6 +12,12 @@
     ],
     "props": {
       "blockClass": "search__gallery--grid"
+    }
+  },
+
+  "product-summary-name#search__productsummary--name-grid": {
+    "props": {
+      "blockClass": "search__productsummary--name-grid"
     }
   },
   //LIST
@@ -80,11 +86,19 @@
       "width": "50%"
     },
     "children": [
-      "product-summary-name",
+      "product-summary-name#search__productsummary--name-list",
+      "product-summary-description",
       "product-summary-price",
       "link.product#button-pdp"
     ]
   },
+
+  "product-summary-name#search__productsummary--name-list": {
+    "props": {
+      "blockClass": "search__productsummary--name-list"
+    }
+  },
+
   "link.product#button-pdp": {
     "props": {
       "buttonProps": {

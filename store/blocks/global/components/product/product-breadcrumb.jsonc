@@ -1,12 +1,13 @@
 {
   "flex-layout.row#product__breadcrumb": {
-    "title": "bread crumb product",
+    "title": "product bread crumb container",
     "children": ["flex-layout.col#product__breadcrumb"],
     "props": {
       "blockClass": "product__breadcrumb"
     }
   },
   "flex-layout.col#product__breadcrumb": {
+    "title": "product bread crumb",
     "children": ["breadcrumb"],
     "props": {
       "blockClass": "product__breadcrumb"

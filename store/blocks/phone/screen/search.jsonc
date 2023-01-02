@@ -2,7 +2,7 @@
   "responsive-layout.phone#phone__search--responsive": {
     "title": "phone search responsive",
     "children": [
-      "flex-layout.row#mobile__breadcrumb--content",
+      "header-row#mobile__breadcrumb--content",
       "flex-layout.row#mobile__filters--content",
       "search-content#global__search--results"
     ],
