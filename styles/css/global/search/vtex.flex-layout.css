@@ -1,0 +1,24 @@
+.flexColChild--search__filter--container {
+  padding-top: 30vh !important;
+  color: #474747;
+  background-color: #f9f9f9;
+  padding: 1rem 1.2rem;
+}
+
+.flexRowContent--search__plp {
+  height: 30vh;
+  background-color: #f9f9f9;
+}
+
+.flexColChild--search__plp--col:first-child {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flexCol--product__info--data {
+  padding: 100px 0;
+}
+
+.productNameContainer {
+  border: 1px solid purple;
+}

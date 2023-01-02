@@ -1,0 +1,12 @@
+/* .orderByText {
+  display: none;
+} */
+
+.orderByText {
+  visibility: hidden;
+}
+
+.orderByText::before {
+  content: "Sirt By:";
+  visibility: visible;
+}

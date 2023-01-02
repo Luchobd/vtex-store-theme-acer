@@ -1,0 +1,76 @@
+{
+  "flex-layout.row#search__plp": {
+    "title": "search plp",
+    "children": ["flex-layout.col#search__plp--col"],
+    "props": {
+      "blockClass": "search__plp"
+    }
+  },
+
+  "flex-layout.col#search__plp--col": {
+    "title": "search plp col",
+    "children": [
+      "rich-text#search__plp--title",
+      "search-bar#search__plp--header"
+    ],
+    "props": {
+      "blockClass": "search__plp--col",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#search__plp--title": {
+    "title": "search plp title",
+    "props": {
+      "text": "Buscar",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "search__plp--title"
+    }
+  },
+
+  "search-bar#search__plp--header": {
+    "title": "search plp header",
+    "props": {
+      "blockClass": "search__plp--header"
+    }
+  },
+
+  "header-row#search__header--plp": {
+    "title": "search header plp",
+    "children": [
+      "link.product#header__menu--plp-one",
+      "link.product#header__menu--plp-two",
+      "link.product#header__menu--plp-three",
+      "header-spacer"
+    ],
+    "props": {
+      "blockClass": "search__header--plp"
+    }
+  },
+
+  "link.product#header__menu--plp-one": {
+    "title": "header menu plp",
+    "props": {
+      "href": "/",
+      "label": "Shopping",
+      "blockClass": "plp__menu--plp-link"
+    }
+  },
+  "link.product#header__menu--plp-two": {
+    "title": "header menu plp",
+    "props": {
+      "href": "/",
+      "label": "Explore",
+      "blockClass": "plp__menu--plp-link"
+    }
+  },
+  "link.product#header__menu--plp-three": {
+    "title": "header menu plp",
+    "props": {
+      "href": "/",
+      "label": "Support",
+      "blockClass": "plp__menu--plp-link"
+    }
+  }
+}

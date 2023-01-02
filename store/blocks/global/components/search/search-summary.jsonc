@@ -1,0 +1,127 @@
+{
+  // GRID
+  "product-summary.shelf#search__gallery--grid": {
+    "title": "search gallery grid",
+    "children": [
+      "product-summary-image",
+      "product-summary-name#search__productsummary--name-grid",
+      "product-summary-description",
+      "product-summary-price",
+      "link.product#button-pdp"
+      // "form#card--checkbox"
+    ],
+    "props": {
+      "blockClass": "search__gallery--grid"
+    }
+  },
+
+  "product-summary-name#search__productsummary--name-grid": {
+    "props": {
+      "blockClass": "search__productsummary--name-grid"
+    }
+  },
+  //LIST
+  "product-summary.shelf#search__gallery--list": {
+    "title": "search gallery list",
+    "props": {
+      "blockClass": "search__gallery--list"
+    },
+    "children": [
+      "responsive-layout.desktop#desktop__gallery--responsive",
+      "responsive-layout.tablet#tablet__gallery--responsive",
+      "responsive-layout.phone#phone__gallery--responsive"
+    ]
+  },
+  ////TABLET
+  "responsive-layout.tablet#tablet__gallery--responsive": {
+    "title": "tablet gallery responsive",
+    "children": ["flex-layout.row#global__gallery--container"],
+    "props": {
+      "blockClass": "tablet__gallery--responsive"
+    }
+  },
+  ////////// DESKTOP
+  "responsive-layout.desktop#desktop__gallery--responsive": {
+    "title": "desktop gallery responsive",
+    "children": ["flex-layout.row#global__gallery--container"],
+    "props": {
+      "blockClass": "desktop__gallery--responsive"
+    }
+  },
+  ///// PHONE
+  "responsive-layout.phone#phone__gallery--responsive": {
+    "title": "phone gallery responsive",
+    "children": ["flex-layout.row#global__gallery--container"],
+    "props": {
+      "blockClass": "phone__gallery--responsive"
+    }
+  },
+  //// GOBAL
+  "flex-layout.row#global__gallery--container": {
+    "title": "global gallery container",
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "blockClass": "global__gallery--container",
+      "colGap": 5,
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "flex-layout.col#gallery__content--image",
+      "flex-layout.col#gallery__content--content"
+    ]
+  },
+  "flex-layout.col#gallery__content--image": {
+    "title": "gallery content image",
+    "children": ["product-summary-image"],
+    "props": {
+      "blockClass": "gallery__content--image"
+    }
+  },
+  "flex-layout.col#gallery__content--content": {
+    "title": "gallery content content",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "gallery__content--content",
+      "width": "50%"
+    },
+    "children": [
+      "product-summary-name#search__productsummary--name-list",
+      "product-summary-description",
+      "product-summary-price",
+      "link.product#button-pdp"
+    ]
+  },
+
+  "product-summary-name#search__productsummary--name-list": {
+    "props": {
+      "blockClass": "search__productsummary--name-list"
+    }
+  },
+
+  "link.product#button-pdp": {
+    "props": {
+      "buttonProps": {
+        "variant": "secondary"
+      },
+      "displayMode": "button",
+      "label": "Explorar",
+      "href": "/{slug}/p",
+      "blockClass": "button__pdp--explorar"
+    }
+  },
+  "form#card--checkbox": {
+    "props": {
+      "entity": "clients",
+      "schema": "person"
+    },
+    "children": ["form-input.checkbox#agreement"]
+  },
+
+  "form-input.checkbox#agreement": {
+    "props": {
+      "pointer": "#/properties/agreement",
+      "label": "Añadir a Comparar"
+    }
+  }
+}
