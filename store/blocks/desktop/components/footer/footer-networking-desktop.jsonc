@@ -3,8 +3,11 @@
     "title": "footer container networking desktop",
     "children": [
       "flex-layout.col#footer__container--col-one",
+      "header-spacer",
       "flex-layout.col#footer__container--col-two",
+      "header-spacer",
       "flex-layout.col#footer__container--col-three",
+      "header-spacer",
       "flex-layout.col#footer__container--col-four"
     ],
     "props": {

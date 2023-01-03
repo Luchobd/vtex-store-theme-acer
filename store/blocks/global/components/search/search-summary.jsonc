@@ -87,7 +87,7 @@
     },
     "children": [
       "product-summary-name#search__productsummary--name-list",
-      "product-summary-description",
+      // "product-summary-description",
       "product-summary-price",
       "link.product#button-pdp"
     ]
@@ -112,14 +112,14 @@
       "blockClass": "button__pdp--explorar"
     }
   },
-  "form#card--checkbox": {
-    "title": "Form card checkbox",
-    "props": {
-      "entity": "clients",
-      "schema": "person"
-    },
-    "children": ["form-input.checkbox#agreement"]
-  },
+  // "form#card--checkbox": {
+  //   "title": "Form card checkbox",
+  //   "props": {
+  //     "entity": "clients",
+  //     "schema": "person"
+  //   },
+  //   "children": ["form-input.checkbox#agreement"]
+  // },
 
   "form-input.checkbox#agreement": {
     "title": "checkbox agreement",

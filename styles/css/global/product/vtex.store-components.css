@@ -1,0 +1,19 @@
+.productBrand {
+  color: #222;
+  font-weight: 700;
+  font-size: 2.75rem;
+  text-transform: capitalize;
+}
+
+.productBrandName {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #474747;
+}
+
+.productDescriptionTitle,
+.productDescriptionText {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #474747;
+}

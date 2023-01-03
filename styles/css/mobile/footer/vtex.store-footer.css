@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.footerLayoutSpacer {
+  margin-top: 50px;
+}
+
 .socialNetworksContainer {
   padding-top: 10px;
   padding-bottom: 30px;

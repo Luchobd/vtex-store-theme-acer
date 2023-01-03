@@ -20,6 +20,9 @@
   padding: 100px 0;
 }
 
-/* .productNameContainer {
-  border: 1px solid purple;
-} */
+.flexCol--gallery__content--content {
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
