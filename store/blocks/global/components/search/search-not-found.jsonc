@@ -1,16 +1,42 @@
 {
   "search-not-found-layout": {
     "title": "search not found layout",
-    "children": ["rich-text#not-found"],
+    "children": ["flex-layout.row#not__found--container"],
     "props": {
       "blockClass": "search__notfound--layout"
     }
   },
-  "rich-text#not-found": {
-    "title": "not-found",
+
+  "flex-layout.row#not__found--container": {
+    "title": "Not found container",
+    "children": ["flex-layout.col#not__found--content"],
     "props": {
-      "text": "Página no encontrada",
-      "blockClass": "not-found"
+      "blockClass": "not__found--container"
+    }
+  },
+
+  "flex-layout.col#not__found--content": {
+    "title": "not found content",
+    "children": [
+      "rich-text#not__found--title",
+      "rich-text#not__found--paragraph"
+    ],
+    "props": {
+      "blockClass": "not__found--content"
+    }
+  },
+  "rich-text#not__found--title": {
+    "title": "not found title",
+    "props": {
+      "text": "## Error",
+      "blockClass": "not__found--title"
+    }
+  },
+  "rich-text#not__found--paragraph": {
+    "title": "not found paragraph",
+    "props": {
+      "text": "Oops something went wrong.  Try again.",
+      "blockClass": "not__found--title"
     }
   }
 }
