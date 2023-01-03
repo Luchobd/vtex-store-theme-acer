@@ -1,4 +1,4 @@
-/* .biggy-autocomplete {
+.biggy-autocomplete {
   width: 30vw;
   top: -55px;
   right: 133%;
@@ -10,4 +10,20 @@
 
 .history-and-top-wrapper {
   overflow-x: hidden;
-} */
+}
+
+@media (max-width: 1023px) {
+  .biggy-autocomplete {
+    width: 60vw;
+    top: 0px;
+    right: 100%;
+  }
+}
+
+@media (max-width: 678px) {
+  .biggy-autocomplete {
+    width: 90vw;
+    top: 0px;
+    right: -20%;
+  }
+}
