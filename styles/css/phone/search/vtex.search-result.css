@@ -1,7 +1,7 @@
 @media (max-width: 678px) {
   .filters {
     height: 40px;
-    width: 150px;
+    width: 120px;
   }
 
   .filterPopupTitle {
@@ -9,11 +9,23 @@
     justify-content: center;
   }
 
+  .filters--layout {
+    margin: 0;
+    padding: 0;
+  }
+
   .filterPopupArrowIcon {
     display: none;
   }
 
   .orderByButton {
-    width: 150px;
+    width: 120px;
+    margin: 0;
+    padding: 0;
+  }
+  .orderByDropdown {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
   }
 }

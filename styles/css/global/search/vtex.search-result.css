@@ -1,7 +1,3 @@
-/* .orderByText {
-  display: none;
-} */
-
 .orderByText {
   visibility: hidden;
 }
@@ -16,11 +12,8 @@
 }
 
 .filterPopupTitle {
-  padding: 0 !important;
-  margin: 0 !important;
   width: 220px;
   display: flex;
-  /* align-items: center; */
 }
 
 .totalProductsMessage--plp__products--total,

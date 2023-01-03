@@ -2,16 +2,19 @@
   "flex-layout.row#product__info": {
     "title": "overview pdp",
     "children": [
-      "flex-layout.col#product__info--image",
+      "header-row#pdp__header--content",
       "flex-layout.col#product__info--data"
     ],
     "props": {
       "blockClass": "product__info"
     }
   },
-  "flex-layout.col#product__info--image": {
-    "title": "Image product",
-    "children": ["product-images#product__info--image"],
+  "header-row#pdp__header--content": {
+    "children": [
+      "product-images#product__info--image",
+      "modal-trigger#quickview",
+      "header-spacer"
+    ],
     "props": {
       "blockClass": "product__info--image"
     }
@@ -19,7 +22,7 @@
   "product-images#product__info--image": {
     "title": "Images",
     "props": {
-      "zoomMode": "open-modal",
+      "zoomMode": "in-place-click",
       "blockClass": "product__info--image"
     }
   },

@@ -1,9 +1,11 @@
 /* Networking Footer */
 .flexRowContent--footer__container--networking {
+  min-width: 100%;
   background-color: #fafafa;
 }
 
 .flexRow--footer__container--networking {
+  margin-top: 50px;
+  padding-bottom: 30px;
   background-color: #fafafa;
-  padding-bottom: 50px;
 }
