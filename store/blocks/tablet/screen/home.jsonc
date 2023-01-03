@@ -7,6 +7,7 @@
       "slider-layout#home__categories--products-list",
       "info-card#home__infocard--card-left",
       "info-card#home__infocard--card-right",
+      // "flex-layout.row#home__banner-categories--section-1",
       "flex-layout.row#home__infolayout--desktop",
       "list-context.product-list#home__vitrina",
       "back-to-top-button"

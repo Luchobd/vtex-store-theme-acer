@@ -1,0 +1,5 @@
+{
+  "store.custom#home-infocard": {
+    "blocks": ["flex-layout.row#home__banner-categories--section-1"]
+  }
+}

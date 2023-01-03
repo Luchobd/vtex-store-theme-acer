@@ -1,0 +1,10 @@
+{
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "+573502129957",
+      "width": 50,
+      "height": 50
+    }
+  }
+}

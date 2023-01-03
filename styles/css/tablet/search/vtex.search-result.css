@@ -1,0 +1,14 @@
+@media (max-width: 1023px) {
+  .filters {
+    border: 1px solid #000000;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+
+  .orderByButton {
+    padding: 5px 0 15px 0;
+    border: 1px solid #000000;
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+}

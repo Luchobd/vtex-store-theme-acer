@@ -10,3 +10,23 @@
   content: "Sirt By:";
   visibility: visible;
 }
+
+.orderByDropdown {
+  min-width: 270px;
+}
+
+.filterPopupTitle {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 220px;
+  display: flex;
+  /* align-items: center; */
+}
+
+.totalProductsMessage--plp__products--total,
+.galleryTitle--layout {
+  color: #474747;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: lowercase;
+}

@@ -6,6 +6,7 @@
       "rich-text#home__categories--title-texto",
       "slider-layout#home__categories--products-list",
       "flex-layout.row#home__infocard--card-offers",
+      // "flex-layout.row#home__banner-categories--section-1",
       "flex-layout.row#home__infolayout--mobile-top",
       "flex-layout.row#home__infolayout--mobile-bottom",
       "list-context.product-list#home__vitrina",
