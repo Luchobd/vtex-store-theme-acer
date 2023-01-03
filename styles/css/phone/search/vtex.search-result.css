@@ -1,0 +1,19 @@
+@media (max-width: 678px) {
+  .filters {
+    height: 40px;
+    width: 150px;
+  }
+
+  .filterPopupTitle {
+    display: flex;
+    justify-content: center;
+  }
+
+  .filterPopupArrowIcon {
+    display: none;
+  }
+
+  .orderByButton {
+    width: 150px;
+  }
+}

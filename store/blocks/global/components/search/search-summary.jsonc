@@ -94,12 +94,14 @@
   },
 
   "product-summary-name#search__productsummary--name-list": {
+    "title": "search productsummary name list",
     "props": {
       "blockClass": "search__productsummary--name-list"
     }
   },
 
   "link.product#button-pdp": {
+    "title": "button pdp",
     "props": {
       "buttonProps": {
         "variant": "secondary"
@@ -111,6 +113,7 @@
     }
   },
   "form#card--checkbox": {
+    "title": "Form card checkbox",
     "props": {
       "entity": "clients",
       "schema": "person"
@@ -119,6 +122,7 @@
   },
 
   "form-input.checkbox#agreement": {
+    "title": "checkbox agreement",
     "props": {
       "pointer": "#/properties/agreement",
       "label": "Añadir a Comparar"

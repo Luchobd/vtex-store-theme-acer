@@ -20,11 +20,22 @@
 
   "header-row#desktop__search--header-two": {
     "children": [
-      "total-products.v2",
-      "search-title.v2",
+      "total-products.v2#plp__products--total",
+      "search-title.v2#plp__search--title",
       "header-spacer",
       "order-by.v2"
     ]
+  },
+
+  "total-products.v2#plp__products--total": {
+    "props": {
+      "blockClass": "plp__products--total"
+    }
+  },
+  "search-title.v2#plp__search--title": {
+    "props": {
+      "blockClass": "plp__search--title"
+    }
   },
 
   //content
@@ -43,7 +54,7 @@
   "flex-layout.col#search__filter--container": {
     "title": "search filter container",
     "props": {
-      "width": "35%",
+      "width": "25%",
       "blockClass": "search__filter--container"
     },
     "children": ["filter-navigator.v3#desktop"]
@@ -57,7 +68,7 @@
   "flex-layout.col#search__results--container": {
     "title": "Ressearch results container",
     "props": {
-      "width": "65%",
+      "width": "75%",
       "blockClass": "search__results--container"
     },
     "children": [
