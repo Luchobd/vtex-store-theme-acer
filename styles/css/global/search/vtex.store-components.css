@@ -1,6 +1,6 @@
 .autoCompleteOuterContainer--search__plp--header
   :global(.vtex-input-prefix__group) {
-  width: 100%;
+  width: 130%;
   border: none;
   border-bottom: 1px solid black;
   border-radius: 0;

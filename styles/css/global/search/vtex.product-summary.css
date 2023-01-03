@@ -1,9 +1,11 @@
 /* GRID */
+
 .clearLink--search__gallery--grid {
   border-radius: 0;
 }
 
 .containerNormal--search__gallery--grid {
+  padding: 0 15px;
   border: 1px solid #f9f9f9;
   border-radius: 0;
   box-shadow: 0 0 0.2rem rgb(0 0 0 / 30%);

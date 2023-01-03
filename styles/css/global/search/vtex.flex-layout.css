@@ -1,5 +1,5 @@
 .flexColChild--search__filter--container {
-  padding-top: 30vh !important;
+  padding-top: 40vh !important;
   color: #474747;
   background-color: #f9f9f9;
   padding: 1rem 1.2rem;
@@ -7,6 +7,7 @@
 
 .flexRowContent--search__plp {
   height: 30vh;
+  margin-bottom: 50px;
   background-color: #f9f9f9;
 }
 
@@ -19,6 +20,6 @@
   padding: 100px 0;
 }
 
-.productNameContainer {
+/* .productNameContainer {
   border: 1px solid purple;
-}
+} */

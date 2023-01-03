@@ -2,7 +2,9 @@
   "responsive-layout.tablet#tablet__search--responsive": {
     "title": "tablet search responsive",
     "children": [
+      "flex-layout.row#search__plp",
       "header-row#mobile__breadcrumb--content",
+      "header-row#search__header--plp",
       "flex-layout.row#mobile__filters--content",
       "search-content#global__search--results"
     ],

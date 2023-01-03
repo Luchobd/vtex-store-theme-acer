@@ -1,0 +1,12 @@
+@media (max-width: 1023px) {
+  .label--plp__menu--plp-link {
+    margin-right: 2rem;
+    padding-bottom: 0;
+  }
+
+  .label--plp__menu--plp-link:active {
+    font-weight: bold;
+    border-bottom: 4px solid #80c343;
+    border-radius: 2px;
+  }
+}
