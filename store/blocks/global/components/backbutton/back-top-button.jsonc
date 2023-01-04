@@ -2,7 +2,8 @@
   "back-to-top-button": {
     "props": {
       "displayThreshold": 800,
-      "display": "caret-icon"
+      "display": "caret-icon",
+      "blockClass": "back__top--button"
     }
   }
 }
