@@ -1,0 +1,80 @@
+.flexRow--home__banner-categories {
+  margin: 50px 0 1% 0;
+}
+
+.flexRow--home__banner-categories--desktop {
+  margin: 0 0 1% 0;
+}
+
+.flexCol--banner-categories__computers {
+  position: relative;
+  margin-right: 1%;
+}
+
+.flexCol--banner-categories__phones {
+  position: relative;
+  margin-left: 1%;
+}
+
+.flexColChild--banner-categories__computers,
+.flexColChild--banner-categories__phones {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.flexRow--banner-categories__container-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #ffffff99;
+  border-top: 4px solid #80c343;
+  box-shadow: 0px 5px 5px #00000070;
+  cursor: pointer;
+}
+
+.flexCol--banner-categories__computers:hover
+  .flexRow--banner-categories__container-overlay {
+  display: block;
+  opacity: 1;
+}
+
+.flexCol--banner-categories__phones:hover
+  .flexRow--banner-categories__container-overlay {
+  display: block;
+  opacity: 1;
+}
+
+.flexRow--home__about-us {
+  padding: 1rem;
+  border-top: 2px solid #ccc;
+}
+
+/* Product */
+.flexRow--desktop__product--row {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.flexColChild--product__main--image-gallery {
+  margin-right: 1rem;
+}
+
+.flexCol--product__main--summary {
+  margin-left: 1rem;
+}
+
+/* Banner Brands */
+.flexRow--home__banner-brands {
+  padding: 1rem;
+}

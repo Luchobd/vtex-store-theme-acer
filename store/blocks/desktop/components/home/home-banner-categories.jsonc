@@ -1,6 +1,6 @@
 {
   // Section 1
-  "flex-layout.row#home__banner-categories--section-1": {
+  "flex-layout.row#home__banner-categories--section": {
     "title": "Home Banner Categories 1",
     "props": {
       "preserveLayoutOnMobile": true,
@@ -9,7 +9,7 @@
     },
     "children": [
       "flex-layout.col#banner-categories__computers",
-      "flex-layout.col#banner-categories__phones" /////////////////////
+      "flex-layout.col#banner-categories__phones"
     ]
   },
 
@@ -95,7 +95,6 @@
     "props": {
       "href": "/",
       "label": "Comprar ahora",
-      "displayMode": "button",
       "blockClass": "container-overlay--button"
     }
   },
@@ -158,7 +157,7 @@
     "children": [
       "link#phones__container-overlay--title",
       "link#phones__container-overlay--content",
-      "link#computers__container-overlay--button"
+      "link#phones__container-overlay--button"
     ]
   },
 
@@ -172,248 +171,16 @@
 
   "link#phones__container-overlay--content": {
     "props": {
-      "href": "/madera",
+      "href": "/",
       "label": "Explora la gama y las ofertas de Acer para empresas",
       "blockClass": "container-overlay--content"
     }
   },
-
-  "link#computers__container-overlay--button": {
+  "link#phones__container-overlay--button": {
     "props": {
       "href": "/",
       "label": "Comprar ahora",
-      "displayMode": "button",
       "blockClass": "container-overlay--button"
-    }
-  },
-
-  // HASTA AQUI LLEGUE
-
-  // SECTION 2 ------------------------------------------------------------
-
-  "flex-layout.row#home__banner-categories--section-2.desktop": {
-    "title": "Home Banner Categories Desktop",
-    "props": {
-      "horizontalAlign": "between",
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true,
-      "blockClass": "home__banner-categories--desktop"
-    },
-
-    "children": [
-      "flex-layout.col#banner-categories__devices",
-      "flex-layout.col#banner-categories__consoles",
-      "flex-layout.col#banner-categories__bigApliances"
-    ]
-  },
-
-  "flex-layout.row#home__banner-categories--section-2.phone": {
-    "title": "Home Banner Categories Phone",
-    "props": {
-      "horizontalAlign": "between",
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true,
-      "blockClass": "home__banner-categories--phone"
-    },
-
-    "children": [
-      "flex-layout.col#banner-categories__devices",
-      "flex-layout.col#banner-categories__consoles"
-    ]
-  },
-
-  // Devices ***********************************************
-  "flex-layout.col#banner-categories__devices": {
-    "title": "Devices Category",
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "blockClass": "banner-categories__devices"
-    },
-    "children": [
-      "image#banner-categories__devices--image",
-      "rich-text#banner-categories__devices--title",
-      "flex-layout.row#banner-categories__devices--container-overlay"
-    ]
-  },
-
-  "image#banner-categories__devices--image": {
-    "title": "Category Devices Image",
-    "props": {
-      "src": "assets/img/infocard-one.webp",
-      "link": {
-        "url": "/mujer"
-      },
-      "blockClass": "banner-categories__devices--image"
-    }
-  },
-
-  "rich-text#banner-categories__devices--title": {
-    "title": "Category Devices Title",
-    "props": {
-      "text": "Periféricos",
-      "font": "t-heading-5",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "banner-categories__devices--title"
-    }
-  },
-
-  // Overlay
-  "flex-layout.row#banner-categories__devices--container-overlay": {
-    "title": "Devices Container Overlay",
-    "props": {
-      "blockClass": "banner-categories__container-overlay"
-    },
-    "children": [
-      "link#devices__container-overlay--title",
-      "link#devices__container-overlay--content"
-    ]
-  },
-
-  "link#devices__container-overlay--title": {
-    "props": {
-      "href": "/mujer",
-      "label": "PEFIFÉRICOS",
-      "blockClass": "container-overlay--title"
-    }
-  },
-
-  "link#devices__container-overlay--content": {
-    "props": {
-      "href": "/mujer",
-      "label": "Encuentra una amplia gama de pefiféricos para informática y electrónica. \n Descubre las mejores ofertas en TechInn. \n Envio rápido y pago seguro.",
-      "blockClass": "container-overlay--content"
-    }
-  },
-
-  // Consoles ***********************************************
-  "flex-layout.col#banner-categories__consoles": {
-    "title": "Consoles Category",
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "blockClass": "banner-categories__consoles"
-    },
-    "children": [
-      "image#banner-categories__consoles--image",
-      "rich-text#banner-categories__consoles--title",
-      "flex-layout.row#banner-categories__consoles--container-overlay"
-    ]
-  },
-
-  "image#banner-categories__consoles--image": {
-    "title": "Category Consoles Image",
-    "props": {
-      "src": "/arquivos/consoles.jpg",
-      "link": {
-        "url": "/queso"
-      },
-      "blockClass": "banner-categories__consoles--image"
-    }
-  },
-
-  "rich-text#banner-categories__consoles--title": {
-    "title": "Category Consoles Title",
-    "props": {
-      "text": "Consolas",
-      "font": "t-heading-5",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "banner-categories__consoles--title"
-    }
-  },
-
-  // Overlay
-  "flex-layout.row#banner-categories__consoles--container-overlay": {
-    "title": "Consoles Container Overlay",
-    "props": {
-      "blockClass": "banner-categories__container-overlay"
-    },
-    "children": [
-      "link#consoles__container-overlay--title",
-      "link#consoles__container-overlay--content"
-    ]
-  },
-
-  "link#consoles__container-overlay--title": {
-    "props": {
-      "href": "/queso",
-      "label": "CONSOLAS",
-      "blockClass": "container-overlay--title"
-    }
-  },
-
-  "link#consoles__container-overlay--content": {
-    "props": {
-      "href": "/queso",
-      "label": "Encuentra una amplia gama de consolas para informática y electrónica. \n Descubre las mejores ofertas en TechInn. \n Envio rápido y pago seguro.",
-      "blockClass": "container-overlay--content"
-    }
-  },
-
-  // Big  apliances
-  "flex-layout.col#banner-categories__bigApliances": {
-    "title": "Big Apliances Category",
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "blockClass": "banner-categories__"
-    },
-    "children": [
-      "image#banner-categories__bigApliances--image",
-      "rich-text#banner-categories__bigApliances--title",
-      "flex-layout.row#banner-categories__bigApliances--container-overlay"
-    ]
-  },
-
-  "image#banner-categories__bigApliances--image": {
-    "title": "Category Big Apliances Image",
-    "props": {
-      "src": "/arquivos/bigApliances.jpg",
-      "link": {
-        "url": "/electrodomesticos"
-      },
-      "blockClass": "banner-categories__bigApliances--image"
-    }
-  },
-
-  "rich-text#banner-categories__bigApliances--title": {
-    "title": "Category Big Apliances Title",
-    "props": {
-      "text": "Grandes Electrodomesticos",
-      "font": "t-heading-5",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "banner-categories__bigApliances--title"
-    }
-  },
-
-  // Overlay
-  "flex-layout.row#banner-categories__bigApliances--container-overlay": {
-    "title": "Big Apliances Container Overlay",
-    "props": {
-      "blockClass": "banner-categories__container-overlay"
-    },
-    "children": [
-      "link#bigApliances__container-overlay--title",
-      "link#bigApliances__container-overlay--content"
-    ]
-  },
-
-  "link#bigApliances__container-overlay--title": {
-    "props": {
-      "href": "/queso",
-      "label": "GRANDES ELECTRODOMESTICOS",
-      "blockClass": "container-overlay--title"
-    }
-  },
-
-  "link#bigApliances__container-overlay--content": {
-    "props": {
-      "href": "/queso",
-      "label": "Encuentra una amplia gama de electrodomesticos para informática y electrónica. \n Descubre las mejores ofertas en TechInn. \n Envio rápido y pago seguro.",
-      "blockClass": "container-overlay--content"
     }
   }
 }

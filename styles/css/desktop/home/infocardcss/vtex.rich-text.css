@@ -1,0 +1,9 @@
+.paragraph--banner-categories__computers--title,
+.paragraph--banner-categories__phones--title {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #000;
+}
