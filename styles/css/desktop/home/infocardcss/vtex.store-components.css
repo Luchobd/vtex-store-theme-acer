@@ -1,0 +1,43 @@
+/* Brands */
+.imageElement--home__banner--brand {
+  filter: grayscale(1);
+  margin: 1vw;
+  cursor: pointer;
+}
+
+.imageElement--home__banner--brand:hover {
+  filter: grayscale(0);
+}
+
+.imageElement--banner-categories__computers--image {
+  display: block;
+  width: 100%;
+}
+
+.imageElement--banner-categories__phones--image {
+  display: block;
+  width: 100%;
+}
+
+.imageElement--banner-categories__devices--image {
+  display: block;
+  width: 100%;
+}
+
+.imageElement--banner-categories__consoles--image {
+  display: block;
+  width: 102%;
+}
+
+.imageElement--banner-categories__bigApliances--image {
+  display: block;
+  width: 100%;
+}
+
+.imageElement--banner-categories__computers--image-mobile {
+  display: none;
+}
+
+.imageElement--banner-categories__phones--image-mobile {
+  display: none;
+}
