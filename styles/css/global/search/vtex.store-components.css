@@ -10,3 +10,7 @@
 .autoCompleteOuterContainer--search__plp--header :global(.vtex-input__suffix) {
   background-color: #f9f9f9;
 }
+
+.backToTopButtonContainer {
+  margin-bottom: 50px;
+}

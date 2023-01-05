@@ -1,4 +1,8 @@
 .biggy-autocomplete {
+  display: none;
+}
+
+.biggy-autocomplete {
   width: 30vw;
   top: -55px;
   right: 133%;

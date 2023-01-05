@@ -7,6 +7,7 @@
       "responsive-layout.phone#home__infolayout",
       "back-to-top-button",
       "whatsapp-button"
+      // "list-context.bullet-group"
     ]
   }
 }

@@ -1,5 +1,5 @@
 .backToTopButtonActive :global(.vtex-button) {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   background-color: #f1f7e6;
   height: 60px;
   width: 60px;
@@ -15,5 +15,4 @@
 .backToTopButtonActive :global(.vtex-button):hover {
   background-color: rgb(128, 195, 65);
   color: #ffffff !important;
-  z-index: 100;
 }

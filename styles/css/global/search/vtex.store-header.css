@@ -1,5 +1,6 @@
 .headerRowBackground--search__header--plp {
   margin-left: 4rem;
+  width: 90%;
   height: 5vh;
   border-bottom: 2px solid #00000090;
 }
