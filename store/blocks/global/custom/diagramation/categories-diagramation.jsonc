@@ -1,0 +1,13 @@
+{
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": {
+        "image": "mi-image.png",
+        "titleBullet": "Computadores",
+        "link": {
+          "url": "/"
+        }
+      }
+    }
+  }
+}
