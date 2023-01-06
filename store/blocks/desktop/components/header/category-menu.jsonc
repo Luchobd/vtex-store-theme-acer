@@ -18,7 +18,7 @@
         "id": "nav-caret--down",
         "size": 12,
         "viewBox": "0 0 16 16",
-        "activeClassName": "rebel-pink",
+        "activeClassName": "green",
         "mutedClassName": "c-action-primary"
       }
     },
@@ -44,7 +44,7 @@
         "id": "nav-caret--down",
         "size": 12,
         "viewBox": "0 0 16 16",
-        "activeClassName": "rebel-pink",
+        "activeClassName": "green",
         "mutedClassName": "c-action-primary"
       }
     },

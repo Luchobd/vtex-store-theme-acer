@@ -31,8 +31,8 @@
     "title": "Data product",
     "children": [
       // "share",
-      "product-name",
-      "product-brand",
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
       "image#product__info--image-widnows11",
       // "product-rating-inline",
       "product-description",
