@@ -1,13 +1,80 @@
 {
+  "flex-layout.row#bullet": {
+    "children": ["list-context.bullet-group"]
+  },
   "list-context.bullet-group": {
+    "title": "My context list bullet group",
+    "children": ["slider-layout#bullet-group"],
     "props": {
-      "bullets": {
-        "image": "mi-image.png",
-        "titleBullet": "Computadores",
-        "link": {
-          "url": "/"
+      "bullets": [
+        {
+          "image": "assets/img/producto1.webp",
+          "titleBullet": "Portátiles",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/producto2.webp",
+          "titleBullet": "PC Escritorio",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/producto3.webp",
+          "titleBullet": "Chromebooks",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/producto4.webp",
+          "titleBullet": "Tablets",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/producto5.webp",
+          "titleBullet": "Monitores",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/producto6.webp",
+          "titleBullet": "Proyectores",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/producto7.webp",
+          "titleBullet": "Accesorios",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/solucion7.webp",
+          "titleBullet": "Windows 11",
+          "Link": {
+            "url": "/"
+          }
         }
-      }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "title": "slider bullet group",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true
     }
   }
 }
