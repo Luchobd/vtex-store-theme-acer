@@ -6,8 +6,8 @@
       "responsive-layout.tablet#home__infolayout",
       "responsive-layout.phone#home__infolayout",
       "back-to-top-button",
-      "whatsapp-button"
-      // "list-context.bullet-group"
+      "whatsapp-button",
+      "flex-layout.row#bullet"
     ]
   }
 }
