@@ -26,7 +26,7 @@
       "blockClass": "header__top--acer",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Acer",
         "text": "Acer"
@@ -41,7 +41,7 @@
       "blockClass": "header__top--predator",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Predator",
         "text": "Predator"
@@ -56,7 +56,7 @@
       "blockClass": "header__top--conceptD",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "ConceptD",
         "text": "ConceptD"
@@ -71,7 +71,7 @@
       "blockClass": "header__top--planet9",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Planet9",
         "text": "Planet9"
@@ -86,7 +86,7 @@
       "blockClass": "header__top--spatialLabs",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "SpatialLabs",
         "text": "SpatialLabs"

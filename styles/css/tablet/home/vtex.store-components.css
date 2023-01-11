@@ -1,5 +1,18 @@
 @media (max-width: 1023px) {
+  /* Categories */
+  .infoCardImage--infocard__category {
+    max-width: 130px;
+  }
+
+  /* Infolayout */
+  .infoCardContainer--infocard__infolayout--box {
+    height: 440px;
+  }
   .infoCardImageContainer--infocard__infolayout--box {
     width: 180px;
+  }
+
+  .infoCardImageContainer--infocard__infolayout--box:hover {
+    padding: 0;
   }
 }

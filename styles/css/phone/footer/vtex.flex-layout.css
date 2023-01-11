@@ -1,0 +1,7 @@
+@media (max-width: 1023px) {
+  .flexColChild--footer__incos--first-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,13 @@
+@media (max-width: 678px) {
+  .label--footer__text--privacidad,
+  .label--footer__text--politica,
+  .label--footer__text--aviso,
+  .label--footer__text--informacion {
+    padding: 0 5px;
+    border-right: 2px solid #fafafa;
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 2;
+  }
+}
