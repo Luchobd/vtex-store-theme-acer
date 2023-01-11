@@ -125,14 +125,6 @@
   opacity: 80%;
 }
 
-.infoCardContainer--infocard__ofert--left {
-  border-right: 5px solid #fff;
-}
-
-.infoCardContainer--infocard__ofert--right {
-  border-left: 5px solid #fff;
-}
-
 .infoCardHeadline--infocard__ofert--left,
 .infoCardHeadline--infocard__ofert--right {
   color: #000000;
@@ -173,6 +165,7 @@
   margin-right: 40px;
   display: flex;
   flex-direction: column-reverse;
+  height: 500px;
 }
 
 .infoCardTextContainer--infocard__infolayout--box {
@@ -183,14 +176,19 @@
   width: 300px;
 }
 
+.infoCardImageContainer--infocard__infolayout--box:hover {
+  padding: 30px 0;
+}
+
 .infoCardHeadline--infocard__infolayout--box {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  font-weight: 600;
   color: #222;
   margin: 0;
 }
 
 .infoCardSubhead--infocard__infolayout--box {
-  font-size: 0.96rem;
+  font-size: 0.813rem;
   color: #474747;
 }
 
