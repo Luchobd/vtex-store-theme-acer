@@ -42,8 +42,8 @@ Link Web Oficial: https://www.acer.com/es-es
 
 ## VISTA HOME-PHONE INFO CARD
 
-![acer-home-infocard-tablet](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673451505/categories-phone_dnbsxm.png)
-![acer-home-infocard-tablet](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673451506/ofertas-phone_sfbbrl.png)
+![acer-home-infocard-tablet](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673451505/categories-phone_dnbsxm.png)<br/>
+![acer-home-infocard-tablet](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673451506/ofertas-phone_sfbbrl.png)<br/>
 ![acer-home-infocard-tablet](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673451505/infocard-phone_vth8ul.png)
 
 ## VISTA HOME-DESKTOP PRODUCT SUMMARY (VITRINA)
@@ -88,8 +88,8 @@ Link Web Oficial: https://www.acer.com/es-es
 
 ## VISTA PRODUCT-LIST-PAGE-PHONE (PLP)
 
-![acer-product-list-page-search-phone](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673454153/plp-search-phone_ql8sih.png)
-![acer-product-list-page-grid-phone](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673454152/plp-grid-phone_sszgq8.png)
+![acer-product-list-page-search-phone](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673454153/plp-search-phone_ql8sih.png)<br/>
+![acer-product-list-page-grid-phone](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673454152/plp-grid-phone_sszgq8.png)<br/>
 ![acer-product-list-page-list-phone](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673454152/plp-list-phone_tzgg0n.png)
 
 ## VISTA NOT-FOUND
