@@ -7,6 +7,7 @@
   .filterPopupTitle {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .filters--layout {
