@@ -11,7 +11,6 @@
       "header-spacer",
       "overlay-trigger#header__search--click",
       "minicart.v2"
-      // "minicart.v2#global__minicart"
     ]
   },
 
@@ -64,7 +63,7 @@
       "blockClass": "header__category--select-hover",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Tienda Online",
         "text": "Tienda Online"
@@ -81,7 +80,7 @@
       "blockClass": "header__category--select-hover",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Soporte",
         "text": "Soporte"

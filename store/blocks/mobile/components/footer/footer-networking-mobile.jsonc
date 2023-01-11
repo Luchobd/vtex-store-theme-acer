@@ -48,13 +48,15 @@
   "icon-caret#down": {
     "title": "disclosure__icon--down",
     "props": {
-      "orientation": "down"
+      "orientation": "down",
+      "activeClassName": "green"
     }
   },
   "icon-caret#up": {
     "title": "disclosure__icon--up",
     "props": {
-      "orientation": "up"
+      "orientation": "up",
+      "activeClassName": "green"
     }
   },
 

@@ -68,7 +68,10 @@
 
   "flex-layout.col#footer__incos--first-mobile": {
     "title": "footer icos container mobile",
-    "children": ["social-networks#footer__socialnetwork"]
+    "children": ["social-networks#footer__socialnetwork"],
+    "props": {
+      "blockClass": "footer__incos--first-mobile"
+    }
   },
 
   "social-networks#footer__socialnetwork": {
@@ -77,7 +80,8 @@
       "socialNetworks": [
         {
           "url": "https//facebook.com/exito",
-          "name": "facebook"
+          "name": "facebook",
+          "showInColor": false
         },
         {
           "url": "https//instagram.com/exito",
