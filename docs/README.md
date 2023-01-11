@@ -108,19 +108,19 @@ Link Web Oficial: https://www.acer.com/es-es
 
 ![acer-product-detail-page-phone](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673454878/pdp-detail-phone_vtvu79.png)
 
-### VISTA CUSTOM WHATSAPP-BUTTON
+## VISTA CUSTOM WHATSAPP-BUTTON
 
 ![acer-custom-button](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673455365/custom-whatsapp-button_jmzgig.png)
 
-### VISTA CUSTOM CATEGORIES-DIAGRAMATION-DESKTOP
+## VISTA CUSTOM CATEGORIES-DIAGRAMATION-DESKTOP
 
 ![acer-custom-categories-diagramation-desktop](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673455365/custom-categories-desktop_kfpfke.png)
 
-### VISTA CUSTOM CATEGORIES-DIAGRAMATION-TABLET
+## VISTA CUSTOM CATEGORIES-DIAGRAMATION-TABLET
 
 ![acer-custom-categories-diagramation-tablet](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673455365/custom-categories-tablet_njiws6.png)
 
-### VISTA CUSTOM CATEGORIES-DIAGRAMATION-PHONE
+## VISTA CUSTOM CATEGORIES-DIAGRAMATION-PHONE
 
 ![acer-custom-categories-diagramation-phone](https://res.cloudinary.com/dqut4ajgf/image/upload/v1673455365/custom-categories-phone_r2k1qk.png)
 
