@@ -19,6 +19,7 @@
   },
 
   "menu-item#acer": {
+    "title": "footer__acer",
     "props": {
       "id": "menu-item-acer",
       "type": "custom",
@@ -34,6 +35,7 @@
     }
   },
   "menu-item#predator": {
+    "title": "header__predator",
     "props": {
       "id": "menu-item-predator",
       "type": "custom",
@@ -49,6 +51,7 @@
     }
   },
   "menu-item#conceptD": {
+    "title": "header__conceptd",
     "props": {
       "id": "menu-item-conceptD",
       "type": "custom",
@@ -64,6 +67,7 @@
     }
   },
   "menu-item#planet9": {
+    "title": "header__planet",
     "props": {
       "id": "menu-item-planet9",
       "type": "custom",
@@ -79,6 +83,7 @@
     }
   },
   "menu-item#spatialLabs": {
+    "title": "header__spatiallabs",
     "props": {
       "id": "menu-item-spatialLabs",
       "type": "custom",
@@ -95,6 +100,7 @@
   },
 
   "login": {
+    "title": "header__login",
     "props": {
       "showIconProfile": true,
       "iconLabel": "Acer ID",
@@ -114,6 +120,7 @@
   // },
 
   "menu-item#vtex-search": {
+    "title": "header__vtex--search",
     "props": {
       "id": "menu-item-vtex-search",
       "type": "custom",
@@ -136,6 +143,7 @@
     }
   },
   "menu-item#vtex-lenguage": {
+    "title": "header__lenguage",
     "props": {
       "id": "menu-item-vtex-lenguage",
       "type": "custom",
@@ -143,7 +151,7 @@
       "blockClass": "header__top--lenguage",
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "/languages",
         "noFollow": false,
         "tagTitle": "Idioma",
         "text": "Idioma"

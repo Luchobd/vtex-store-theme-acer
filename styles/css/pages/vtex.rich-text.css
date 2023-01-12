@@ -1,0 +1,19 @@
+.wrapper--custompage__languages {
+  color: #222;
+  font-size: 1.25rem;
+}
+
+.heading--custompage__languages--empty-space,
+.headingLevel2--custompage__languages--empty-space {
+  color: transparent;
+}
+
+.link--custompage__languages {
+  text-decoration: none;
+  color: #222;
+}
+
+.link--custompage__languages:hover {
+  text-decoration: underline;
+  color: #80c343;
+}

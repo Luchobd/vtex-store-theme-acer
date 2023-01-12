@@ -1,0 +1,86 @@
+{
+  // Languages Grid four
+  "flex-layout.row#custompage__languages--africa": {
+    "title": "custompage languages africa",
+    "children": [
+      "flex-layout.col#custompage__languages--ten",
+      "flex-layout.col#custompage__languages--eleven",
+      "flex-layout.col#custompage__languages--twelve"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--africa"
+    }
+  },
+
+  "flex-layout.col#custompage__languages--ten": {
+    "title": "custom page languages ten",
+    "children": [
+      "rich-text#custompage__languages--africa-title",
+      "rich-text#custompage__languages--israel"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--ten"
+    }
+  },
+  "flex-layout.col#custompage__languages--eleven": {
+    "title": "custom page languages eleven",
+    "children": [
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--middle"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--eleven"
+    }
+  },
+  "flex-layout.col#custompage__languages--twelve": {
+    "title": "custom page languages twelve",
+    "children": [
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--southafrica"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--twelve"
+    }
+  },
+
+  "rich-text#custompage__languages--africa-title": {
+    "title": "custompage languages africa title",
+    "props": {
+      "text": "## Middle East / Africa",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages--africa-title"
+    }
+  },
+
+  // Col ten
+  "rich-text#custompage__languages--israel": {
+    "title": "custompage languages israel",
+    "props": {
+      "text": "**Israel** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  // Col eleven
+  "rich-text#custompage__languages--middle": {
+    "title": "custom page languages middle",
+    "props": {
+      "text": "**Middle East** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  // Col twelve
+  "rich-text#custompage__languages--southafrica": {
+    "title": "custom page languages southafrica",
+    "props": {
+      "text": "**South Africa** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  }
+}

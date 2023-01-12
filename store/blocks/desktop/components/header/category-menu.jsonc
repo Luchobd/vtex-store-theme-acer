@@ -1,6 +1,7 @@
 {
   // Productos select
   "menu-item#more": {
+    "title": "header more",
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
@@ -27,6 +28,7 @@
 
   // Soluciones select
   "menu-item#more2": {
+    "title": "header more2",
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
