@@ -1,5 +1,6 @@
 {
   "back-to-top-button": {
+    "title": "back to top button",
     "props": {
       "displayThreshold": 800,
       "display": "caret-icon",

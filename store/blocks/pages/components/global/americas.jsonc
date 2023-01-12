@@ -1,0 +1,138 @@
+{
+  // Languages Grid One
+  "flex-layout.row#custompage__languages--americas": {
+    "title": "custompage languages americas",
+    "children": [
+      "flex-layout.col#custompage__languages--one",
+      "flex-layout.col#custompage__languages--two",
+      "flex-layout.col#custompage__languages--three"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--americas"
+    }
+  },
+
+  "flex-layout.col#custompage__languages--one": {
+    "title": "custom page languages one",
+    "children": [
+      "rich-text#custompage__languages--americas-title",
+      "rich-text#custompage__languages--latino",
+      "rich-text#custompage__languages--brasil",
+      "rich-text#custompage__languages--canada"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--one"
+    }
+  },
+  "flex-layout.col#custompage__languages--two": {
+    "title": "custom page languages two",
+    "children": [
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--canadaf",
+      "rich-text#custompage__languages--chile",
+      "rich-text#custompage__languages--mexico"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--two"
+    }
+  },
+  "flex-layout.col#custompage__languages--three": {
+    "title": "custom page languages three",
+    "children": [
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--usa",
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--empty-space"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--three"
+    }
+  },
+
+  "rich-text#custompage__languages--empty-space": {
+    "title": "custompage languages empty space",
+    "props": {
+      "text": "## .",
+      "blockClass": "custompage__languages--empty-space"
+    }
+  },
+
+  "rich-text#custompage__languages--americas-title": {
+    "title": "custompage languages americas title",
+    "props": {
+      "text": "## Americas",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages--americas-title"
+    }
+  },
+
+  // Col one
+  "rich-text#custompage__languages--latino": {
+    "title": "custompage languages latino",
+    "props": {
+      "text": "**América Latina** - [Español](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--brasil": {
+    "title": "custom page languages brasil",
+    "props": {
+      "text": "**Brasil** - [Português](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--canada": {
+    "title": "custom page languages canada",
+    "props": {
+      "text": "**Canada** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+
+  // Col two
+  "rich-text#custompage__languages--canadaf": {
+    "title": "custom page languages canada frances",
+    "props": {
+      "text": "**Canada** - [ Français](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--chile": {
+    "title": "custompage__languages--chile",
+    "props": {
+      "text": "**Chile** - [Español](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--mexico": {
+    "title": "custompage languages mexico",
+    "props": {
+      "text": "**México** - [Español](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+
+  // Col three
+  "rich-text#custompage__languages--usa": {
+    "title": "custom page languages usa",
+    "props": {
+      "text": "**United States** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  }
+}

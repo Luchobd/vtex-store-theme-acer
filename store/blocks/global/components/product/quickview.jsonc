@@ -32,6 +32,7 @@
     }
   },
   "flex-layout.row#pdp__quickviewcontainer--modal": {
+    "title": "pdp quickview container modal",
     "children": [
       "flex-layout.col#pdp__quickview--image",
       "flex-layout.col#pdp__quickview--content"
@@ -41,12 +42,14 @@
     }
   },
   "flex-layout.col#pdp__quickview--image": {
+    "title": "pdp quickview image",
     "children": ["product-images"],
     "props": {
       "blockClass": "pdp__quickview--image"
     }
   },
   "flex-layout.col#pdp__quickview--content": {
+    "title": "pdp quickview content",
     "children": [
       "vtex.store-components:product-name",
       "vtex.store-components:product-brand",

@@ -12,12 +12,14 @@
   },
 
   "rich-text#footer__texto--bottom-text": {
+    "title": "footer texto buttom text",
     "props": {
       "text": "© 2022 Acer Inc. Intel, el logotipo de Intel, Intel Inside, Intel Core y Core Inside son marcas registradas de Intel \n Corporation o sus filiales en EE. UU. y otros países.",
       "blockClass": "footer__texto--bottom-text"
     }
   },
   "menu-item#footer__text--bottom-spanish--desktop": {
+    "title": "footer text buttom spanish desktop",
     "props": {
       "id": "footer-text-bottom-spanish",
       "type": "custom",

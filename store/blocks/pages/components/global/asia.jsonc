@@ -1,0 +1,206 @@
+{
+  // Languages Grid Two
+  "flex-layout.row#custompage__languages--asia": {
+    "title": "custom page languages asia",
+    "children": [
+      "flex-layout.col#custompage__languages--four",
+      "flex-layout.col#custompage__languages--five",
+      "flex-layout.col#custompage__languages--six"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--asia"
+    }
+  },
+  "flex-layout.col#custompage__languages--four": {
+    "title": "custom page languages four",
+    "children": [
+      "rich-text#custompage__languages--asia-title",
+      "rich-text#custompage__languages--australia",
+      "rich-text#custompage__languages--hongkong",
+      "rich-text#custompage__languages--india",
+      "rich-text#custompage__languages--indonesia",
+      "rich-text#custompage__languages--malaysia"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--four"
+    }
+  },
+  "flex-layout.col#custompage__languages--five": {
+    "title": "custom page languages five",
+    "children": [
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--newzeland",
+      "rich-text#custompage__languages--philippines",
+      "rich-text#custompage__languages--singapore",
+      "rich-text#custompage__languages--vietnam",
+      "rich-text#custompage__languages--inu"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--five"
+    }
+  },
+  "flex-layout.col#custompage__languages--six": {
+    "title": "custom page languages six",
+    "children": [
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--asia1",
+      "rich-text#custompage__languages--asia2",
+      "rich-text#custompage__languages--asia3",
+      "rich-text#custompage__languages--asia4",
+      "rich-text#custompage__languages--asia5"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--six"
+    }
+  },
+
+  "rich-text#custompage__languages--asia-title": {
+    "title": "custompage languages asia title",
+    "props": {
+      "text": "## Asia Pacific",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages--asia-title"
+    }
+  },
+
+  // Col four
+  "rich-text#custompage__languages--australia": {
+    "title": "custompage languages australia",
+    "props": {
+      "text": "**Australia** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--hongkong": {
+    "title": "custom page languages hongkong",
+    "props": {
+      "text": "**Hong Kong** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--india": {
+    "title": "custom page languages india",
+    "props": {
+      "text": "**India** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--indonesia": {
+    "title": "custom page languages indonesia",
+    "props": {
+      "text": "**Indonesia** - [Bahasa Indonesia](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--malaysia": {
+    "title": "custom page languages malaysia",
+    "props": {
+      "text": "**Malaysia** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  // Col five
+  "rich-text#custompage__languages--newzeland": {
+    "title": "custom page languages newzeland",
+    "props": {
+      "text": "**New Zeland** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--philippines": {
+    "title": "custompage__languages--philippines",
+    "props": {
+      "text": "**Philippines** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--singapore": {
+    "title": "custompage languages singapore",
+    "props": {
+      "text": "**Singapore** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--vietnam": {
+    "title": "custompage languages vietnam",
+    "props": {
+      "text": "**Việt Nam** - [Tiếng Việt](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--inu": {
+    "title": "custompage languages inu",
+    "props": {
+      "text": "**ไทย** - [ไทย](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+
+  // Col six
+  "rich-text#custompage__languages--asia1": {
+    "title": "custom page languages asia1",
+    "props": {
+      "text": "**대한민국** - [한국어](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--asia2": {
+    "title": "custom page languages asia2",
+    "props": {
+      "text": "**中国大陆** - [简体中文](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--asia3": {
+    "title": "custom page languages asia3",
+    "props": {
+      "text": "**台灣** - [繁體中文](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--asia4": {
+    "title": "custom page languages asia4",
+    "props": {
+      "text": "**日本** - [日本語](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--asia5": {
+    "title": "custom page languages asia5",
+    "props": {
+      "text": "**香港** - [繁體中文](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  }
+}

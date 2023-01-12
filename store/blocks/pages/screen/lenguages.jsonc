@@ -1,0 +1,22 @@
+{
+  "store.custom#languages": {
+    "title": "languages",
+    "blocks": [
+      "rich-text#custompage__languages--title",
+      "flex-layout.row#custompage__languages--americas",
+      "flex-layout.row#custompage__languages--asia",
+      "flex-layout.row#custompage__languages--europe",
+      "flex-layout.row#custompage__languages--africa"
+    ]
+  },
+
+  "rich-text#custompage__languages--title": {
+    "title": "custom page languages title",
+    "props": {
+      "text": "## Selecciona tu ubicación e idioma",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "custompage__languages--title"
+    }
+  }
+}

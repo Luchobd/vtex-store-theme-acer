@@ -11,6 +11,7 @@
   },
 
   "rich-text#footer__text--bottom-text": {
+    "title": "footer text bottom text",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -19,6 +20,7 @@
     }
   },
   "menu-item#footer__text--bottom-spanish": {
+    "title": "footer text bottom spanish",
     "props": {
       "id": "footer-text-bottom-spanish",
       "type": "custom",

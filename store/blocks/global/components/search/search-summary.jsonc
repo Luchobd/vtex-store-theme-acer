@@ -20,7 +20,7 @@
       "blockClass": "search__productsummary--name-grid"
     }
   },
-  //LIST
+  // LIST
   "product-summary.shelf#search__gallery--list": {
     "title": "search gallery list",
     "props": {
@@ -32,7 +32,7 @@
       "responsive-layout.phone#phone__gallery--responsive"
     ]
   },
-  ////TABLET
+  // TABLET
   "responsive-layout.tablet#tablet__gallery--responsive": {
     "title": "tablet gallery responsive",
     "children": ["flex-layout.row#global__gallery--container"],
@@ -40,7 +40,7 @@
       "blockClass": "tablet__gallery--responsive"
     }
   },
-  ////////// DESKTOP
+  // DESKTOP
   "responsive-layout.desktop#desktop__gallery--responsive": {
     "title": "desktop gallery responsive",
     "children": ["flex-layout.row#global__gallery--container"],
@@ -48,7 +48,7 @@
       "blockClass": "desktop__gallery--responsive"
     }
   },
-  ///// PHONE
+  // PHONE
   "responsive-layout.phone#phone__gallery--responsive": {
     "title": "phone gallery responsive",
     "children": ["flex-layout.row#global__gallery--container"],
@@ -56,7 +56,7 @@
       "blockClass": "phone__gallery--responsive"
     }
   },
-  //// GOBAL
+  // GOBAL
   "flex-layout.row#global__gallery--container": {
     "title": "global gallery container",
     "props": {

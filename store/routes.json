@@ -1,4 +1,7 @@
 {
+  "store.custom#languages": {
+    "path": "/languages"
+  },
   "store.custom#home-infocard": {
     "path": "/infocard"
   }
