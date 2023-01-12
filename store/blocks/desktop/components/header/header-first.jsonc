@@ -36,6 +36,7 @@
     "children": ["search-bar#header__search"]
   },
   "search-bar#header__search": {
+    "title": "header__search",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       // "openAutocompleteOnFocus": true,
@@ -56,6 +57,7 @@
 
   // Link Tienda Online
   "menu-item#category-home": {
+    "title": "header__category--home",
     "props": {
       "id": "menu-item-category-home",
       "type": "custom",
@@ -73,6 +75,7 @@
 
   // Link Soporte
   "menu-item#category-support": {
+    "title": "footer__category--support",
     "props": {
       "id": "menu-item-category-home",
       "type": "custom",

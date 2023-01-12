@@ -1,0 +1,378 @@
+{
+  // Languages Grid Three
+  "flex-layout.row#custompage__languages--europe": {
+    "title": "custom page languages europe",
+    "children": [
+      "flex-layout.col#custompage__languages--seven",
+      "flex-layout.col#custompage__languages--eight",
+      "flex-layout.col#custompage__languages--nine"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--europe"
+    }
+  },
+  "flex-layout.col#custompage__languages--seven": {
+    "title": "custom page languages seven",
+    "children": [
+      "rich-text#custompage__languages--europe-title",
+      "rich-text#custompage__languages--belgie",
+      "rich-text#custompage__languages--belgique",
+      "rich-text#custompage__languages--cesko",
+      "rich-text#custompage__languages--danmark",
+      "rich-text#custompage__languages--deutschland",
+      "rich-text#custompage__languages--españa",
+      "rich-text#custompage__languages--estonia",
+      "rich-text#custompage__languages--france",
+      "rich-text#custompage__languages--hrvatska",
+      "rich-text#custompage__languages--italia",
+      "rich-text#custompage__languages--latvia"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--seven"
+    }
+  },
+  "flex-layout.col#custompage__languages--eight": {
+    "title": "custom page languages eight",
+    "children": [
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--lithuania",
+      "rich-text#custompage__languages--magyarorszag",
+      "rich-text#custompage__languages--nederland",
+      "rich-text#custompage__languages--norge",
+      "rich-text#custompage__languages--osterreich",
+      "rich-text#custompage__languages--other",
+      "rich-text#custompage__languages--polska",
+      "rich-text#custompage__languages--portugal",
+      "rich-text#custompage__languages--romania",
+      "rich-text#custompage__languages--schweiz",
+      "rich-text#custompage__languages--slovenia"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--eight"
+    }
+  },
+  "flex-layout.col#custompage__languages--nine": {
+    "title": "custom page languages nine",
+    "children": [
+      "rich-text#custompage__languages--empty-space",
+      "rich-text#custompage__languages--srbija",
+      "rich-text#custompage__languages--suisse",
+      "rich-text#custompage__languages--suomi",
+      "rich-text#custompage__languages--sverige",
+      "rich-text#custompage__languages--turkiye",
+      "rich-text#custompage__languages--unitedkingdom",
+      "rich-text#custompage__languages--esa",
+      "rich-text#custompage__languages--grara",
+      "rich-text#custompage__languages--poccnr",
+      "rich-text#custompage__languages--ykpaiha"
+    ],
+    "props": {
+      "blockClass": "custompage__languages--nine"
+    }
+  },
+
+  "rich-text#custompage__languages--europe-title": {
+    "title": "custompage languages europe title",
+    "props": {
+      "text": "## Europe",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages--europe-title"
+    }
+  },
+
+  // Col seven
+  "rich-text#custompage__languages--belgie": {
+    "title": "custompage languages belgie",
+    "props": {
+      "text": "**België** - [Nederlands](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--belgique": {
+    "title": "custom page languages belgique",
+    "props": {
+      "text": "**Belgique** - [Français](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--cesko": {
+    "title": "custom page languages cesko",
+    "props": {
+      "text": "**Česko** - [Čeština](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--danmark": {
+    "title": "custom page languages danmark",
+    "props": {
+      "text": "**Danmark** - [Dansk](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--deutschland": {
+    "title": "custom page languages deutschland",
+    "props": {
+      "text": "**Deutschland** - [Deutsch](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--españa": {
+    "title": "custom page languages españa",
+    "props": {
+      "text": "**España** - [Español](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--estonia": {
+    "title": "custom page languages estonia",
+    "props": {
+      "text": "**Estonia** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--france": {
+    "title": "custom page languages france",
+    "props": {
+      "text": "**France** - [Français](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--hrvatska": {
+    "title": "custom page languages hrvatska",
+    "props": {
+      "text": "**Hrvatska** - [Hrvatski](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--italia": {
+    "title": "custom page languages italia",
+    "props": {
+      "text": "**Italia** - [Italiano](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--latvia": {
+    "title": "custom page languages latvia",
+    "props": {
+      "text": "**Latvia** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  // Col eight
+  "rich-text#custompage__languages--lithuania": {
+    "title": "custom page languages lithuania",
+    "props": {
+      "text": "**Lithuania** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--magyarorszag": {
+    "title": "custompage__languages--magyarorszag",
+    "props": {
+      "text": "**Magyarország** - [Magyar](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--nederland": {
+    "title": "custompage languages nederland",
+    "props": {
+      "text": "**Nederland** - [Nederlands](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--norge": {
+    "title": "custompage languages norge",
+    "props": {
+      "text": "**Norge** - [Norsk](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--osterreich": {
+    "title": "custompage languages osterreich",
+    "props": {
+      "text": "**Österreich** - [Deutsch](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+
+  "rich-text#custompage__languages--other": {
+    "title": "custom page languages other",
+    "props": {
+      "text": "**Other Regions** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--polska": {
+    "title": "custom page languages polska",
+    "props": {
+      "text": "**Polska** - [Polski](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--portugal": {
+    "title": "custom page languages portugal",
+    "props": {
+      "text": "**Portugal** - [Português](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--romania": {
+    "title": "custom page languages romania",
+    "props": {
+      "text": "**România** - [Română](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--schweiz": {
+    "title": "custom page languages schweiz",
+    "props": {
+      "text": "**Schweiz** - [Deutsch](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--slovenia": {
+    "title": "custom page languages slovenia",
+    "props": {
+      "text": "**Slovenia** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+
+  // Col nine
+  "rich-text#custompage__languages--srbija": {
+    "title": "custom page languages srbija",
+    "props": {
+      "text": "**Srbija** - [Srpski](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--suisse": {
+    "title": "custompage__languages--suisse",
+    "props": {
+      "text": "**Suisse** - [Français](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--suomi": {
+    "title": "custompage languages suomi",
+    "props": {
+      "text": "**Suomi** - [Suomi](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--sverige": {
+    "title": "custompage languages sverige",
+    "props": {
+      "text": "**Sverige** - [Svenska](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--turkiye": {
+    "title": "custompage languages turkiye",
+    "props": {
+      "text": "**Türkiye** - [Türkçe](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+
+  "rich-text#custompage__languages--unitedkingdom": {
+    "title": "custom page languages unitedkingdom",
+    "props": {
+      "text": "**United Kingdom** - [English](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--esa": {
+    "title": "custom page languages esa",
+    "props": {
+      "text": "**Ελλάδα** - [Ελληνικά](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--grara": {
+    "title": "custom page languages grara",
+    "props": {
+      "text": "**България** - [Български](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--poccnr": {
+    "title": "custom page languages poccnr",
+    "props": {
+      "text": "**Россия** - [Русский](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  },
+  "rich-text#custompage__languages--ykpaiha": {
+    "title": "custom page languages ykpaiha",
+    "props": {
+      "text": "**Україна** - [Українська](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "custompage__languages"
+    }
+  }
+}

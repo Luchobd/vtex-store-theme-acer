@@ -23,6 +23,7 @@
     }
   },
   "menu-item#productTitle": {
+    "title": "footer product title",
     "props": {
       "id": "footer-producttitle",
       "type": "custom",
@@ -43,6 +44,7 @@
     }
   },
   "menu-item#supportTitle": {
+    "title": "footer support title",
     "props": {
       "id": "footer-supporttitle",
       "type": "custom",
@@ -63,6 +65,7 @@
     }
   },
   "menu-item#resourcesTitle": {
+    "title": "footer resources title",
     "props": {
       "id": "footer-resourcestitle",
       "type": "custom",
@@ -83,6 +86,7 @@
     }
   },
   "menu-item#aboutTitle": {
+    "title": "footer about title",
     "props": {
       "id": "footer-abouttitle",
       "type": "custom",

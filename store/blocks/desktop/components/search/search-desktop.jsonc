@@ -19,6 +19,7 @@
   },
 
   "header-row#desktop__search--header-two": {
+    "title": "desktop search header two",
     "children": [
       "total-products.v2#plp__products--total",
       "search-title.v2#plp__search--title",
@@ -28,11 +29,13 @@
   },
 
   "total-products.v2#plp__products--total": {
+    "title": "plp products total",
     "props": {
       "blockClass": "plp__products--total"
     }
   },
   "search-title.v2#plp__search--title": {
+    "title": "plp search title",
     "props": {
       "blockClass": "plp__search--title"
     }

@@ -1,6 +1,7 @@
 {
   // Title Categories
   "rich-text#home__categories--title-texto": {
+    "title": "home categories title texto",
     "props": {
       "text": "Explorar categorías populares",
       "textAlignment": "CENTER",
