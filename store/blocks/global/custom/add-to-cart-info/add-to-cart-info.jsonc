@@ -15,7 +15,7 @@
   "modal-header#add-to-cart-info": {
     "props": {
       "showCloseButton": true,
-      "iconCloseSize": 24
+      "iconCloseSize": 25
     }
   }
 }
