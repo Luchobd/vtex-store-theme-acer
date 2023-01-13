@@ -1,0 +1,21 @@
+{
+  "modal-trigger#add-to-cart-info": {
+    "title": "add to cart info",
+    "children": ["modal-layout#add-to-cart-info"],
+    "props": {
+      "customPixelEventName": "addToCart",
+      "blockClass": "addToCart add-to-cart-info"
+    }
+  },
+
+  "modal-layout#add-to-cart-info": {
+    "children": ["modal-header#add-to-cart-info", "add-to-cart-info"]
+  },
+
+  "modal-header#add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 25
+    }
+  }
+}

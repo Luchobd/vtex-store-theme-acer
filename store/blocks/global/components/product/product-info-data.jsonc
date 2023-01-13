@@ -37,7 +37,8 @@
       "image#product__info--image-widnows11",
       // "product-rating-inline",
       "product-description",
-      "product-price"
+      "product-price",
+      "add-to-cart-button"
       // "product-quantity",
       // "product-description",
       // "shipping-simulator",
