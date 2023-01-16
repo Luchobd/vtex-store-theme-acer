@@ -9,6 +9,10 @@
       "menu-item#planet9",
       "menu-item#spatialLabs",
       "header-spacer",
+      //=== Custom Deparment Search ===
+      "department-search",
+      //===============================
+      "header-spacer",
       "menu-item#vtex-lenguage",
       "menu-item#vtex-search",
       "login"
