@@ -6,8 +6,12 @@
       "responsive-layout.tablet#home__infolayout",
       "responsive-layout.phone#home__infolayout",
       "back-to-top-button",
+      //===== Custom Whatsapp Button ======
       "whatsapp-button",
+      //=============================
+      //===== Custom Bullet Diagramation ======
       "flex-layout.row#bullet"
+      //=============================
     ]
   }
 }
