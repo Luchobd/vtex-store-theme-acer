@@ -5,6 +5,10 @@
       "flex-layout.row#1-mobile",
       "logo#acer",
       "header-spacer",
+      //===== Custom Component ======
+      "department-search",
+      //=============================
+      "header-spacer",
       "overlay-trigger#header__search--click",
       "minicart.v2"
     ]
