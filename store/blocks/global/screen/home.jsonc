@@ -10,7 +10,10 @@
       "whatsapp-button",
       //=============================
       //===== Custom Bullet Diagramation ======
-      "flex-layout.row#bullet"
+      "flex-layout.row#bullet",
+      //=============================
+      //===== Custom PDF Render ======
+      "pdf-reader"
       //=============================
     ]
   }
