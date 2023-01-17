@@ -13,7 +13,10 @@
       "flex-layout.row#bullet",
       //=============================
       //===== Custom PDF Render ======
-      "pdf-reader"
+      "pdf-reader",
+      //=============================
+      //===== Custom Quick Order ======
+      "quick-order"
       //=============================
     ]
   }
